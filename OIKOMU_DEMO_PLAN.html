@@ -1,0 +1,1014 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>オイコム｜Codexデモ実装企画書</title><style>
+ :root{--ink:#142c3c;--muted:#526776;--line:#d7e0e4;--accent:#076b63}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f4f7f8;color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI","Yu Gothic",Meiryo,sans-serif;line-height:1.85}a{color:var(--accent);text-underline-offset:3px}.hero{padding:72px max(24px,calc((100vw - 1120px)/2)) 48px;background:#142c3c;color:#fff}.hero small{color:#b5dacf;letter-spacing:.18em}.hero h1{font-size:clamp(42px,7vw,72px);line-height:1.1;margin:24px 0 16px}.hero p{max-width:760px;color:#e0eaee;font-size:18px}.hero .chips{display:flex;gap:8px;flex-wrap:wrap}.hero .chips span{border:1px solid #65818b;border-radius:99px;padding:4px 13px;font-size:14px}.shell{max-width:1168px;margin:auto;padding:32px 24px;display:grid;grid-template-columns:200px minmax(0,1fr);gap:28px}nav{position:sticky;top:20px;align-self:start;display:flex;flex-direction:column;gap:6px}nav a{font-size:14px;text-decoration:none;padding:6px 10px;border-radius:8px}nav a:hover{background:#e2f3ef}section{background:#fff;border:1px solid var(--line);border-radius:16px;padding:32px;margin-bottom:24px;scroll-margin-top:20px;overflow-wrap:anywhere}.kicker{font-size:12px;color:var(--accent);font-weight:700;letter-spacing:.1em}h1{font-size:29px;line-height:1.4}h2{font-size:21px;margin-top:32px;padding-top:8px;border-top:1px solid #e6ecef}h3{font-size:17px}p,li{font-size:15px}li{margin:6px 0}table{border-collapse:collapse;width:100%;font-size:13px;margin:20px 0}th,td{padding:10px 12px;border:1px solid var(--line);text-align:left;vertical-align:top}th{background:#eaf2f1}pre{overflow:auto;background:#edf2f5;padding:16px;border-radius:8px}code{font-family:ui-monospace,monospace;font-size:.9em;background:#f0f4f5;padding:2px 4px;border-radius:3px}footer{max-width:1168px;margin:auto;padding:20px 24px 48px;color:var(--muted);font-size:13px}@media(max-width:760px){.hero{padding:40px 20px}.shell{display:block;padding:20px 12px}nav{position:static;display:flex;flex-direction:row;flex-wrap:wrap;margin-bottom:20px}section{padding:20px 16px}h1{font-size:24px}table{display:block;overflow:auto}th,td{min-width:100px}}@media print{body{background:#fff}nav{display:none}.shell{display:block;max-width:none;padding:0}.hero{padding:24px;background:white;color:#142c3c}.hero p{color:#526776}.hero small{color:#076b63}section{border:0;padding:0;break-before:page}table{font-size:10px}tr{break-inside:avoid}a{color:#142c3c}}
+ </style></head><body><header class="hero"><small>PRODUCT SPECIFICATION / DEMO V1.0</small><h1>オイコム</h1><p>サッカー開催日の、駅の混雑に備えるカレンダー。<br>Codexで動くデモを作るための企画・画面・データ・実装指示。</p><div class="chips"><span>5会場・7駅</span><span>架空の試合24件</span><span>スマホ＋PC</span><span>2026.10.27</span></div></header><div class="shell"><nav aria-label="目次"><a href="#doc0">01 読み方</a><a href="#doc1">02 企画書</a><a href="#doc2">03 画面仕様</a><a href="#doc3">04 データ設計</a><a href="#doc4">05 処理ロジック</a><a href="#doc5">06 技術仕様</a><a href="#doc6">07 実データ化</a><a href="#doc7">08 受け入れ条件</a><a href="#doc8">09 実装タスク</a><a href="#doc9">10 Codexへの依頼文</a><a href="#doc10">11 出典</a><a href="design/screen_reference.html">画面参考を開く ↗</a></nav><main><section id="doc0"><div class="kicker">01 / 読み方</div><h1>オイコム — Codexデモ実装用企画書 v1.0</h1>
+<p>作成日：2026-10-27 / 対象：日本語・スマートフォン／PC / 状態：実装前の仕様セット</p>
+<p><strong>サッカー開催日の、駅の混雑に備えるカレンダー。</strong>
+「追い込む」と「おい！混む！」を掛けた名称。日付と駅・地域から、近くで開催される試合と来場・帰宅の注意時間帯を確認する。</p>
+<p>このZIPは完成アプリではなく、Codexに渡す企画・画面・データ・実装指示のセットです。</p>
+<h2>使い方</h2>
+<ol>
+<li>ZIPを展開し、フォルダー全体をCodexの作業対象にする。</li>
+<li><code>CODEX_START.md</code> の本文を最初の依頼として貼る。</li>
+<li>Codexに <code>TASKS.md</code> のPhase 0〜5まで実装してもらう。</li>
+<li>実装後、Codexが作るアプリのREADMEに従って起動する。</li>
+</ol>
+<p>ブラウザーで読みたい場合は <code>OIKOMU_DEMO_PLAN.html</code> を開く。画面の見た目は <code>design/screen_reference.html</code> を参照。どちらも説明用資料であり、検索できるアプリではない。</p>
+<h2>この版で作るもの</h2>
+<ul>
+<li>関東5スタジアム・7駅、2026年11〜12月の架空の試合24件。</li>
+<li>日付＋駅／地域／会場検索、月間カレンダー、駅詳細、試合詳細、お気に入り。</li>
+<li>時刻未定、延期、中止、日程変更、会場変更、会場未定の表示。</li>
+<li>日本時間で処理し、デモ基準日を2026-11-07に固定。年月が過ぎても試せる。</li>
+<li>実在の駅・会場名は場所の説明に使用。チーム・大会・対戦・開催日時・注意時間帯はすべてデモ。</li>
+</ul>
+<h2>読む順番</h2>
+<table>
+<thead>
+<tr>
+<th>ファイル</th>
+<th>役割</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>docs/01_PRODUCT.md</code></td>
+<td>目的・対象者・機能範囲・デモ体験</td>
+</tr>
+<tr>
+<td><code>docs/02_SCREENS.md</code></td>
+<td>全画面・状態・操作・スマホ対応</td>
+</tr>
+<tr>
+<td><code>docs/03_DATA.md</code></td>
+<td>データ項目・参照関係・欠損の扱い</td>
+</tr>
+<tr>
+<td><code>docs/04_LOGIC.md</code></td>
+<td>検索・日付・時間帯算出・変更履歴</td>
+</tr>
+<tr>
+<td><code>docs/05_TECH.md</code></td>
+<td>実装構成・責務・保存・安全性</td>
+</tr>
+<tr>
+<td><code>docs/06_REAL_DATA_ROADMAP.md</code></td>
+<td>実データ運営へ移る条件</td>
+</tr>
+<tr>
+<td><code>docs/07_ACCEPTANCE.md</code></td>
+<td>受け入れ条件と操作確認</td>
+</tr>
+<tr>
+<td><code>TASKS.md</code></td>
+<td>Phase別の実装タスク</td>
+</tr>
+<tr>
+<td><code>data/demo.json</code></td>
+<td>そのまま読み込めるデモデータ</td>
+</tr>
+<tr>
+<td><code>contracts/types.ts</code></td>
+<td>TypeScript型の契約</td>
+</tr>
+<tr>
+<td><code>contracts/logic-cases.json</code></td>
+<td>時間帯算出の入力・期待値</td>
+</tr>
+<tr>
+<td><code>design/tokens.json</code></td>
+<td>色・寸法の基準</td>
+</tr>
+<tr>
+<td><code>design/screen_reference.html</code></td>
+<td>PC・スマホの静的画面参考</td>
+</tr>
+<tr>
+<td><code>SOURCES.md</code></td>
+<td>公式の場所情報と技術資料の出典</td>
+</tr>
+</tbody></table>
+<h2>仕様の優先順位</h2>
+<p>ユーザーの追加指示 ＞ 本文の確定仕様 ＞ 型・JSONの契約 ＞ 見た目の参考。
+不一致を見つけたら整合を取って変更理由を残す。実データのように見える架空情報、予測精度の数値、実測を装う表示を追加しない。</p>
+</section>
+<section id="doc1"><div class="kicker">02 / 企画書</div><h1>01 — 企画書</h1>
+<h2>1. コンセプト</h2>
+<p>名称：オイコム / 英字識別子：oikomu
+副題：サッカー開催日の駅混雑カレンダー
+短いコピー：その駅、今日は試合の日？</p>
+<p>日付と場所を選ぶと、その駅の近くで行われるサッカーの試合と、来場・帰宅の注意時間帯が分かる。近隣住民の買い物・通勤・待ち合わせ、サポーターの移動計画を助ける。</p>
+<p>名前の「追い込む」は語呂の由来として説明ページに記載する。群衆を追い込む・サポーターを迷惑扱いする表現にはしない。</p>
+<h2>2. 解決する課題と仮説</h2>
+<ul>
+<li>サッカーを見ない人は、普段利用する駅と試合日程の関係を調べるきっかけが少ない。</li>
+<li>クラブの日程ページと会場のアクセスページを別々に調べる手間がある。</li>
+<li>駅を起点に試合日を一覧できれば、予定を立てるときに使える可能性がある。</li>
+</ul>
+<p>需要・継続利用・予測精度は未検証。デモの目的は、駅と日付から探せるか、表示の意味を理解できるか、繰り返し利用する動機があるかの確認。</p>
+<h2>3. ユーザーと成功体験</h2>
+<table>
+<thead>
+<tr>
+<th>利用者</th>
+<th>したいこと</th>
+<th>成功の状態</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>近隣住民</td>
+<td>週末の買い物日を考える</td>
+<td>いつもの駅に関係する試合日を月表示で見つける</td>
+</tr>
+<tr>
+<td>通勤・通学者</td>
+<td>帰宅時間と試合の関係を見る</td>
+<td>日付と駅を選び、帰宅の注意時間帯を読む</td>
+</tr>
+<tr>
+<td>待ち合わせする人</td>
+<td>その日の駅周辺を確認する</td>
+<td>検索条件のURLを相手に渡せる</td>
+</tr>
+<tr>
+<td>観戦者</td>
+<td>会場へのアクセス駅を確認する</td>
+<td>公式アクセス情報と複数の対象駅へ移れる</td>
+</tr>
+</tbody></table>
+<h2>4. デモの範囲</h2>
+<p>関東5会場・7駅を収録する。実在施設の名称と駅の対応だけ公式案内を参考にする。以下は実際の開催日程を収録したものではない。</p>
+<table>
+<thead>
+<tr>
+<th>会場</th>
+<th>対象駅</th>
+<th>地域</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>味の素スタジアム</td>
+<td>飛田給、多磨</td>
+<td>東京都</td>
+</tr>
+<tr>
+<td>日産スタジアム</td>
+<td>小机、新横浜</td>
+<td>神奈川県</td>
+</tr>
+<tr>
+<td>埼玉スタジアム2002</td>
+<td>浦和美園</td>
+<td>埼玉県</td>
+</tr>
+<tr>
+<td>フクダ電子アリーナ</td>
+<td>蘇我</td>
+<td>千葉県</td>
+</tr>
+<tr>
+<td>三協フロンテア柏スタジアム</td>
+<td>柏</td>
+<td>千葉県</td>
+</tr>
+</tbody></table>
+<p>会場と駅の対応はSOURCES.md参照。路線全域や遠方の乗換駅へ影響を拡張しない。鉄道会社ごとの駅を別々に扱う精密な乗換モデルも作らない。</p>
+<p>試合は架空の「サンプルリーグ」と架空8チーム、24件。基準日2026-11-07、収録期間2026-11-01〜2026-12-31。日付・対戦・開始時刻・延期等は検証用の設定であり、公式発表ではない。</p>
+<h2>5. 必須機能</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>機能</th>
+<th>完成の定義</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>F01</td>
+<td>日付検索</td>
+<td>選んだ日に関係する開催・注意時間帯・変更案内を表示</td>
+</tr>
+<tr>
+<td>F02</td>
+<td>場所検索</td>
+<td>駅名・読み・会場名・別名・都県名で候補選択</td>
+</tr>
+<tr>
+<td>F03</td>
+<td>月間カレンダー</td>
+<td>対象場所の開催件数、未定・変更・範囲外を識別</td>
+</tr>
+<tr>
+<td>F04</td>
+<td>駅詳細</td>
+<td>関連会場、その日の試合、次の予定、月表示を確認</td>
+</tr>
+<tr>
+<td>F05</td>
+<td>試合詳細</td>
+<td>架空試合の概要、対象駅、注意時間帯、変更履歴を表示</td>
+</tr>
+<tr>
+<td>F06</td>
+<td>お気に入り</td>
+<td>駅を登録・解除し再読み込み後も復元</td>
+</tr>
+<tr>
+<td>F07</td>
+<td>条件共有</td>
+<td>日付・場所・表示形式をURLに保持</td>
+</tr>
+<tr>
+<td>F08</td>
+<td>説明・再設定</td>
+<td>デモの意味を読み、お気に入りを消去できる</td>
+</tr>
+</tbody></table>
+<p>実データの自動収集、プッシュ通知、地図、乗換検索、車の渋滞予測、ユーザー投稿、混雑度ランキング、観客数推計、カップ戦の延長モデル、広告・課金、アカウント、PWAのオフラインキャッシュは初版に含めない。</p>
+<h2>6. 表示上の約束</h2>
+<ol>
+<li>全画面上部に「デモ版｜試合・注意時間帯はサンプル。実際のお出かけ判断には使えません。」を表示。</li>
+<li>各試合カードにも「サンプル試合」を表示し、切り抜かれても架空と分かる。</li>
+<li>注意時間帯には「目安・デモ計算」を併記し、実測・AI予測・精度の数値を出さない。</li>
+<li>対象試合なし、時刻未定、デモ収録範囲外、データ読み込み失敗を別々の状態として表示。</li>
+<li>代替駅は「別のアクセス駅」と呼ぶ。空いている・確実に回避できるとは説明しない。</li>
+</ol>
+<h2>7. デモを見せる手順</h2>
+<ol>
+<li>最初は2026-11-07・全地域。3試合と5駅が表示される。</li>
+<li>飛田給を検索し、15:00開始のm01と2つの注意時間帯を見る。</li>
+<li>飛田給をお気に入りに登録し、再読み込みして保持を確認する。</li>
+<li>カレンダーで11月21日の「時刻未定」、22日の「延期案内」を確認する。</li>
+<li>m12の会場変更を開き、現在会場の対象駅と旧会場の案内を比べる。</li>
+<li>2027年1月に移動し、「デモ収録範囲外」になることを確認する。</li>
+</ol>
+<p>観察ポイント：駅を選べるか／開催と混雑実測を混同しないか／未定と対象試合なしを区別できるか／月表示を再利用したいか。利用分析SDKは入れず、まず対面または画面共有で確認する。</p>
+</section>
+<section id="doc2"><div class="kicker">03 / 画面仕様</div><h1>02 — 全画面・UI仕様</h1>
+<h2>共通レイアウト</h2>
+<p>日本語・白〜薄いグレーの背景、濃紺の文字、ティールの操作色、来場はアンバー、帰宅は紫。赤や緑で混雑の強弱を演出しない。1枚のカードに日付・駅・試合・時間帯の順で配置する。</p>
+<p>最大幅1200px、PC横余白32px、スマホ16px。本文16px以上、補助14px、タップ領域44px以上。角丸16px、枠線1px、影は薄く。表記は24時間制・日本時間。クラブロゴ、写真、外部Webフォントは使用しない。</p>
+<p>ヘッダー：オイコム（ホーム）／探す／カレンダー／お気に入り／使い方。
+その上または直下に常設デモバナー。スマホは下部ナビ「探す・カレンダー・お気に入り」、使い方はヘッダー。下部ナビに隠れない余白を本文末尾に確保。</p>
+<p>読み込み中は短い説明とスケルトン。失敗時は「デモデータを読み込めませんでした」と再読み込み。空表示と読み込み失敗を混同しない。</p>
+<h2>S01 ホーム・検索結果</h2>
+<p>URL：<code>#/search?date=2026-11-07&amp;place=all&amp;view=list</code></p>
+<p>PC：タイトルと検索バー → 左280pxの場所選択／お気に入り、右に結果。
+スマホ：タイトル → 日付 → 場所検索 → 選択中の場所 → 一覧／カレンダー → 結果カードの順に縦配置。</p>
+<p>初期タイトル「その駅、今日は試合の日？」。補助「日付と駅から、サッカー開催日をチェック」。基準日ボタンは「デモ基準日へ」とする。「今日」は実日付を使わないため置かない。</p>
+<p>検索コントロール：日付input、場所入力、候補一覧、検索ボタン。変更中の値はdraftとして持ち、検索ボタン／EnterでURLに確定。選択した場所の解除でallへ戻す。日付だけ変更して即検索しない。</p>
+<p>場所候補は「駅」「会場」「地域」の種類を明示。最大8件。未選択の自由文が残る場合は検索を実行せず「候補から場所を選んでください」。空欄はall。候補なしは「対象の駅・地域が見つかりません」＋収録地域の案内。</p>
+<p>結果の集約単位は駅。見出し「対象駅5駅・開催予定3試合」のように、駅数と重複を除いた試合数を分ける。各駅カードに駅名、都県、関連会場、試合、注意時間帯、星ボタン、駅詳細リンク。場所フィルターが会場ならその会場の関連駅だけ表示。</p>
+<p>時刻がある試合を早い順、時刻未定を後ろにする。同順の駅はseedのsortOrder。延期等の案内は下の「変更のお知らせ」に分離。全地域表示では試合カードの重複が起きるが、見出しの開催件数はmatchIdでユニーク化する。</p>
+<h2>S02 月間カレンダー</h2>
+<p>URL：<code>#/search?date=2026-11-07&amp;month=2026-11&amp;place=station:st-tobitakyu&amp;view=calendar</code></p>
+<p>同じ検索条件の一覧／月間切り替え。月曜始まり7列、42セル。月を切り替えたら選択日をその月1日に変更し、月と日付を一致させる。前後月セルは月付き日付を読み上げ、クリックするとその月・日を選択する。</p>
+<p>PC：カレンダー左＋選択日詳細右。スマホ：7列の簡潔なセル＋選択日詳細を下。セルに長いチーム名を詰めず「2試合」「時刻未定」「変更」等の記号と短いラベルを表示。日セルの最低高さ52px。</p>
+<p>表示件数は実際の会場でその日に始まるscheduled／time_tbdのユニーク試合数。前日試合の時間帯が日をまたぐ場合は別に「前日試合の帰宅目安」。延期・中止・旧会場の案内は開催件数へ加算しない。</p>
+<p>選択日詳細：日付、開催予定、時刻未定、変更案内、注意時間帯。収録範囲内で該当なしなら「対象のサンプル試合はありません」。範囲外セルには斜線・「範囲外」を表示。色だけで意味を伝えない。</p>
+<h2>S03 駅詳細</h2>
+<p>URL：<code>#/stations/st-tobitakyu?date=2026-11-07</code></p>
+<p>駅名／読み／都県、星ボタン、日付変更、関連会場、当日の予定、次の予定5件、月表示へのリンク。
+場所の公式参考リンクは「会場の公式アクセス」と表記する。デモの日程の根拠として配置しない。</p>
+<p>次の予定は選択日を起点に昇順、scheduled／time_tbdのみ。登録期間に次の予定がない場合は「デモ収録期間内に次の予定はありません」。現在時刻を使わない。</p>
+<p>主駅／別のアクセス駅は順位ではない。同じ会場の他駅リンクに移動できるが「おすすめ」「空いている駅」のバッジは付けない。</p>
+<h2>S04 試合詳細</h2>
+<p>URL：<code>#/matches/m01?date=2026-11-07</code></p>
+<p>サンプル試合バッジ、架空大会名、ホーム／アウェイ、開始日時、現在の会場、状態、対象駅ごとの来場・帰宅の目安。計算根拠は折りたたみ「時間帯の出し方」で見せる。</p>
+<p>表示例（m01・飛田給）：15:00開始／来場12:30〜14:45／帰宅16:55〜18:45。必ず「デモ計算・目安」。バーの長さは時間幅であり、混雑の強さではない。</p>
+<p>変更履歴は旧→新を日付付きで表示。延期の再日程未定、時刻未定、会場未定では不明部分を補完しない。旧会場には旧会場で開催するような時間帯を残さない。
+架空の試合日程の外部URLは設けず、「この試合は架空のサンプルです」と表示。実在会場のアクセスへの外部リンクとは用途を分ける。</p>
+<h2>S05 お気に入り</h2>
+<p>URL：<code>#/favorites?date=2026-11-07</code></p>
+<p>登録した駅を登録順に表示。各駅に当日の予定と次の1件を表示。登録ゼロは「いつもの駅を登録しよう」＋場所検索へ。星ボタンは登録状態をaria-pressedで示す。</p>
+<p>登録上限7駅（デモ全駅）。上限到達時は新規登録できないのではなく、収録駅がすべて登録済みになる。お気に入りはこの端末のブラウザーに保存される旨を補助表示。
+保存不可の場合は操作自体を継続し、「この環境では保存できないため、開いている間だけ保持します」と一度案内する。</p>
+<h2>S06 使い方・対象範囲・再設定</h2>
+<p>URL：<code>#/about</code></p>
+<p>説明：何を調べられるか／デモと実測の違い／対象5会場と収録期間／日本時間／サッカー以外は対象外／名前の由来／保存するデータ。
+「デモ基準日へ戻る」は検索日だけ初期化。「お気に入りをすべて解除」は確認ダイアログを出し、対象キーだけ削除。localStorage.clear()は禁止。</p>
+<h2>S07 不明なURL・読み込みエラー</h2>
+<p>未知駅・未知試合IDは「ページが見つかりません」＋検索へ戻る。存在しないIDを別の駅に置き換えない。
+不正な日付パラメーターは基準日に正規化し、1回だけ「日付をデモ基準日に戻しました」。不正なplaceはallに戻す。URL全体を再読み込みし続けるループを作らない。</p>
+<h2>状態の文言</h2>
+<table>
+<thead>
+<tr>
+<th>状態</th>
+<th>主な表示</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>scheduled</td>
+<td>サンプル試合・開始時刻あり</td>
+</tr>
+<tr>
+<td>time_tbd</td>
+<td>開始時刻未定・時間帯を計算できません</td>
+</tr>
+<tr>
+<td>venue_tbd</td>
+<td>会場未定・対象駅をまだ表示できません</td>
+</tr>
+<tr>
+<td>postponed</td>
+<td>延期・新しい日程は未定です</td>
+</tr>
+<tr>
+<td>cancelled</td>
+<td>中止・注意時間帯は表示しません</td>
+</tr>
+<tr>
+<td>旧会場／旧日程</td>
+<td>変更済み・現在の開催情報を見る</td>
+</tr>
+<tr>
+<td>対象試合なし</td>
+<td>対象のサンプル試合はありません</td>
+</tr>
+<tr>
+<td>収録範囲外</td>
+<td>デモ収録範囲外です（2026年11〜12月）</td>
+</tr>
+</tbody></table>
+<h2>アクセシビリティと操作</h2>
+<p>検索フォームはlabelを付け、候補は矢印・Enter・Escapeで操作できるcombobox/listboxとする。日付はネイティブinputでもよい。カレンダーはセマンティックな表と各日buttonで作り、無理にgridの役割を付けない。
+フォーカス輪郭は2px以上。結果件数はaria-live=polite。ページ移動で見出しへフォーカス。モーダルはフォーカスを閉じ込め、閉じたら起点へ戻す。200%拡大でも操作可能にする。アニメーションは控えめでreduced-motion対応。</p>
+</section>
+<section id="doc3"><div class="kicker">04 / データ設計</div><h1>03 — データ設計</h1>
+<p><code>contracts/types.ts</code>と<code>data/demo.json</code>を基準にする。JSONはUTF-8、schemaVersion=1。IDは表示名と分離し、改称してもIDを変えない。</p>
+<h2>エンティティ</h2>
+<table>
+<thead>
+<tr>
+<th>配列／要素</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>meta</td>
+<td>モード、基準日、収録期間、説明</td>
+</tr>
+<tr>
+<td>regions</td>
+<td>東京都・神奈川県・埼玉県・千葉県</td>
+</tr>
+<tr>
+<td>stations</td>
+<td>7駅の名前、読み、別名、地域、並び順</td>
+</tr>
+<tr>
+<td>stadiums</td>
+<td>5会場の名前・別名・地域・公式参考リンク</td>
+</tr>
+<tr>
+<td>accessLinks</td>
+<td>会場と駅の多対多対応、デモ計算用移動分数</td>
+</tr>
+<tr>
+<td>teams</td>
+<td>架空8チーム。defaultStadiumIdは説明用で検索判定に使わない</td>
+</tr>
+<tr>
+<td>matches</td>
+<td>架空24試合。現在の会場と日付、状態、変更履歴</td>
+</tr>
+<tr>
+<td>coverage</td>
+<td>会場ごとの収録期間。サンプル集合内の網羅性のみを意味する</td>
+</tr>
+<tr>
+<td>sources</td>
+<td>実在会場と駅の対応を確認した公式出典</td>
+</tr>
+<tr>
+<td>rules</td>
+<td>注意時間帯のデモ計算パラメーター</td>
+</tr>
+</tbody></table>
+<p>1試合は現在会場0〜1、1会場は関連駅1〜複数。駅→accessLinks→会場→matchesの順に結合する。ホームチーム→本拠地の結合で試合会場を決定してはいけない。</p>
+<h2>Matchの不変条件</h2>
+<ul>
+<li>matchDateは日本時間の暦日YYYY-MM-DD。kickoffLocalTimeはHH:mmまたはnull。</li>
+<li>scheduled：日付・会場・時刻が必須。</li>
+<li>time_tbd：日付・会場が必須、時刻はnull。</li>
+<li>venue_tbd：日付が必須、会場と時刻はnull。全地域の別枠にだけ表示。</li>
+<li>postponed／cancelled：日付・会場は元の予定を保持、時刻はnull。注意時間帯を生成しない。</li>
+<li>日程変更後に確定した試合はscheduledに戻し、現在日付をmatchDateに保持。historyに旧日程を残す。同じ試合を別IDで増やさない。</li>
+<li>会場変更も現在stadiumIdを更新し、historyに旧会場を残す。</li>
+<li>同一IDは全体で一意。homeTeamIdとawayTeamIdは異なる。</li>
+<li>すべての試合はisDemo=true、sourceId=null。公式アクセス出典を試合出典として流用しない。</li>
+</ul>
+<h2>History</h2>
+<p>fieldはmatchDate／stadiumId／kickoffLocalTime。fromValue・toValueは文字列またはnull、changedAtはオフセット付き日時、noteは「サンプル上の変更」と分かる文言。
+historyは古い順。公開画面での最終変更表示は末尾、履歴一覧は新しい順でもよい。
+このseedには日付と会場の同時変更は含めない。将来追加する際も逆順に履歴をたどれば変更直前のスナップショットを復元できる形にする。</p>
+<h2>時間の扱い</h2>
+<p>入力の日付と時刻から<code>${matchDate}T${kickoffLocalTime}:00+09:00</code>を生成する。解析・加算はタイムスタンプで、表示は必ずAsia/Tokyo。端末のタイムゾーンやtoISOString().slice(0,10)で表示日を決めない。</p>
+<p>注意時間帯は保存せずrulesとaccessLinksから都度算出。ruleVersionを出力に付ける。サンプル移動分数は公式の徒歩時間の引用ではなくUI検証用の設定と明示する。</p>
+<h2>Coverage</h2>
+<p>5会場それぞれ2026-11-01〜2026-12-31、state=demo_complete。これはこのJSONのサンプルとしての範囲であり、実在の試合を全件掲載している意味ではない。
+全地域の集計もcoverageの対象内だけで行う。範囲外では0件表示よりも「デモ収録範囲外」を優先。未知の駅名は「対象外」として候補なしにする。</p>
+<h2>保存とURL</h2>
+<p>localStorage key：oikomu:demo:v1:favorites
+value：{&quot;schemaVersion&quot;:1,&quot;stationIds&quot;:[&quot;st-tobitakyu&quot;]}
+ID重複と未知IDは除去。配列でない等の破損は空に戻す。savedDateや検索履歴は保存しない。</p>
+<p>URLではdate、month、view、placeだけを許可。place=all／station:<id>／stadium:<id>／region:<id>。同時に複数種の場所を保持しない。詳細ページのdateは「戻るときの文脈」で、試合本体の日付を上書きしない。</p>
+<h2>検証ルール</h2>
+<p>読み込み時またはビルド時に、参照ID、重複、時刻形式、日付実在性、状態との整合、coverage包含を検証。致命的な参照欠損は黙って除去せずエラーにする。UIでの空状態とは分離する。
+サンプルに悪意あるHTMLは含めないが、データ文字列は常にテキストとして描画。外部URLはhttps:の公式ドメインを許可し、javascript:等は拒否する。</p>
+</section>
+<section id="doc4"><div class="kicker">05 / 処理ロジック</div><h1>04 — 検索・カレンダー・時間帯の処理仕様</h1>
+<h2>1. デモの時計</h2>
+<p>基準日=2026-11-07。初回URLに日付がなければこの日付。システムの現在日付から自動で月を移さない。sources.checkedOn=2026-10-27は参考情報を確認した実日付であり、デモ基準日とは別。</p>
+<p>基準日は検索の入口であり、「その日現在に判明していた情報」を再現する時点検索ではない。変更履歴はデモ集合の最新状態を表示する。変更時刻が基準日より後でも履歴を巻き戻さない。</p>
+<h2>2. 検索の順序</h2>
+<ol>
+<li>URLとフォーム入力を検証する。</li>
+<li>選択場所を駅集合／会場集合に展開。regionは会場のregionIdで絞り、その会場の関連駅を表示。</li>
+<li>選択日がcoverageに含まれるかを判定。</li>
+<li>現在会場に一致するscheduled／time_tbdのうち、matchDateが選択日、または算出時間帯が選択日に重なる試合を抽出。</li>
+<li>旧日付・旧会場の変更案内、延期・中止を別枠に抽出。全地域に限りvenue_tbdも別枠に表示。</li>
+<li>駅ごとにカード化。開催試合数は現在日付が選択日のscheduled／time_tbdをmatchIdで重複排除して数える。</li>
+</ol>
+<p>全地域で同じ試合が2駅に出ても開催件数は1。会場未定は開催件数へ含めず「会場未定1件」と別表示。変更案内だけの駅も表示するが、「時間帯を計算した駅数」へは含めない。
+候補の正規化はNFKC、前後空白除去、英字小文字、カタカナ→ひらがな。name・kana・aliasesから部分一致。数字は維持。あいまいな駅の自動確定はしない。</p>
+<h2>3. 注意時間帯の算出</h2>
+<p>以下は実測・公式推奨ではなく、デモ表示のための仮定。全会場共通rulesから初め、将来の本番では検証する。</p>
+<p>K=開始時刻、W=accessLinks.demoWalkMinutes。</p>
+<table>
+<thead>
+<tr>
+<th>パラメーター</th>
+<th>初期値</th>
+<th>意味</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>arrivalStartBeforeMinutes</td>
+<td>150</td>
+<td>来場の注意時間帯が始まる開始前分数</td>
+</tr>
+<tr>
+<td>arrivalEndBeforeMinutes</td>
+<td>15</td>
+<td>来場の注意時間帯が終わる開始前分数</td>
+</tr>
+<tr>
+<td>matchEndEarliestAfterMinutes</td>
+<td>110</td>
+<td>最短の終了見込み（開始から）</td>
+</tr>
+<tr>
+<td>matchEndLatestAfterMinutes</td>
+<td>130</td>
+<td>最長の終了見込み（開始から）</td>
+</tr>
+<tr>
+<td>departureTailMinutes</td>
+<td>90</td>
+<td>終了後の流れを見るための仮の幅</td>
+</tr>
+</tbody></table>
+<p>来場：[K−150分, K−15分)
+帰宅：[K＋110分＋W, K＋130分＋W＋90分)</p>
+<p>来場帯にはWを加減しない。この初版の来場帯は駅ごとの違いを推計せず、開始前の共通目安として扱う。帰宅帯だけ移動分を加える。退場時のゲート待機や列車待ちは分離推計しないため、「改札待ち時間」「乗車までの時間」と言い換えない。</p>
+<p>例：m01、2026-11-07 15:00、飛田給W=5 → 来場12:30〜14:45、帰宅16:55〜18:45。
+同じm01、多磨W=20 → 帰宅17:10〜19:00。差はデモ移動分数によるもので、混雑量の差ではない。</p>
+<p>scheduledかつ会場・時刻・対応駅が揃う場合だけ計算。time_tbd／venue_tbd／postponed／cancelledは空配列を返し、理由コードをUIへ渡す。
+開催終了時刻が公式に得られた場合の上書き、延長・PK、試合後イベント、天候、臨時列車は初版で推計しない。</p>
+<h2>4. 日またぎ・区間の境界</h2>
+<p>区間は開始を含み終了を含まない半開区間[start,end)。表示上はHH:mm〜HH:mmでよい。
+日付Dの区間は[D 00:00+09:00, 翌日00:00+09:00)。重なりはmax(start,dayStart)&lt;min(end,dayEnd)。0分の区間は非表示。
+日付ごとの表示はクリップするが、試合詳細には「翌日」等のラベル付きで元の日時を示す。日付が変わる場合は日付も明記。終端24:00の表示は日表示に限り許容する。</p>
+<h2>5. 複数試合の時間帯</h2>
+<p>駅・日付・種別（来場／帰宅）ごとに並べ、重なる区間または端点が一致する区間を結合。結合後もmatchIdsの集合を保持。種別の異なる区間は結合せず2段にする。
+結合しても混雑段階や色の濃さを増やさない。「複数のサンプル試合による目安」と説明する。
+タイムラインは06:00〜24:00を基本とするが、それより前に区間がある日は00:00から表示。ラベルはその日の実際の区間に合わせる。</p>
+<h2>6. 状態変更</h2>
+<ul>
+<li>m09：時刻未定。11/21の開催1件、時間帯なし。</li>
+<li>m10：11/22の延期。浦和美園に変更案内だけ表示、開催0件、時間帯なし。</li>
+<li>m11：11/23の中止。蘇我に変更案内だけ表示、開催0件、時間帯なし。</li>
+<li>m12：11/28の会場が味の素→日産に変更。小机・新横浜には開催と時間帯、飛田給・多磨には旧会場の変更案内のみ。</li>
+<li>m13：開催日が12/05→12/06へ変更。12/05は柏に変更案内のみ、12/06に開催と時間帯。</li>
+<li>m24：12/20の会場未定。全地域の別枠だけ。ホームチームの本拠地で駅を推測しない。</li>
+</ul>
+<p>historyから旧開催情報を作る時は、現在のスナップショットから逆順に変更を戻して各変更直前の状態を得る。旧スナップショットに紐づく日付・会場・駅で案内する。現在試合と案内は同じmatchIdへのリンクを持つ。</p>
+<h2>7. URL・画面遷移</h2>
+<p>正規URLの例：<code>#/search?date=2026-11-07&amp;place=station%3Ast-tobitakyu&amp;view=list</code>。
+URLSearchParamsで生成し、文字列の無加工連結を避ける。検索確定・日付クリック・月送りは履歴に追加、パラメーター正規化はreplace。
+一覧／月間はplace・dateを保持。ブラウザーの戻る／進む、直接アクセス、再読み込みで同じ結果になる。monthがdateと異なる場合はdateの月を優先してmonthを直す。
+共有はURLコピーを必須とし、Clipboard APIが使えなければ選択できるテキスト欄を開く。任意の端末共有は機能検出後のみ。localhostのURLは他端末から開けないことを補足し、架空の公開URLを発行しない。</p>
+<h2>8. 出力型と責務</h2>
+<p>calculateWindows(match, accessLink, rules)は日時区間・kind・matchIds・ruleVersionを返す純粋関数。
+filterMatches、buildChangeNotices、clipToDay、mergeWindows、summarizeDay、normalizeQueryをUIから独立させる。
+計算ができないときの理由コードを<code>time_tbd</code>等の状態文言へマッピングする。数値0を「未定」の代わりに使わない。</p>
+</section>
+<section id="doc5"><div class="kicker">06 / 技術仕様</div><h1>05 — 技術仕様・ファイル構成</h1>
+<h2>採用方針</h2>
+<p>新規ならReact＋TypeScript＋Viteの静的SPA。サーバー、DB、秘密鍵、アカウントは不要。開発環境がオフラインなら既存依存を確認し、導入できないものを実行済みと扱わない。
+Viteは公式にreact-tsテンプレートを提供する。Nodeの条件と依存互換性は実装時の公式ガイド・package enginesで確認し、実際に使用したバージョンをREADMEに記載する（SOURCES.md参照）。</p>
+<p>既存リポジトリならその構成を優先する。新規はnpmとpackage-lock.jsonに統一。依存はReact、React DOM、Vite、TypeScriptを中心にし、Routerは既存導入がなければ小さなハッシュルーターで足りる。テストには互換性のあるVitest、必要に応じTesting Library／Playwrightを導入。</p>
+<h2>実装の配置案</h2>
+<table>
+<thead>
+<tr>
+<th>パス</th>
+<th>責務</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>app/src/app/App.tsx</td>
+<td>共通枠・ルート切替</td>
+</tr>
+<tr>
+<td>app/src/app/router.ts</td>
+<td>ハッシュURL解析・遷移</td>
+</tr>
+<tr>
+<td>app/src/pages/SearchPage.tsx</td>
+<td>一覧／月間・検索draft</td>
+</tr>
+<tr>
+<td>app/src/pages/StationPage.tsx</td>
+<td>駅詳細</td>
+</tr>
+<tr>
+<td>app/src/pages/MatchPage.tsx</td>
+<td>試合詳細</td>
+</tr>
+<tr>
+<td>app/src/pages/FavoritesPage.tsx</td>
+<td>登録駅</td>
+</tr>
+<tr>
+<td>app/src/pages/AboutPage.tsx</td>
+<td>説明・再設定</td>
+</tr>
+<tr>
+<td>app/src/pages/NotFoundPage.tsx</td>
+<td>未知ID・ルート</td>
+</tr>
+<tr>
+<td>app/src/components/DemoBanner.tsx</td>
+<td>デモ常設表示</td>
+</tr>
+<tr>
+<td>app/src/components/PlaceCombobox.tsx</td>
+<td>候補入力</td>
+</tr>
+<tr>
+<td>app/src/components/MonthCalendar.tsx</td>
+<td>42日セル</td>
+</tr>
+<tr>
+<td>app/src/components/StationCard.tsx</td>
+<td>駅の結果</td>
+</tr>
+<tr>
+<td>app/src/components/MatchCard.tsx</td>
+<td>試合と状態</td>
+</tr>
+<tr>
+<td>app/src/components/TimeWindows.tsx</td>
+<td>時間帯・目安ラベル</td>
+</tr>
+<tr>
+<td>app/src/components/FavoriteButton.tsx</td>
+<td>星ボタン</td>
+</tr>
+<tr>
+<td>app/src/components/ChangeNotice.tsx</td>
+<td>変更案内</td>
+</tr>
+<tr>
+<td>app/src/domain/types.ts</td>
+<td>contracts/types.tsに準拠</td>
+</tr>
+<tr>
+<td>app/src/domain/dates.ts</td>
+<td>日本時間・暦日・日付検証</td>
+</tr>
+<tr>
+<td>app/src/domain/search.ts</td>
+<td>候補・絞り込み・件数</td>
+</tr>
+<tr>
+<td>app/src/domain/windows.ts</td>
+<td>算出・クリップ・結合</td>
+</tr>
+<tr>
+<td>app/src/domain/changes.ts</td>
+<td>旧日程・旧会場の案内</td>
+</tr>
+<tr>
+<td>app/src/data/demo.json</td>
+<td>同梱データのコピー</td>
+</tr>
+<tr>
+<td>app/src/data/repository.ts</td>
+<td>データ読み込み・検証</td>
+</tr>
+<tr>
+<td>app/src/state/favorites.ts</td>
+<td>登録駅・保存失敗対応</td>
+</tr>
+<tr>
+<td>app/src/styles/tokens.css</td>
+<td>design/tokens.json由来の変数</td>
+</tr>
+<tr>
+<td>app/src/styles/global.css</td>
+<td>共通レスポンシブ</td>
+</tr>
+<tr>
+<td>app/tests/domain/*</td>
+<td>計算・状態・検索テスト</td>
+</tr>
+<tr>
+<td>app/tests/e2e/*</td>
+<td>主要な利用導線</td>
+</tr>
+<tr>
+<td>app/README.md</td>
+<td>実装後の環境・起動・制約</td>
+</tr>
+</tbody></table>
+<p>配置は提案であり、既存プロジェクトに合わせて変更可能。データ、計算、画面の責務は維持する。</p>
+<h2>データ層</h2>
+<p>デモJSONはアプリに同梱し、ネットワーク取得しない。データ層のgetDataset()から取得し、後に実データへ切り替える余地を作る。demoとliveのレコードを混在させない。
+公開するのはビルドした静的ファイル。設定にサーバー用キーを含めない。外部サイトはリンクを押したときだけ開く。外部スクリプト・広告・アクセス解析・CDNの字体を入れない。</p>
+<h2>UI状態</h2>
+<p>URL＝検索確定状態。フォーム内draft＝編集中。localStorage＝お気に入りだけ。計算結果＝派生状態。別々の状態に同じ検索条件を重複保存して同期不具合を作らない。
+お気に入りは共通状態として管理し、どの画面の星ボタンでも即同期する。storageイベントで別タブの変更も反映できるとよいが、初版では同一タブ内を必須とする。</p>
+<h2>セキュリティ・堅牢性</h2>
+<p>文字列はReactの通常テキスト描画。dangerouslySetInnerHTMLを使用しない。URLパラメーターの許可リスト、外部リンクのhttps制限、target=_blank時のnoopener noreferrerを実装。
+localStorage.getItem/setItem/JSON.parseを例外処理する。削除は該当キーのみ。お気に入り以外の閲覧情報を送信しない。
+デモデータで実在のクラブロゴや写真、公式の試合表のコピーを使わない。アプリ内に実在クラブが架空日程で試合するような表示をしない。</p>
+<h2>開発と確認</h2>
+<p>実装後はnpm install、npm run dev、npm run build、npm run previewを使えるようにする。test、typecheckを追加。ローカル起動のポートは実行結果のURLを案内。
+unit：日時境界、未定等の抑制、件数重複、変更履歴、URL、保存データ破損。
+browser：主要検索→詳細→お気に入り→再読み込み、キーボード操作、360／390／768／1440px、横スクロール、console error。
+アプリを作っていない段階でbuild成功と報告しない。公開前の作業は別途依頼があった時だけ行う。</p>
+</section>
+<section id="doc6"><div class="kicker">07 / 実データ化</div><h1>06 — 実データ運営への移行メモ（デモ実装対象外）</h1>
+<h2>デモで確認すること</h2>
+<p>日付と駅の2条件で迷わないか、月表示が生活予定に使えるか、目安と実測を区別できるかを確認する。収益や継続率は現時点では見積もらない。</p>
+<h2>実データ版に必要な追加作業</h2>
+<ol>
+<li>対象リーグ・大会・会場を確定し、公式情報を確認する担当と更新頻度を決める。</li>
+<li>提供条件に応じたデータ取得方法を用意する。自由に使える公式APIがある前提で進めない。初めは手動登録・確認でもよい。</li>
+<li>発表時期、日程未定、開始時刻未定、会場未定、延期、中止、変更履歴を管理する。</li>
+<li>試合ごとに公式出典URLと最終確認日時、データセット全体の更新状態を付ける。アクセス資料の確認日時で試合の鮮度を代替しない。</li>
+<li>取得失敗・未確認・一部収録を区別する。更新が止まった時に「試合なし」と表示しない。</li>
+<li>会場名称変更やアクセス駅・歩行経路の変更を定期確認する。</li>
+<li>実測や公式の案内に基づき注意時間帯の仮定を評価する。デモ係数を検証済み予報として公開しない。</li>
+<li>デモ専用データを本番から除外し、別モード・別URLでのみ提供する。</li>
+</ol>
+<h2>将来の機能候補</h2>
+<p>お気に入り駅のカレンダー購読、対象会場追加、公式の臨時列車・交通案内へのリンク、店舗向けの埋め込みカレンダー。実装順は利用確認後に決める。
+広告や地域協賛は情報の正確性と日常利用を確かめてから検討。掲載料によって注意表示や駅の並び順を変えない。</p>
+<h2>対象外の線引き</h2>
+<p>サッカー以外のコンサート等、通常の通勤ラッシュ、運休、駅入場規制のリアルタイム把握、バス・車の混雑までは扱わない。サッカーの試合がないことは駅が空いている根拠にはならない。</p>
+</section>
+<section id="doc7"><div class="kicker">08 / 受け入れ条件</div><h1>07 — 受け入れ条件</h1>
+<p>この資料のチェックはアプリ実装後に行う。以下の期待値は同梱サンプルだけに対するもの。</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>操作・条件</th>
+<th>期待結果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>A01</td>
+<td>URL条件なしで起動</td>
+<td>2026-11-07・全地域・一覧</td>
+</tr>
+<tr>
+<td>A02</td>
+<td>11/07・全地域</td>
+<td>開催3試合、対象5駅。m01〜m03</td>
+</tr>
+<tr>
+<td>A03</td>
+<td>11/07・飛田給</td>
+<td>m01だけ。来場12:30〜14:45、帰宅16:55〜18:45</td>
+</tr>
+<tr>
+<td>A04</td>
+<td>11/07・多磨</td>
+<td>m01だけ。帰宅17:10〜19:00</td>
+</tr>
+<tr>
+<td>A05</td>
+<td>11/07・東京都</td>
+<td>味の素のm01、2駅、開催件数1</td>
+</tr>
+<tr>
+<td>A06</td>
+<td>場所に「ﾄﾋﾞﾀｷｭｳ」</td>
+<td>飛田給が候補に出る</td>
+</tr>
+<tr>
+<td>A07</td>
+<td>場所に「味スタ」</td>
+<td>味の素スタジアムが候補に出る</td>
+</tr>
+<tr>
+<td>A08</td>
+<td>候補未選択の自由文で検索</td>
+<td>候補選択を促し誤った場所で実行しない</td>
+</tr>
+<tr>
+<td>A09</td>
+<td>11/09・全地域</td>
+<td>対象のサンプル試合なし。空いているとは書かない</td>
+</tr>
+<tr>
+<td>A10</td>
+<td>2027-01-07</td>
+<td>デモ収録範囲外。0試合で安全扱いしない</td>
+</tr>
+<tr>
+<td>A11</td>
+<td>11/21・飛田給</td>
+<td>m09時刻未定、開催1件、時間帯なし</td>
+</tr>
+<tr>
+<td>A12</td>
+<td>11/22・浦和美園</td>
+<td>m10延期案内、開催0件、時間帯なし</td>
+</tr>
+<tr>
+<td>A13</td>
+<td>11/23・蘇我</td>
+<td>m11中止案内、開催0件、時間帯なし</td>
+</tr>
+<tr>
+<td>A14</td>
+<td>11/28・小机</td>
+<td>会場変更後のm12を開催予定として表示</td>
+</tr>
+<tr>
+<td>A15</td>
+<td>11/28・飛田給</td>
+<td>m12の旧会場変更案内だけ。時間帯なし</td>
+</tr>
+<tr>
+<td>A16</td>
+<td>12/05・柏</td>
+<td>m13の旧日程変更案内だけ</td>
+</tr>
+<tr>
+<td>A17</td>
+<td>12/06・柏</td>
+<td>m13の現在日程で開催と時間帯</td>
+</tr>
+<tr>
+<td>A18</td>
+<td>12/20・全地域</td>
+<td>m24会場未定を別枠。開催件数に加えない</td>
+</tr>
+<tr>
+<td>A19</td>
+<td>12/20・飛田給</td>
+<td>m24をホームクラブ本拠地から誤って出さない</td>
+</tr>
+<tr>
+<td>A20</td>
+<td>11月カレンダー</td>
+<td>月曜始まり42セル、選択日と詳細一致</td>
+</tr>
+<tr>
+<td>A21</td>
+<td>月送り</td>
+<td>選択日を移動先1日にしURLも更新</td>
+</tr>
+<tr>
+<td>A22</td>
+<td>一覧／月間の切替</td>
+<td>場所・日付を保持し表示件数整合</td>
+</tr>
+<tr>
+<td>A23</td>
+<td>飛田給を星登録→再読み込み</td>
+<td>登録状態が戻り一覧にも反映</td>
+</tr>
+<tr>
+<td>A24</td>
+<td>お気に入り保存JSONが破損</td>
+<td>アプリ停止せず空状態に戻る</td>
+</tr>
+<tr>
+<td>A25</td>
+<td>保存が拒否される環境</td>
+<td>操作継続、メモリー保持と案内</td>
+</tr>
+<tr>
+<td>A26</td>
+<td>お気に入り全解除</td>
+<td>確認後に自分のキーだけを削除</td>
+</tr>
+<tr>
+<td>A27</td>
+<td>URLコピー→同じ環境で開く</td>
+<td>同じ日付・場所・表示形式</td>
+</tr>
+<tr>
+<td>A28</td>
+<td>Clipboard API失敗</td>
+<td>選択可能なURL欄で代替</td>
+</tr>
+<tr>
+<td>A29</td>
+<td>ブラウザー戻る・進む</td>
+<td>以前の確定条件と結果へ戻る</td>
+</tr>
+<tr>
+<td>A30</td>
+<td>存在しない駅・試合ID</td>
+<td>ページなしを表示、検索への導線</td>
+</tr>
+<tr>
+<td>A31</td>
+<td>2026-02-30等の不正日付</td>
+<td>基準日に直し案内、無限遷移なし</td>
+</tr>
+<tr>
+<td>A32</td>
+<td>端末TZを米国側に変更</td>
+<td>日本時間の同じ日付・時間帯</td>
+</tr>
+<tr>
+<td>A33</td>
+<td>深夜・早朝ケース</td>
+<td>logic-cases.json通りの日またぎ・クリップ</td>
+</tr>
+<tr>
+<td>A34</td>
+<td>同種時間帯が重なる</td>
+<td>結合しmatchIdsを保持。強度は上げない</td>
+</tr>
+<tr>
+<td>A35</td>
+<td>来場と帰宅が重なる</td>
+<td>種別を混ぜず別段にする</td>
+</tr>
+<tr>
+<td>A36</td>
+<td>全ページを目視</td>
+<td>デモバナー、各試合サンプル、時間帯目安ラベル</td>
+</tr>
+<tr>
+<td>A37</td>
+<td>360／390／768／1440px</td>
+<td>主要操作に横スクロール・被覆なし</td>
+</tr>
+<tr>
+<td>A38</td>
+<td>Tab・矢印・Enter・Escape</td>
+<td>候補と確認ダイアログを操作できる</td>
+</tr>
+<tr>
+<td>A39</td>
+<td>200%拡大・長文</td>
+<td>情報や操作が欠けない</td>
+</tr>
+<tr>
+<td>A40</td>
+<td>検証コマンド</td>
+<td>型検査・テスト・buildに成功し結果を記録</td>
+</tr>
+</tbody></table>
+<p>ネットワーク導入不可等で実施できない検証は、その環境と項目を未実施として残す。実装完了と実データの正確性は別の評価である。</p>
+</section>
+<section id="doc8"><div class="kicker">09 / 実装タスク</div><h1>オイコム デモ — 実装タスク</h1>
+<p>全項目は未実装。Codexは完了したものだけチェックし、実行した検証と未実行の検証を区別する。</p>
+<h2>Phase 0 — 読み込み・準備</h2>
+<ul>
+<li><input disabled="" type="checkbox"> README、docs、契約とデータを確認する。</li>
+<li><input disabled="" type="checkbox"> 既存プロジェクトの有無と指示を確認。新規ならapp/を作る。</li>
+<li><input disabled="" type="checkbox"> React＋TypeScript＋Viteの互換性ある構成を用意し、依存とロックファイルを固定。</li>
+<li><input disabled="" type="checkbox"> tokensをCSS変数化し、共通レイアウトとDemoBannerを作る。</li>
+<li><input disabled="" type="checkbox"> JSON参照整合・状態条件を検証し、壊れたデータを空結果と扱わない。</li>
+</ul>
+<p>完了条件：デモ表示付きの空画面が起動し、データ5会場・7駅・8チーム・24試合を読み込める。</p>
+<h2>Phase 1 — 純粋ロジック</h2>
+<ul>
+<li><input disabled="" type="checkbox"> 日本時間の日付処理、形式と実在日付の検証。</li>
+<li><input disabled="" type="checkbox"> 場所候補・選択場所展開・試合抽出・ユニーク件数。</li>
+<li><input disabled="" type="checkbox"> calculateWindows、clipToDay、mergeWindows。</li>
+<li><input disabled="" type="checkbox"> 変更前スナップショットと変更案内。</li>
+<li><input disabled="" type="checkbox"> contracts/logic-cases.jsonと状態ケースをテスト。</li>
+</ul>
+<p>完了条件：m01の時間帯が期待値と一致。時刻未定・延期・中止に時間帯が出ず、会場変更の旧駅にも出ない。</p>
+<h2>Phase 2 — 検索とカレンダー</h2>
+<ul>
+<li><input disabled="" type="checkbox"> 検索フォーム・候補・日付・検索実行を作る。</li>
+<li><input disabled="" type="checkbox"> 駅カード・試合カード・変更案内を作る。</li>
+<li><input disabled="" type="checkbox"> 月曜始まり42セルの月間カレンダーを作る。</li>
+<li><input disabled="" type="checkbox"> 対象試合なし／範囲外／読み込み失敗を分ける。</li>
+<li><input disabled="" type="checkbox"> 一覧と月間で条件と件数が一致するようにする。</li>
+</ul>
+<p>完了条件：11/07は3試合・5駅、飛田給はm01のみ、11/09は対象試合なし、2027/01は範囲外。</p>
+<h2>Phase 3 — 詳細・保存・共有</h2>
+<ul>
+<li><input disabled="" type="checkbox"> 駅詳細、試合詳細、使い方、NotFoundを作る。</li>
+<li><input disabled="" type="checkbox"> お気に入り共通状態、登録順保存、復元、破損・保存不可対応。</li>
+<li><input disabled="" type="checkbox"> URL状態、戻る／進む、直接アクセス、再読み込み。</li>
+<li><input disabled="" type="checkbox"> URLコピーと失敗時フォールバック。</li>
+<li><input disabled="" type="checkbox"> お気に入り全解除の確認と、自分のキーだけの削除。</li>
+</ul>
+<p>完了条件：検索→駅→試合→戻るで文脈維持。再読み込みでお気に入り復元。未知IDは404相当。</p>
+<h2>Phase 4 — UI仕上げ</h2>
+<ul>
+<li><input disabled="" type="checkbox"> 360／390／768／1440pxで調整。</li>
+<li><input disabled="" type="checkbox"> キーボード、フォーカス、ラベル、200%拡大を確認。</li>
+<li><input disabled="" type="checkbox"> サンプル・目安ラベルを全画面で確認。</li>
+<li><input disabled="" type="checkbox"> 下部ナビや固定要素による重なり、長い駅名や未定文言のはみ出しを修正。</li>
+<li><input disabled="" type="checkbox"> 動かないボタン、架空の外部リンク、不要な機能を残さない。</li>
+</ul>
+<p>完了条件：主要画面で横にはみ出さず、色以外でも状態が判別できる。</p>
+<h2>Phase 5 — 検証・引き渡し</h2>
+<ul>
+<li><input disabled="" type="checkbox"> docs/07_ACCEPTANCE.mdの必須項目を確認し、結果を記録。</li>
+<li><input disabled="" type="checkbox"> typecheck、domain test、buildを実行。</li>
+<li><input disabled="" type="checkbox"> 主要フローをブラウザーで操作し、console errorを解消。</li>
+<li><input disabled="" type="checkbox"> 実装側READMEにNode・依存・起動・ビルド・デモ範囲を記載。</li>
+<li><input disabled="" type="checkbox"> 完了機能、未完了、検証結果、次に実データ化する際の課題を報告。</li>
+</ul>
+<p>完了条件：ローカルで動くデモ一式。公開や実データ収集は行わない。</p>
+</section>
+<section id="doc9"><div class="kicker">10 / Codexへの依頼文</div><p>添付／展開済みの「OIKOMU_Codex_Demo_Spec_v1」を読み、Webアプリ『オイコム』の動作するデモ版を実装してください。</p>
+<p>目的は、サッカー開催日に駅周辺の混雑へ備えるため、日付と駅・地域で試合を探せることです。サッカーに詳しくない近隣住民にも分かる日本語UIにしてください。</p>
+<p>最初にREADME.md、docs/01_PRODUCT.md〜05_TECH.md、TASKS.md、contracts/types.ts、data/demo.jsonを読んでください。design/screen_reference.htmlは見た目の参考であり、これを表示するだけでは完成ではありません。</p>
+<p>React＋TypeScript＋Viteを基本に、空の作業ディレクトリならapp/へ新規作成してください。既存プロジェクトなら構成・使用中のパッケージマネージャー・既存指示を確認し、無関係なファイルを上書きせず統合してください。依存バージョンは互換性を確認して固定し、ロックファイルを残してください。</p>
+<p>実装するもの：</p>
+<ol>
+<li>日付と駅・地域・スタジアムからの検索、および一覧／月間カレンダーの切り替え。</li>
+<li>駅詳細、試合詳細、お気に入り駅一覧、説明ページ、データ再設定。</li>
+<li>未定・延期・中止・日程変更・会場変更・収録範囲外の状態表示。</li>
+<li>試合の開始時刻から計算する来場・帰宅の注意時間帯。ルールはdocs/04_LOGIC.mdに厳密に従う。</li>
+<li>URLでの条件共有、再読み込みでの条件復元、お気に入りのlocalStorage保存。</li>
+<li>スマートフォン幅360pxと390px、タブレット、PC幅1440pxで崩れない画面。</li>
+</ol>
+<p>データは同梱JSONを使用し、外部API・スクレイピング・ログイン・サーバー・課金・AI機能を追加しないでください。ホームクラブの本拠地から会場を推測せず、試合に紐づく実際のstadiumIdを使用してください。</p>
+<p>「デモ／試合・時間帯はサンプル」を全画面で表示してください。初期表示は実際の今日ではなく2026-11-07です。「対象試合なし」を「空いている」と言い換えないでください。公式アクセス情報へのリンクを、架空試合の公式日程として扱わないでください。</p>
+<p>TASKS.mdのPhase 0〜5を順に実装し、見た目だけで止めず、検索・保存・共有・遷移を動く状態にしてください。未実装ボタンや押しても反応しないUIを残さないでください。</p>
+<p>contracts/logic-cases.jsonを使った時間帯計算のテスト、主要な検索・変更状態・保存復元のテストを実施し、docs/07_ACCEPTANCE.mdの操作確認とビルドを行ってください。実施していない検証は実施済みと書かず、残作業を明示してください。</p>
+<p>完成時は、起動手順、対応した機能、テストとビルドの結果、残る制約を簡潔に報告し、実装側READMEを更新してください。この依頼はローカルで試すデモの実装です。公開・実データ取得・外部サービスへの登録は含めません。</p>
+</section>
+<section id="doc10"><div class="kicker">11 / 出典</div><h1>出典・データの境界</h1>
+<p>確認日：2026-10-27。以下は場所の対応と技術選択の参考資料。本文は要約であり、記事や公式日程表の転載ではない。</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>発行者・ページ</th>
+<th>確認した内容</th>
+<th>URL</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>src-ajino</td>
+<td>味の素スタジアム／アクセス</td>
+<td>飛田給・多磨をアクセス駅として案内</td>
+<td><a href="https://www.ajinomotostadium.com/access/">https://www.ajinomotostadium.com/access/</a></td>
+</tr>
+<tr>
+<td>src-nissan</td>
+<td>日産スタジアム／電車でお越しの方</td>
+<td>新横浜・小机からの徒歩ルートへの案内</td>
+<td><a href="https://www.nissan-stadium.jp/access/train.php">https://www.nissan-stadium.jp/access/train.php</a></td>
+</tr>
+<tr>
+<td>src-saitama</td>
+<td>埼玉スタジアム2002／アクセス</td>
+<td>浦和美園からの歩行者アクセス</td>
+<td><a href="https://www.stadium2002.com/access.html">https://www.stadium2002.com/access.html</a></td>
+</tr>
+<tr>
+<td>src-fukuari</td>
+<td>ジェフユナイテッド市原・千葉／アクセス</td>
+<td>蘇我からフクダ電子アリーナへのアクセス</td>
+<td><a href="https://jefunited.co.jp/stadium/access/">https://jefunited.co.jp/stadium/access/</a></td>
+</tr>
+<tr>
+<td>src-kashiwa</td>
+<td>柏レイソル／初観戦ガイド</td>
+<td>三協フロンテア柏スタジアムと柏駅からのアクセス</td>
+<td><a href="https://reysol.co.jp/game/beginnersguide/">https://reysol.co.jp/game/beginnersguide/</a></td>
+</tr>
+<tr>
+<td>tech-vite</td>
+<td>Vite／Getting Started</td>
+<td>react-tsテンプレートと開発・ビルドの仕組み</td>
+<td><a href="https://vite.dev/guide/">https://vite.dev/guide/</a></td>
+</tr>
+</tbody></table>
+<h2>サンプルとして作成したもの</h2>
+<p>大会、8チーム、24試合の対戦と日時、状態変更、変更時刻、時間帯計算の係数、demoWalkMinutesは企画説明・実装検証用に作成した架空データ。
+公式の試合日程、観客数、混雑データ、鉄道の運行情報を収録していない。</p>
+<p>会場・駅の名称と対応を知るために公式資料を参照したが、デモ係数や架空日程が公式に裏付けられていることを意味しない。URLを開く時点で名称やアクセス方法が変わっている可能性があるため、実データ化時には再確認する。</p>
+</section></main></div><footer>実装前の企画書です。アプリ・実日程・混雑予報の完成品ではありません。</footer></body></html>

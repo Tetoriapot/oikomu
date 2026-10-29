@@ -1,0 +1,711 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "mode": "demo",
+    "createdOn": "2026-10-27",
+    "timeZone": "Asia/Tokyo",
+    "referenceDate": "2026-11-07",
+    "rangeStart": "2026-11-01",
+    "rangeEnd": "2026-12-31",
+    "notice": "デモ版｜試合・注意時間帯はサンプル。実際のお出かけ判断には使えません。"
+  },
+  "regions": [
+    {
+      "id": "tokyo",
+      "name": "東京都",
+      "aliases": [
+        "東京",
+        "とうきょう"
+      ]
+    },
+    {
+      "id": "kanagawa",
+      "name": "神奈川県",
+      "aliases": [
+        "神奈川",
+        "かながわ"
+      ]
+    },
+    {
+      "id": "saitama",
+      "name": "埼玉県",
+      "aliases": [
+        "埼玉",
+        "さいたま"
+      ]
+    },
+    {
+      "id": "chiba",
+      "name": "千葉県",
+      "aliases": [
+        "千葉",
+        "ちば"
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "st-tobitakyu",
+      "name": "飛田給",
+      "kana": "とびたきゅう",
+      "regionId": "tokyo",
+      "aliases": [
+        "飛田給駅",
+        "tobitakyu"
+      ],
+      "sortOrder": 0
+    },
+    {
+      "id": "st-tama",
+      "name": "多磨",
+      "kana": "たま",
+      "regionId": "tokyo",
+      "aliases": [
+        "多磨駅",
+        "tama"
+      ],
+      "sortOrder": 1
+    },
+    {
+      "id": "st-kozukue",
+      "name": "小机",
+      "kana": "こづくえ",
+      "regionId": "kanagawa",
+      "aliases": [
+        "小机駅",
+        "こずくえ",
+        "kozukue"
+      ],
+      "sortOrder": 2
+    },
+    {
+      "id": "st-shinyokohama",
+      "name": "新横浜",
+      "kana": "しんよこはま",
+      "regionId": "kanagawa",
+      "aliases": [
+        "新横浜駅",
+        "新横",
+        "shin-yokohama"
+      ],
+      "sortOrder": 3
+    },
+    {
+      "id": "st-urawamisono",
+      "name": "浦和美園",
+      "kana": "うらわみその",
+      "regionId": "saitama",
+      "aliases": [
+        "浦和美園駅",
+        "urawa-misono"
+      ],
+      "sortOrder": 4
+    },
+    {
+      "id": "st-soga",
+      "name": "蘇我",
+      "kana": "そが",
+      "regionId": "chiba",
+      "aliases": [
+        "蘇我駅",
+        "soga"
+      ],
+      "sortOrder": 5
+    },
+    {
+      "id": "st-kashiwa",
+      "name": "柏",
+      "kana": "かしわ",
+      "regionId": "chiba",
+      "aliases": [
+        "柏駅",
+        "kashiwa"
+      ],
+      "sortOrder": 6
+    }
+  ],
+  "stadiums": [
+    {
+      "id": "sd-ajino",
+      "name": "味の素スタジアム",
+      "regionId": "tokyo",
+      "aliases": [
+        "味スタ",
+        "あじのもとすたじあむ"
+      ],
+      "accessSourceId": "src-ajino",
+      "accessUrl": "https://www.ajinomotostadium.com/access/"
+    },
+    {
+      "id": "sd-nissan",
+      "name": "日産スタジアム",
+      "regionId": "kanagawa",
+      "aliases": [
+        "日産",
+        "にっさんすたじあむ"
+      ],
+      "accessSourceId": "src-nissan",
+      "accessUrl": "https://www.nissan-stadium.jp/access/train.php"
+    },
+    {
+      "id": "sd-saitama",
+      "name": "埼玉スタジアム2002",
+      "regionId": "saitama",
+      "aliases": [
+        "埼スタ",
+        "さいたますたじあむ"
+      ],
+      "accessSourceId": "src-saitama",
+      "accessUrl": "https://www.stadium2002.com/access.html"
+    },
+    {
+      "id": "sd-fukuari",
+      "name": "フクダ電子アリーナ",
+      "regionId": "chiba",
+      "aliases": [
+        "フクアリ",
+        "ふくだでんしありーな"
+      ],
+      "accessSourceId": "src-fukuari",
+      "accessUrl": "https://jefunited.co.jp/stadium/access/"
+    },
+    {
+      "id": "sd-kashiwa",
+      "name": "三協フロンテア柏スタジアム",
+      "regionId": "chiba",
+      "aliases": [
+        "柏スタジアム",
+        "日立台",
+        "さんきょうふろんてあかしわすたじあむ"
+      ],
+      "accessSourceId": "src-kashiwa",
+      "accessUrl": "https://reysol.co.jp/game/beginnersguide/"
+    }
+  ],
+  "accessLinks": [
+    {
+      "stadiumId": "sd-ajino",
+      "stationId": "st-tobitakyu",
+      "demoWalkMinutes": 5,
+      "basis": "demo_assumption"
+    },
+    {
+      "stadiumId": "sd-ajino",
+      "stationId": "st-tama",
+      "demoWalkMinutes": 20,
+      "basis": "demo_assumption"
+    },
+    {
+      "stadiumId": "sd-nissan",
+      "stationId": "st-kozukue",
+      "demoWalkMinutes": 10,
+      "basis": "demo_assumption"
+    },
+    {
+      "stadiumId": "sd-nissan",
+      "stationId": "st-shinyokohama",
+      "demoWalkMinutes": 20,
+      "basis": "demo_assumption"
+    },
+    {
+      "stadiumId": "sd-saitama",
+      "stationId": "st-urawamisono",
+      "demoWalkMinutes": 15,
+      "basis": "demo_assumption"
+    },
+    {
+      "stadiumId": "sd-fukuari",
+      "stationId": "st-soga",
+      "demoWalkMinutes": 10,
+      "basis": "demo_assumption"
+    },
+    {
+      "stadiumId": "sd-kashiwa",
+      "stationId": "st-kashiwa",
+      "demoWalkMinutes": 20,
+      "basis": "demo_assumption"
+    }
+  ],
+  "teams": [
+    {
+      "id": "t01",
+      "name": "サンプル東京FC",
+      "defaultStadiumId": "sd-ajino",
+      "isDemo": true
+    },
+    {
+      "id": "t02",
+      "name": "サンプル多摩SC",
+      "defaultStadiumId": "sd-ajino",
+      "isDemo": true
+    },
+    {
+      "id": "t03",
+      "name": "サンプル横浜FC",
+      "defaultStadiumId": "sd-nissan",
+      "isDemo": true
+    },
+    {
+      "id": "t04",
+      "name": "サンプル港北SC",
+      "defaultStadiumId": "sd-nissan",
+      "isDemo": true
+    },
+    {
+      "id": "t05",
+      "name": "サンプル埼玉FC",
+      "defaultStadiumId": "sd-saitama",
+      "isDemo": true
+    },
+    {
+      "id": "t06",
+      "name": "サンプル美園SC",
+      "defaultStadiumId": "sd-saitama",
+      "isDemo": true
+    },
+    {
+      "id": "t07",
+      "name": "サンプル蘇我FC",
+      "defaultStadiumId": "sd-fukuari",
+      "isDemo": true
+    },
+    {
+      "id": "t08",
+      "name": "サンプル柏SC",
+      "defaultStadiumId": "sd-kashiwa",
+      "isDemo": true
+    }
+  ],
+  "matches": [
+    {
+      "id": "m01",
+      "competitionName": "サンプルリーグ（架空）",
+      "homeTeamId": "t01",
+      "awayTeamId": "t03",
+      "matchDate": "2026-11-07",
+      "kickoffLocalTime": "15:00",
+      "stadiumId": "sd-ajino",
+      "status": "scheduled",
+      "history": [],
+      "isDemo": true,
+      "sourceId": null,
+      "note": "実在の日程ではありません。表示確認用のサンプル試合です。"
+    },
+    {
+      "id": "m02",
+      "competitionName": "サンプルリーグ（架空）",
+      "homeTeamId": "t04",
+      "awayTeamId": "t08",
+      "matchDate": "2026-11-07",
+      "kickoffLocalTime": "14:00",
+      "stadiumId": "sd-nissan",
+      "status": "scheduled",
+      "history": [],
+      "isDemo": true,
+      "sourceId": null,
+      "note": "実在の日程ではありません。表示確認用のサンプル試合です。"
+    },
+    {
+      "id": "m03",
+      "competitionName": "サンプルリーグ（架空）",
+      "homeTeamId": "t05",
+      "awayTeamId": "t07",
+      "matchDate": "2026-11-07",
+      "kickoffLocalTime": "18:00",
+      "stadiumId": "sd-saitama",
+      "status": "scheduled",
+      "history": [],
+      "isDemo": true,
+      "sourceId": null,
+      "note": "実在の日程ではありません。表示確認用のサンプル試合です。"
+    },
+    {
+      "id": "m04",
+      "competitionName": "サンプルリーグ（架空）",
+      "homeTeamId": "t07",
+      "awayTeamId": "t02",
+      "matchDate": "2026-11-08",
+      "kickoffLocalTime": "13:00",
+      "stadiumId": "sd-fukuari",
+      "status": "scheduled",
+      "history": [],
+      "isDemo": true,
+      "sourceId": null,
+      "note": "実在の日程ではありません。表示確認用のサンプル試合です。"
+    },
+    {
+      "id": "m05",
+      "competitionName": "サンプルリーグ（架空）",
+      "homeTeamId": "t08",
+      "awayTeamId": "t06",
+      "matchDate": "2026-11-08",
+      "kickoffLocalTime": "16:00",
+      "stadiumId": "sd-kashiwa",
+      "status": "scheduled",
+      "history": [],
+      "isDemo": true,
+      "sourceId": null,
+      "note": "実在の日程ではありません。表示確認用のサンプル試合です。"
+    },
+    {
+      "id": "m06",
+      "competitionName": "サンプルリーグ（架空）",
+      "homeTeamId": "t02",
+      "awayTeamId": "t05",
+      "matchDate": "2026-11-14",
+      "kickoffLocalTime": "14:00",
+      "stadiumId": "sd-ajino",
+      "status": "scheduled",
+      "history": [],
+      "isDemo": true,
+      "sourceId": null,
+      "note": "実在の日程ではありません。表示確認用のサンプル試合です。"
+    },
+    {
+      "id": "m07",
+      "competitionName": "サンプルリーグ（架空）",
+      "homeTeamId": "t03",
+      "awayTeamId": "t07",
+      "matchDate": "2026-11-14",
+      "kickoffLocalTime": "18:00",
+      "stadiumId": "sd-nissan",
+      "status": "scheduled",
+      "history": [],
+      "isDemo": true,
+      "sourceId": null,
+      "note": "実在の日程ではありません。表示確認用のサンプル試合です。"
+    },
+    {
+      "id": "m08",
+      "competitionName": "サンプルリーグ（架空）",
+      "homeTeamId": "t06",
+      "awayTeamId": "t04",
+      "matchDate": "2026-11-15",
+      "kickoffLocalTime": "14:00",
+      "stadiumId": "sd-saitama",
+      "status": "scheduled",
+      "history": [],
+      "isDemo": true,
+      "sourceId": null,
+      "note": "実在の日程ではありません。表示確認用のサンプル試合です。"
+    },
+    {
+      "id": "m09",
+      "competitionName": "サンプルリーグ（架空）",
+      "homeTeamId": "t01",
+      "awayTeamId": "t08",
+      "matchDate": "2026-11-21",
+      "kickoffLocalTime": null,
+      "stadiumId": "sd-ajino",
+      "status": "time_tbd",
+      "history": [],
+      "isDemo": true,
+      "sourceId": null,
+      "note": "実在の日程ではありません。表示確認用のサンプル試合です。"
+    },
+    {
+      "id": "m10",
+      "competitionName": "サンプルリーグ（架空）",
+      "homeTeamId": "t05",
+      "awayTeamId": "t03",
+      "matchDate": "2026-11-22",
+      "kickoffLocalTime": null,
+      "stadiumId": "sd-saitama",
+      "status": "postponed",
+      "history": [],
+      "isDemo": true,
+      "sourceId": null,
+      "note": "実在の日程ではありません。表示確認用のサンプル試合です。"
+    },
+    {
+      "id": "m11",
+      "competitionName": "サンプルリーグ（架空）",
+      "homeTeamId": "t07",
+      "awayTeamId": "t02",
+      "matchDate": "2026-11-23",
+      "kickoffLocalTime": null,
+      "stadiumId": "sd-fukuari",
+      "status": "cancelled",
+      "history": [],
+      "isDemo": true,
+      "sourceId": null,
+      "note": "実在の日程ではありません。表示確認用のサンプル試合です。"
+    },
+    {
+      "id": "m12",
+      "competitionName": "サンプルリーグ（架空）",
+      "homeTeamId": "t01",
+      "awayTeamId": "t06",
+      "matchDate": "2026-11-28",
+      "kickoffLocalTime": "15:00",
+      "stadiumId": "sd-nissan",
+      "status": "scheduled",
+      "history": [
+        {
+          "field": "stadiumId",
+          "fromValue": "sd-ajino",
+          "toValue": "sd-nissan",
+          "changedAt": "2026-11-20T12:00:00+09:00",
+          "note": "サンプル上の会場変更"
+        }
+      ],
+      "isDemo": true,
+      "sourceId": null,
+      "note": "実在の日程ではありません。表示確認用のサンプル試合です。"
+    },
+    {
+      "id": "m13",
+      "competitionName": "サンプルリーグ（架空）",
+      "homeTeamId": "t08",
+      "awayTeamId": "t04",
+      "matchDate": "2026-12-06",
+      "kickoffLocalTime": "14:00",
+      "stadiumId": "sd-kashiwa",
+      "status": "scheduled",
+      "history": [
+        {
+          "field": "matchDate",
+          "fromValue": "2026-12-05",
+          "toValue": "2026-12-06",
+          "changedAt": "2026-11-25T12:00:00+09:00",
+          "note": "サンプル上の日程変更"
+        }
+      ],
+      "isDemo": true,
+      "sourceId": null,
+      "note": "実在の日程ではありません。表示確認用のサンプル試合です。"
+    },
+    {
+      "id": "m14",
+      "competitionName": "サンプルリーグ（架空）",
+      "homeTeamId": "t02",
+      "awayTeamId": "t07",
+      "matchDate": "2026-12-05",
+      "kickoffLocalTime": "15:00",
+      "stadiumId": "sd-ajino",
+      "status": "scheduled",
+      "history": [],
+      "isDemo": true,
+      "sourceId": null,
+      "note": "実在の日程ではありません。表示確認用のサンプル試合です。"
+    },
+    {
+      "id": "m15",
+      "competitionName": "サンプルリーグ（架空）",
+      "homeTeamId": "t05",
+      "awayTeamId": "t03",
+      "matchDate": "2026-12-05",
+      "kickoffLocalTime": "18:00",
+      "stadiumId": "sd-saitama",
+      "status": "scheduled",
+      "history": [],
+      "isDemo": true,
+      "sourceId": null,
+      "note": "実在の日程ではありません。表示確認用のサンプル試合です。"
+    },
+    {
+      "id": "m16",
+      "competitionName": "サンプルリーグ（架空）",
+      "homeTeamId": "t07",
+      "awayTeamId": "t06",
+      "matchDate": "2026-12-06",
+      "kickoffLocalTime": "13:00",
+      "stadiumId": "sd-fukuari",
+      "status": "scheduled",
+      "history": [],
+      "isDemo": true,
+      "sourceId": null,
+      "note": "実在の日程ではありません。表示確認用のサンプル試合です。"
+    },
+    {
+      "id": "m17",
+      "competitionName": "サンプルリーグ（架空）",
+      "homeTeamId": "t01",
+      "awayTeamId": "t05",
+      "matchDate": "2026-12-12",
+      "kickoffLocalTime": "14:00",
+      "stadiumId": "sd-ajino",
+      "status": "scheduled",
+      "history": [],
+      "isDemo": true,
+      "sourceId": null,
+      "note": "実在の日程ではありません。表示確認用のサンプル試合です。"
+    },
+    {
+      "id": "m18",
+      "competitionName": "サンプルリーグ（架空）",
+      "homeTeamId": "t04",
+      "awayTeamId": "t02",
+      "matchDate": "2026-12-12",
+      "kickoffLocalTime": "18:00",
+      "stadiumId": "sd-nissan",
+      "status": "scheduled",
+      "history": [],
+      "isDemo": true,
+      "sourceId": null,
+      "note": "実在の日程ではありません。表示確認用のサンプル試合です。"
+    },
+    {
+      "id": "m19",
+      "competitionName": "サンプルリーグ（架空）",
+      "homeTeamId": "t08",
+      "awayTeamId": "t07",
+      "matchDate": "2026-12-13",
+      "kickoffLocalTime": "14:00",
+      "stadiumId": "sd-kashiwa",
+      "status": "scheduled",
+      "history": [],
+      "isDemo": true,
+      "sourceId": null,
+      "note": "実在の日程ではありません。表示確認用のサンプル試合です。"
+    },
+    {
+      "id": "m20",
+      "competitionName": "サンプルリーグ（架空）",
+      "homeTeamId": "t06",
+      "awayTeamId": "t01",
+      "matchDate": "2026-12-19",
+      "kickoffLocalTime": "13:00",
+      "stadiumId": "sd-saitama",
+      "status": "scheduled",
+      "history": [],
+      "isDemo": true,
+      "sourceId": null,
+      "note": "実在の日程ではありません。表示確認用のサンプル試合です。"
+    },
+    {
+      "id": "m21",
+      "competitionName": "サンプルリーグ（架空）",
+      "homeTeamId": "t07",
+      "awayTeamId": "t03",
+      "matchDate": "2026-12-19",
+      "kickoffLocalTime": "16:00",
+      "stadiumId": "sd-fukuari",
+      "status": "scheduled",
+      "history": [],
+      "isDemo": true,
+      "sourceId": null,
+      "note": "実在の日程ではありません。表示確認用のサンプル試合です。"
+    },
+    {
+      "id": "m22",
+      "competitionName": "サンプルリーグ（架空）",
+      "homeTeamId": "t03",
+      "awayTeamId": "t08",
+      "matchDate": "2026-12-26",
+      "kickoffLocalTime": "14:00",
+      "stadiumId": "sd-nissan",
+      "status": "scheduled",
+      "history": [],
+      "isDemo": true,
+      "sourceId": null,
+      "note": "実在の日程ではありません。表示確認用のサンプル試合です。"
+    },
+    {
+      "id": "m23",
+      "competitionName": "サンプルリーグ（架空）",
+      "homeTeamId": "t02",
+      "awayTeamId": "t04",
+      "matchDate": "2026-12-27",
+      "kickoffLocalTime": "15:00",
+      "stadiumId": "sd-ajino",
+      "status": "scheduled",
+      "history": [],
+      "isDemo": true,
+      "sourceId": null,
+      "note": "実在の日程ではありません。表示確認用のサンプル試合です。"
+    },
+    {
+      "id": "m24",
+      "competitionName": "サンプルリーグ（架空）",
+      "homeTeamId": "t01",
+      "awayTeamId": "t06",
+      "matchDate": "2026-12-20",
+      "kickoffLocalTime": null,
+      "stadiumId": null,
+      "status": "venue_tbd",
+      "history": [],
+      "isDemo": true,
+      "sourceId": null,
+      "note": "実在の日程ではありません。表示確認用のサンプル試合です。"
+    }
+  ],
+  "coverage": [
+    {
+      "stadiumId": "sd-ajino",
+      "startDate": "2026-11-01",
+      "endDate": "2026-12-31",
+      "state": "demo_complete"
+    },
+    {
+      "stadiumId": "sd-nissan",
+      "startDate": "2026-11-01",
+      "endDate": "2026-12-31",
+      "state": "demo_complete"
+    },
+    {
+      "stadiumId": "sd-saitama",
+      "startDate": "2026-11-01",
+      "endDate": "2026-12-31",
+      "state": "demo_complete"
+    },
+    {
+      "stadiumId": "sd-fukuari",
+      "startDate": "2026-11-01",
+      "endDate": "2026-12-31",
+      "state": "demo_complete"
+    },
+    {
+      "stadiumId": "sd-kashiwa",
+      "startDate": "2026-11-01",
+      "endDate": "2026-12-31",
+      "state": "demo_complete"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-ajino",
+      "title": "味の素スタジアムの公式アクセス参考",
+      "url": "https://www.ajinomotostadium.com/access/",
+      "checkedOn": "2026-10-27",
+      "purpose": "venue_station_reference"
+    },
+    {
+      "id": "src-nissan",
+      "title": "日産スタジアムの公式アクセス参考",
+      "url": "https://www.nissan-stadium.jp/access/train.php",
+      "checkedOn": "2026-10-27",
+      "purpose": "venue_station_reference"
+    },
+    {
+      "id": "src-saitama",
+      "title": "埼玉スタジアム2002の公式アクセス参考",
+      "url": "https://www.stadium2002.com/access.html",
+      "checkedOn": "2026-10-27",
+      "purpose": "venue_station_reference"
+    },
+    {
+      "id": "src-fukuari",
+      "title": "フクダ電子アリーナの公式アクセス参考",
+      "url": "https://jefunited.co.jp/stadium/access/",
+      "checkedOn": "2026-10-27",
+      "purpose": "venue_station_reference"
+    },
+    {
+      "id": "src-kashiwa",
+      "title": "三協フロンテア柏スタジアムの公式アクセス参考",
+      "url": "https://reysol.co.jp/game/beginnersguide/",
+      "checkedOn": "2026-10-27",
+      "purpose": "venue_station_reference"
+    }
+  ],
+  "rules": {
+    "version": "demo-v1",
+    "arrivalStartBeforeMinutes": 150,
+    "arrivalEndBeforeMinutes": 15,
+    "matchEndEarliestAfterMinutes": 110,
+    "matchEndLatestAfterMinutes": 130,
+    "departureTailMinutes": 90,
+    "validatedForRealUse": false
+  }
+}

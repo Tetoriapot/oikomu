@@ -1,0 +1,1514 @@
+{
+  "season": "2026-27",
+  "checkedOn": "2026-10-29",
+  "regions": [
+    {
+      "id": "ibaraki",
+      "name": "茨城県",
+      "aliases": [
+        "いばらき",
+        "茨城"
+      ]
+    },
+    {
+      "id": "saitama",
+      "name": "埼玉県",
+      "aliases": [
+        "さいたま",
+        "埼玉"
+      ]
+    },
+    {
+      "id": "chiba",
+      "name": "千葉県",
+      "aliases": [
+        "ちば",
+        "千葉"
+      ]
+    },
+    {
+      "id": "tokyo",
+      "name": "東京都",
+      "aliases": [
+        "とうきょう",
+        "東京"
+      ]
+    },
+    {
+      "id": "kanagawa",
+      "name": "神奈川県",
+      "aliases": [
+        "かながわ",
+        "神奈川"
+      ]
+    },
+    {
+      "id": "shizuoka",
+      "name": "静岡県",
+      "aliases": [
+        "しずおか",
+        "静岡"
+      ]
+    },
+    {
+      "id": "aichi",
+      "name": "愛知県",
+      "aliases": [
+        "あいち",
+        "愛知"
+      ]
+    },
+    {
+      "id": "kyoto",
+      "name": "京都府",
+      "aliases": [
+        "きょうと",
+        "京都"
+      ]
+    },
+    {
+      "id": "osaka",
+      "name": "大阪府",
+      "aliases": [
+        "おおさか",
+        "大阪"
+      ]
+    },
+    {
+      "id": "hyogo",
+      "name": "兵庫県",
+      "aliases": [
+        "ひょうご",
+        "兵庫"
+      ]
+    },
+    {
+      "id": "okayama",
+      "name": "岡山県",
+      "aliases": [
+        "おかやま",
+        "岡山"
+      ]
+    },
+    {
+      "id": "hiroshima",
+      "name": "広島県",
+      "aliases": [
+        "ひろしま",
+        "広島"
+      ]
+    },
+    {
+      "id": "fukuoka",
+      "name": "福岡県",
+      "aliases": [
+        "ふくおか",
+        "福岡"
+      ]
+    },
+    {
+      "id": "nagasaki",
+      "name": "長崎県",
+      "aliases": [
+        "ながさき",
+        "長崎"
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "st-kashima-stadium",
+      "name": "鹿島サッカースタジアム",
+      "kana": "かしまさっかーすたじあむ",
+      "regionId": "ibaraki",
+      "aliases": [
+        "かしまさっかーすたじあむ",
+        "kashima-stadium"
+      ],
+      "sortOrder": 0
+    },
+    {
+      "id": "st-tokai",
+      "name": "東海",
+      "kana": "とうかい",
+      "regionId": "ibaraki",
+      "aliases": [
+        "とうかい",
+        "tokai"
+      ],
+      "sortOrder": 1
+    },
+    {
+      "id": "st-urawamisono",
+      "name": "浦和美園",
+      "kana": "うらわみその",
+      "regionId": "saitama",
+      "aliases": [
+        "うらわみその",
+        "urawamisono"
+      ],
+      "sortOrder": 2
+    },
+    {
+      "id": "st-soga",
+      "name": "蘇我",
+      "kana": "そが",
+      "regionId": "chiba",
+      "aliases": [
+        "そが",
+        "soga"
+      ],
+      "sortOrder": 3
+    },
+    {
+      "id": "st-kashiwa",
+      "name": "柏",
+      "kana": "かしわ",
+      "regionId": "chiba",
+      "aliases": [
+        "かしわ",
+        "kashiwa"
+      ],
+      "sortOrder": 4
+    },
+    {
+      "id": "st-tobitakyu",
+      "name": "飛田給",
+      "kana": "とびたきゅう",
+      "regionId": "tokyo",
+      "aliases": [
+        "とびたきゅう",
+        "tobitakyu"
+      ],
+      "sortOrder": 5
+    },
+    {
+      "id": "st-tama",
+      "name": "多磨",
+      "kana": "たま",
+      "regionId": "tokyo",
+      "aliases": [
+        "たま",
+        "tama"
+      ],
+      "sortOrder": 6
+    },
+    {
+      "id": "st-tsurukawa",
+      "name": "鶴川",
+      "kana": "つるかわ",
+      "regionId": "tokyo",
+      "aliases": [
+        "つるかわ",
+        "tsurukawa"
+      ],
+      "sortOrder": 7
+    },
+    {
+      "id": "st-kokuritsu",
+      "name": "国立競技場",
+      "kana": "こくりつきょうぎじょう",
+      "regionId": "tokyo",
+      "aliases": [
+        "こくりつきょうぎじょう",
+        "kokuritsu"
+      ],
+      "sortOrder": 8
+    },
+    {
+      "id": "st-sendagaya",
+      "name": "千駄ケ谷",
+      "kana": "せんだがや",
+      "regionId": "tokyo",
+      "aliases": [
+        "せんだがや",
+        "sendagaya"
+      ],
+      "sortOrder": 9
+    },
+    {
+      "id": "st-shinanomachi",
+      "name": "信濃町",
+      "kana": "しなのまち",
+      "regionId": "tokyo",
+      "aliases": [
+        "しなのまち",
+        "shinanomachi"
+      ],
+      "sortOrder": 10
+    },
+    {
+      "id": "st-gaienmae",
+      "name": "外苑前",
+      "kana": "がいえんまえ",
+      "regionId": "tokyo",
+      "aliases": [
+        "がいえんまえ",
+        "gaienmae"
+      ],
+      "sortOrder": 11
+    },
+    {
+      "id": "st-kozukue",
+      "name": "小机",
+      "kana": "こづくえ",
+      "regionId": "kanagawa",
+      "aliases": [
+        "こづくえ",
+        "kozukue"
+      ],
+      "sortOrder": 12
+    },
+    {
+      "id": "st-shinyokohama",
+      "name": "新横浜",
+      "kana": "しんよこはま",
+      "regionId": "kanagawa",
+      "aliases": [
+        "しんよこはま",
+        "shinyokohama"
+      ],
+      "sortOrder": 13
+    },
+    {
+      "id": "st-musashi-nakahara",
+      "name": "武蔵中原",
+      "kana": "むさしなかはら",
+      "regionId": "kanagawa",
+      "aliases": [
+        "むさしなかはら",
+        "musashi-nakahara"
+      ],
+      "sortOrder": 14
+    },
+    {
+      "id": "st-shinmaruko",
+      "name": "新丸子",
+      "kana": "しんまるこ",
+      "regionId": "kanagawa",
+      "aliases": [
+        "しんまるこ",
+        "shinmaruko"
+      ],
+      "sortOrder": 15
+    },
+    {
+      "id": "st-musashi-kosugi",
+      "name": "武蔵小杉",
+      "kana": "むさしこすぎ",
+      "regionId": "kanagawa",
+      "aliases": [
+        "むさしこすぎ",
+        "musashi-kosugi"
+      ],
+      "sortOrder": 16
+    },
+    {
+      "id": "st-shimizu",
+      "name": "清水",
+      "kana": "しみず",
+      "regionId": "shizuoka",
+      "aliases": [
+        "しみず",
+        "shimizu"
+      ],
+      "sortOrder": 17
+    },
+    {
+      "id": "st-toyotashi",
+      "name": "豊田市",
+      "kana": "とよたし",
+      "regionId": "aichi",
+      "aliases": [
+        "とよたし",
+        "toyotashi"
+      ],
+      "sortOrder": 18
+    },
+    {
+      "id": "st-shintoyota",
+      "name": "新豊田",
+      "kana": "しんとよた",
+      "regionId": "aichi",
+      "aliases": [
+        "しんとよた",
+        "shintoyota"
+      ],
+      "sortOrder": 19
+    },
+    {
+      "id": "st-mizuho-higashi",
+      "name": "瑞穂運動場東",
+      "kana": "みずほうんどうじょうひがし",
+      "regionId": "aichi",
+      "aliases": [
+        "みずほうんどうじょうひがし",
+        "mizuho-higashi"
+      ],
+      "sortOrder": 20
+    },
+    {
+      "id": "st-mizuho-nishi",
+      "name": "瑞穂運動場西",
+      "kana": "みずほうんどうじょうにし",
+      "regionId": "aichi",
+      "aliases": [
+        "みずほうんどうじょうにし",
+        "mizuho-nishi"
+      ],
+      "sortOrder": 21
+    },
+    {
+      "id": "st-aratamabashi",
+      "name": "新瑞橋",
+      "kana": "あらたまばし",
+      "regionId": "aichi",
+      "aliases": [
+        "あらたまばし",
+        "aratamabashi"
+      ],
+      "sortOrder": 22
+    },
+    {
+      "id": "st-kameoka",
+      "name": "亀岡",
+      "kana": "かめおか",
+      "regionId": "kyoto",
+      "aliases": [
+        "かめおか",
+        "kameoka"
+      ],
+      "sortOrder": 23
+    },
+    {
+      "id": "st-banpaku",
+      "name": "万博記念公園",
+      "kana": "ばんぱくきねんこうえん",
+      "regionId": "osaka",
+      "aliases": [
+        "ばんぱくきねんこうえん",
+        "banpaku"
+      ],
+      "sortOrder": 24
+    },
+    {
+      "id": "st-tsurugaoka",
+      "name": "鶴ケ丘",
+      "kana": "つるがおか",
+      "regionId": "osaka",
+      "aliases": [
+        "つるがおか",
+        "tsurugaoka"
+      ],
+      "sortOrder": 25
+    },
+    {
+      "id": "st-nagai",
+      "name": "長居",
+      "kana": "ながい",
+      "regionId": "osaka",
+      "aliases": [
+        "ながい",
+        "nagai"
+      ],
+      "sortOrder": 26
+    },
+    {
+      "id": "st-nishitanabe",
+      "name": "西田辺",
+      "kana": "にしたなべ",
+      "regionId": "osaka",
+      "aliases": [
+        "にしたなべ",
+        "nishitanabe"
+      ],
+      "sortOrder": 27
+    },
+    {
+      "id": "st-harinakano",
+      "name": "針中野",
+      "kana": "はりなかの",
+      "regionId": "osaka",
+      "aliases": [
+        "はりなかの",
+        "harinakano"
+      ],
+      "sortOrder": 28
+    },
+    {
+      "id": "st-misakikoen",
+      "name": "御崎公園",
+      "kana": "みさきこうえん",
+      "regionId": "hyogo",
+      "aliases": [
+        "みさきこうえん",
+        "misakikoen"
+      ],
+      "sortOrder": 29
+    },
+    {
+      "id": "st-okayama",
+      "name": "岡山",
+      "kana": "おかやま",
+      "regionId": "okayama",
+      "aliases": [
+        "おかやま",
+        "okayama"
+      ],
+      "sortOrder": 30
+    },
+    {
+      "id": "st-johoku",
+      "name": "城北",
+      "kana": "じょうほく",
+      "regionId": "hiroshima",
+      "aliases": [
+        "じょうほく",
+        "johoku"
+      ],
+      "sortOrder": 31
+    },
+    {
+      "id": "st-kenchomae",
+      "name": "県庁前",
+      "kana": "けんちょうまえ",
+      "regionId": "hiroshima",
+      "aliases": [
+        "けんちょうまえ",
+        "kenchomae"
+      ],
+      "sortOrder": 32
+    },
+    {
+      "id": "st-genbaku-dome",
+      "name": "原爆ドーム前",
+      "kana": "げんばくどーむまえ",
+      "regionId": "hiroshima",
+      "aliases": [
+        "げんばくどーむまえ",
+        "genbaku-dome"
+      ],
+      "sortOrder": 33
+    },
+    {
+      "id": "st-shinhakushima",
+      "name": "新白島",
+      "kana": "しんはくしま",
+      "regionId": "hiroshima",
+      "aliases": [
+        "しんはくしま",
+        "shinhakushima"
+      ],
+      "sortOrder": 34
+    },
+    {
+      "id": "st-fukuoka-airport",
+      "name": "福岡空港",
+      "kana": "ふくおかくうこう",
+      "regionId": "fukuoka",
+      "aliases": [
+        "ふくおかくうこう",
+        "fukuoka-airport"
+      ],
+      "sortOrder": 35
+    },
+    {
+      "id": "st-stadium-city-north",
+      "name": "スタジアムシティノース",
+      "kana": "すたじあむしてぃのーす",
+      "regionId": "nagasaki",
+      "aliases": [
+        "すたじあむしてぃのーす",
+        "stadium-city-north"
+      ],
+      "sortOrder": 36
+    },
+    {
+      "id": "st-urakami",
+      "name": "浦上",
+      "kana": "うらかみ",
+      "regionId": "nagasaki",
+      "aliases": [
+        "うらかみ",
+        "urakami"
+      ],
+      "sortOrder": 37
+    },
+    {
+      "id": "st-nagasaki",
+      "name": "長崎",
+      "kana": "ながさき",
+      "regionId": "nagasaki",
+      "aliases": [
+        "ながさき",
+        "nagasaki"
+      ],
+      "sortOrder": 38
+    }
+  ],
+  "stadiums": [
+    {
+      "id": "sd-kashima",
+      "name": "メルカリスタジアム",
+      "regionId": "ibaraki",
+      "aliases": [
+        "カシマ",
+        "メルスタ",
+        "県立カシマサッカースタジアム",
+        "鹿島アントラーズ"
+      ],
+      "accessSourceId": "src-access-kashima",
+      "accessUrl": "https://www.rintetsu.co.jp/route_map/kashima-stadium"
+    },
+    {
+      "id": "sd-kasamatsu",
+      "name": "水戸信用金庫スタジアム",
+      "regionId": "ibaraki",
+      "aliases": [
+        "水戸信ス",
+        "笠松運動公園",
+        "笠松",
+        "水戸ホーリーホック"
+      ],
+      "accessSourceId": "src-access-kasamatsu",
+      "accessUrl": "https://www.mito-hollyhock.net/news/p%3D55591/"
+    },
+    {
+      "id": "sd-saitama",
+      "name": "埼玉スタジアム2002",
+      "regionId": "saitama",
+      "aliases": [
+        "埼玉",
+        "埼スタ",
+        "埼玉スタジアム２００２",
+        "浦和レッズ"
+      ],
+      "accessSourceId": "src-access-saitama",
+      "accessUrl": "https://www.stadium2002.com/access.html"
+    },
+    {
+      "id": "sd-fukuari",
+      "name": "フクダ電子アリーナ",
+      "regionId": "chiba",
+      "aliases": [
+        "フクアリ",
+        "ジェフユナイテッド千葉"
+      ],
+      "accessSourceId": "src-access-fukuari",
+      "accessUrl": "https://jefunited.co.jp/stadium/access/"
+    },
+    {
+      "id": "sd-kashiwa",
+      "name": "三協フロンテア柏スタジアム",
+      "regionId": "chiba",
+      "aliases": [
+        "三協Ｆ柏",
+        "三協F柏",
+        "日立台",
+        "柏レイソル"
+      ],
+      "accessSourceId": "src-access-kashiwa",
+      "accessUrl": "https://reysol.co.jp/game/beginnersguide/"
+    },
+    {
+      "id": "sd-ajino",
+      "name": "味の素スタジアム",
+      "regionId": "tokyo",
+      "aliases": [
+        "味スタ",
+        "東京スタジアム",
+        "ＦＣ東京",
+        "東京ヴェルディ"
+      ],
+      "accessSourceId": "src-access-ajino",
+      "accessUrl": "https://www.ajinomotostadium.com/access/"
+    },
+    {
+      "id": "sd-machida",
+      "name": "町田GIONスタジアム",
+      "regionId": "tokyo",
+      "aliases": [
+        "町田ＧＩＯＮスタジアム",
+        "Ｇスタ",
+        "Gスタ",
+        "野津田",
+        "ＦＣ町田ゼルビア"
+      ],
+      "accessSourceId": "src-access-machida",
+      "accessUrl": "https://www.nozuta-park.com/access.html"
+    },
+    {
+      "id": "sd-kokuritsu",
+      "name": "MUFGスタジアム",
+      "regionId": "tokyo",
+      "aliases": [
+        "ＭＵＦＧスタジアム",
+        "国立競技場",
+        "MUFG国立"
+      ],
+      "accessSourceId": "src-access-kokuritsu",
+      "accessUrl": "https://jns-e.com/access/"
+    },
+    {
+      "id": "sd-nissan",
+      "name": "日産スタジアム",
+      "regionId": "kanagawa",
+      "aliases": [
+        "日産ス",
+        "横浜国際総合競技場",
+        "横浜Ｆ・マリノス"
+      ],
+      "accessSourceId": "src-access-nissan",
+      "accessUrl": "https://www.nissan-stadium.jp/access/train.php"
+    },
+    {
+      "id": "sd-todoroki",
+      "name": "Uvanceとどろきスタジアム by Fujitsu",
+      "regionId": "kanagawa",
+      "aliases": [
+        "Ｕｖａｎｃｅとどろきスタジアム　ｂｙ　Ｆｕｊｉｔｓｕ",
+        "Ｕ等々力",
+        "U等々力",
+        "等々力",
+        "川崎フロンターレ"
+      ],
+      "accessSourceId": "src-access-todoroki",
+      "accessUrl": "https://www.frontale.co.jp/access/uvance_todoroki.html"
+    },
+    {
+      "id": "sd-nihondaira",
+      "name": "IAIスタジアム日本平",
+      "regionId": "shizuoka",
+      "aliases": [
+        "ＩＡＩスタジアム日本平",
+        "アイスタ",
+        "日本平",
+        "清水エスパルス"
+      ],
+      "accessSourceId": "src-access-nihondaira",
+      "accessUrl": "https://www.s-pulse.co.jp/guides/faq"
+    },
+    {
+      "id": "sd-toyota",
+      "name": "豊田スタジアム",
+      "regionId": "aichi",
+      "aliases": [
+        "豊田ス",
+        "名古屋グランパス"
+      ],
+      "accessSourceId": "src-access-toyota",
+      "accessUrl": "https://www.nagoya-grampus.jp/stadium/toyota-stadium/access.html"
+    },
+    {
+      "id": "sd-mizuho",
+      "name": "パロマ瑞穂スタジアム",
+      "regionId": "aichi",
+      "aliases": [
+        "パロ瑞穂",
+        "瑞穂"
+      ],
+      "accessSourceId": "src-access-mizuho",
+      "accessUrl": "https://nagoya-grampus.jp/news/game/2026/0414post-2714.php"
+    },
+    {
+      "id": "sd-sanga",
+      "name": "サンガスタジアム by KYOCERA",
+      "regionId": "kyoto",
+      "aliases": [
+        "サンガスタジアム by ＫＹＯＣＥＲＡ",
+        "サンガＳ",
+        "サンガS",
+        "京都サンガF.C."
+      ],
+      "accessSourceId": "src-access-sanga",
+      "accessUrl": "https://sangastadium-by-kyocera.jp/access-parking"
+    },
+    {
+      "id": "sd-panasonic",
+      "name": "パナソニック スタジアム 吹田",
+      "regionId": "osaka",
+      "aliases": [
+        "パナスタ",
+        "Panasonic Stadium Suita",
+        "ガンバ大阪"
+      ],
+      "accessSourceId": "src-access-panasonic",
+      "accessUrl": "https://www.gamba-osaka.net/c/stadium/access.html"
+    },
+    {
+      "id": "sd-hanasaka",
+      "name": "YANMAR HANASAKA STADIUM",
+      "regionId": "osaka",
+      "aliases": [
+        "ハナサカ",
+        "ヨドコウ桜スタジアム",
+        "ヤンマーハナサカスタジアム",
+        "セレッソ大阪"
+      ],
+      "accessSourceId": "src-access-hanasaka",
+      "accessUrl": "https://www.cerezo.jp/stadium/"
+    },
+    {
+      "id": "sd-nagai",
+      "name": "ヤンマースタジアム長居",
+      "regionId": "osaka",
+      "aliases": [
+        "ヤンマー",
+        "長居陸上競技場"
+      ],
+      "accessSourceId": "src-access-nagai",
+      "accessUrl": "https://nagaipark.com/access/"
+    },
+    {
+      "id": "sd-noevir",
+      "name": "ノエビアスタジアム神戸",
+      "regionId": "hyogo",
+      "aliases": [
+        "ノエスタ",
+        "ヴィッセル神戸"
+      ],
+      "accessSourceId": "src-access-noevir",
+      "accessUrl": "https://www.noevir-stadium.jp/access/"
+    },
+    {
+      "id": "sd-okayama",
+      "name": "JFE晴れの国スタジアム",
+      "regionId": "okayama",
+      "aliases": [
+        "ＪＦＥ晴れの国スタジアム",
+        "ＪＦＥス",
+        "JFEス",
+        "シティライトスタジアム",
+        "ファジアーノ岡山"
+      ],
+      "accessSourceId": "src-access-okayama",
+      "accessUrl": "https://www.fagiano-okayama.com/stadium/car/"
+    },
+    {
+      "id": "sd-hiroshima",
+      "name": "エディオンピースウイング広島",
+      "regionId": "hiroshima",
+      "aliases": [
+        "Ｅピース",
+        "Eピース",
+        "サンフレッチェ広島"
+      ],
+      "accessSourceId": "src-access-hiroshima",
+      "accessUrl": "https://www.sanfrecce.co.jp/games/stadium/access"
+    },
+    {
+      "id": "sd-best-denki",
+      "name": "ベスト電器スタジアム",
+      "regionId": "fukuoka",
+      "aliases": [
+        "ベススタ",
+        "博多の森",
+        "アビスパ福岡"
+      ],
+      "accessSourceId": "src-access-best-denki",
+      "accessUrl": "https://www.avispa.co.jp/match/stadiumaccess"
+    },
+    {
+      "id": "sd-peace",
+      "name": "PEACE STADIUM Connected by SoftBank",
+      "regionId": "nagasaki",
+      "aliases": [
+        "ピースタ",
+        "長崎スタジアムシティ",
+        "Ｖ・ファーレン長崎"
+      ],
+      "accessSourceId": "src-access-peace",
+      "accessUrl": "https://www.nagasakistadiumcity.com/access/"
+    }
+  ],
+  "accessLinks": [
+    {
+      "stadiumId": "sd-kashima",
+      "stationId": "st-kashima-stadium",
+      "basis": "official_access",
+      "walkMinutes": 2,
+      "accessMode": "walk",
+      "accessNote": "徒歩約2分。ホームゲーム開催日などに臨時停車する駅です。",
+      "sourceId": "src-access-kashima",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-kasamatsu",
+      "stationId": "st-tokai",
+      "basis": "official_access",
+      "walkMinutes": 40,
+      "accessMode": "walk",
+      "accessNote": "徒歩約40分。無料シャトルバスの運行は各試合の案内を確認してください。",
+      "sourceId": "src-access-kasamatsu",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-saitama",
+      "stationId": "st-urawamisono",
+      "basis": "official_access",
+      "walkMinutes": 15,
+      "accessMode": "walk",
+      "accessNote": "徒歩約15分。混雑時の待ち時間は含みません。",
+      "sourceId": "src-access-saitama",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-fukuari",
+      "stationId": "st-soga",
+      "basis": "official_access",
+      "walkMinutes": 8,
+      "accessMode": "walk",
+      "accessNote": "徒歩約8分。混雑時の待ち時間は含みません。",
+      "sourceId": "src-access-fukuari",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-kashiwa",
+      "stationId": "st-kashiwa",
+      "basis": "official_access",
+      "walkMinutes": 20,
+      "accessMode": "walk",
+      "accessNote": "柏駅東口から徒歩約20分。路線バスも利用できます。",
+      "sourceId": "src-access-kashiwa",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-ajino",
+      "stationId": "st-tobitakyu",
+      "basis": "official_access",
+      "walkMinutes": 5,
+      "accessMode": "walk",
+      "accessNote": "徒歩約5分。混雑時の待ち時間は含みません。",
+      "sourceId": "src-access-ajino",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-ajino",
+      "stationId": "st-tama",
+      "basis": "official_access",
+      "walkMinutes": 20,
+      "accessMode": "walk",
+      "accessNote": "徒歩約20分。混雑時の待ち時間は含みません。",
+      "sourceId": "src-access-ajino",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-machida",
+      "stationId": "st-tsurukawa",
+      "basis": "official_access",
+      "walkMinutes": null,
+      "accessMode": "bus",
+      "accessNote": "鶴川駅からバスで野津田車庫へ、下車後徒歩約15〜20分。バス待ちを含む総所要時間は未収録です。",
+      "sourceId": "src-access-machida",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-kokuritsu",
+      "stationId": "st-kokuritsu",
+      "basis": "official_access",
+      "walkMinutes": 1,
+      "accessMode": "walk",
+      "accessNote": "都営大江戸線A2出口から徒歩約1分。",
+      "sourceId": "src-access-kokuritsu",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-kokuritsu",
+      "stationId": "st-sendagaya",
+      "basis": "official_access",
+      "walkMinutes": 5,
+      "accessMode": "walk",
+      "accessNote": "徒歩約5分。混雑時の待ち時間は含みません。",
+      "sourceId": "src-access-kokuritsu",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-kokuritsu",
+      "stationId": "st-shinanomachi",
+      "basis": "official_access",
+      "walkMinutes": 5,
+      "accessMode": "walk",
+      "accessNote": "徒歩約5分。混雑時の待ち時間は含みません。",
+      "sourceId": "src-access-kokuritsu",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-kokuritsu",
+      "stationId": "st-gaienmae",
+      "basis": "official_access",
+      "walkMinutes": 9,
+      "accessMode": "walk",
+      "accessNote": "東京メトロ銀座線3番出口から徒歩約9分。",
+      "sourceId": "src-access-kokuritsu",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-nissan",
+      "stationId": "st-kozukue",
+      "basis": "official_access",
+      "walkMinutes": null,
+      "accessMode": "walk",
+      "accessNote": "JR横浜線。公式サイトの徒歩ルートを確認してください。",
+      "sourceId": "src-access-nissan",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-nissan",
+      "stationId": "st-shinyokohama",
+      "basis": "official_access",
+      "walkMinutes": null,
+      "accessMode": "walk",
+      "accessNote": "JR・地下鉄・相鉄・東急。利用路線と入場ゲートで徒歩時間が異なります。",
+      "sourceId": "src-access-nissan",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-todoroki",
+      "stationId": "st-musashi-nakahara",
+      "basis": "official_access",
+      "walkMinutes": 15,
+      "accessMode": "walk",
+      "accessNote": "徒歩約15分。混雑時の待ち時間は含みません。",
+      "sourceId": "src-access-todoroki",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-todoroki",
+      "stationId": "st-shinmaruko",
+      "basis": "official_access",
+      "walkMinutes": 15,
+      "accessMode": "walk",
+      "accessNote": "徒歩約15分。混雑時の待ち時間は含みません。",
+      "sourceId": "src-access-todoroki",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-todoroki",
+      "stationId": "st-musashi-kosugi",
+      "basis": "official_access",
+      "walkMinutes": null,
+      "accessMode": "walk",
+      "accessNote": "徒歩または路線バス。利用出口・路線により所要時間が異なります。",
+      "sourceId": "src-access-todoroki",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-nihondaira",
+      "stationId": "st-shimizu",
+      "basis": "official_access",
+      "walkMinutes": null,
+      "accessMode": "bus",
+      "accessNote": "JR清水駅からシャトルバス。運行時刻・乗り場は各試合の公式案内を確認してください。",
+      "sourceId": "src-access-nihondaira",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-toyota",
+      "stationId": "st-toyotashi",
+      "basis": "official_access",
+      "walkMinutes": 17,
+      "accessMode": "walk",
+      "accessNote": "徒歩約17分。混雑時の待ち時間は含みません。",
+      "sourceId": "src-access-toyota",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-toyota",
+      "stationId": "st-shintoyota",
+      "basis": "official_access",
+      "walkMinutes": 21,
+      "accessMode": "walk",
+      "accessNote": "徒歩約21分。混雑時の待ち時間は含みません。",
+      "sourceId": "src-access-toyota",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-mizuho",
+      "stationId": "st-mizuho-higashi",
+      "basis": "official_access",
+      "walkMinutes": null,
+      "accessMode": "walk",
+      "accessNote": "地下鉄名城線。入場ゲート別の経路は公式案内を確認してください。",
+      "sourceId": "src-access-mizuho",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-mizuho",
+      "stationId": "st-mizuho-nishi",
+      "basis": "official_access",
+      "walkMinutes": null,
+      "accessMode": "walk",
+      "accessNote": "地下鉄桜通線。入場ゲート別の経路は公式案内を確認してください。",
+      "sourceId": "src-access-mizuho",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-mizuho",
+      "stationId": "st-aratamabashi",
+      "basis": "official_access",
+      "walkMinutes": null,
+      "accessMode": "walk",
+      "accessNote": "地下鉄名城線・桜通線。入場ゲート別の経路は公式案内を確認してください。",
+      "sourceId": "src-access-mizuho",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-sanga",
+      "stationId": "st-kameoka",
+      "basis": "official_access",
+      "walkMinutes": 3,
+      "accessMode": "walk",
+      "accessNote": "徒歩約3分。混雑時の待ち時間は含みません。",
+      "sourceId": "src-access-sanga",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-panasonic",
+      "stationId": "st-banpaku",
+      "basis": "official_access",
+      "walkMinutes": 15,
+      "accessMode": "walk",
+      "accessNote": "大阪モノレール。徒歩約15分。クラブ指定の推奨ルートを利用してください。",
+      "sourceId": "src-access-panasonic",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-hanasaka",
+      "stationId": "st-tsurugaoka",
+      "basis": "official_access",
+      "walkMinutes": 5,
+      "accessMode": "walk",
+      "accessNote": "徒歩約5分。混雑時の待ち時間は含みません。",
+      "sourceId": "src-access-hanasaka",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-hanasaka",
+      "stationId": "st-nagai",
+      "basis": "official_access",
+      "walkMinutes": null,
+      "accessMode": "walk",
+      "accessNote": "地下鉄御堂筋線から徒歩約7分、JR阪和線から徒歩約8分。",
+      "sourceId": "src-access-hanasaka",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-hanasaka",
+      "stationId": "st-nishitanabe",
+      "basis": "official_access",
+      "walkMinutes": 7,
+      "accessMode": "walk",
+      "accessNote": "徒歩約7分。混雑時の待ち時間は含みません。",
+      "sourceId": "src-access-hanasaka",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-hanasaka",
+      "stationId": "st-harinakano",
+      "basis": "official_access",
+      "walkMinutes": 20,
+      "accessMode": "walk",
+      "accessNote": "徒歩約20分。混雑時の待ち時間は含みません。",
+      "sourceId": "src-access-hanasaka",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-nagai",
+      "stationId": "st-nagai",
+      "basis": "official_access",
+      "walkMinutes": null,
+      "accessMode": "walk",
+      "accessNote": "地下鉄御堂筋線またはJR阪和線。公式案内の徒歩時間は公園入口までのため、スタジアムまでの時間は未収録です。",
+      "sourceId": "src-access-nagai",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-nagai",
+      "stationId": "st-tsurugaoka",
+      "basis": "official_access",
+      "walkMinutes": null,
+      "accessMode": "walk",
+      "accessNote": "JR阪和線。公園入口からスタジアムまでの移動時間は未収録です。",
+      "sourceId": "src-access-nagai",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-noevir",
+      "stationId": "st-misakikoen",
+      "basis": "official_access",
+      "walkMinutes": 5,
+      "accessMode": "walk",
+      "accessNote": "徒歩約5分。混雑時の待ち時間は含みません。",
+      "sourceId": "src-access-noevir",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-okayama",
+      "stationId": "st-okayama",
+      "basis": "official_access",
+      "walkMinutes": 20,
+      "accessMode": "walk",
+      "accessNote": "JR岡山駅運動公園口（西口）から徒歩約20分。",
+      "sourceId": "src-access-okayama",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-hiroshima",
+      "stationId": "st-johoku",
+      "basis": "official_access",
+      "walkMinutes": null,
+      "accessMode": "walk",
+      "accessNote": "アストラムライン。広島城側から東側デッキへ進む公式ルートを確認してください。",
+      "sourceId": "src-access-hiroshima",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-hiroshima",
+      "stationId": "st-kenchomae",
+      "basis": "official_access",
+      "walkMinutes": null,
+      "accessMode": "walk",
+      "accessNote": "アストラムライン。南側デッキを利用します。",
+      "sourceId": "src-access-hiroshima",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-hiroshima",
+      "stationId": "st-genbaku-dome",
+      "basis": "official_access",
+      "walkMinutes": null,
+      "accessMode": "walk",
+      "accessNote": "広島電鉄の電停。南側デッキを利用します。",
+      "sourceId": "src-access-hiroshima",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-hiroshima",
+      "stationId": "st-shinhakushima",
+      "basis": "official_access",
+      "walkMinutes": 15,
+      "accessMode": "walk",
+      "accessNote": "JR・アストラムライン。徒歩約15分。公式の歩行者ルートを確認してください。",
+      "sourceId": "src-access-hiroshima",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-best-denki",
+      "stationId": "st-fukuoka-airport",
+      "basis": "official_access",
+      "walkMinutes": null,
+      "accessMode": "walk",
+      "accessNote": "地下鉄福岡空港駅から徒歩またはバス。公式のルートと試合ごとのバス案内を確認してください。",
+      "sourceId": "src-access-best-denki",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-peace",
+      "stationId": "st-stadium-city-north",
+      "basis": "official_access",
+      "walkMinutes": 3,
+      "accessMode": "walk",
+      "accessNote": "長崎電気軌道の電停。ノース入口まで徒歩約3分。スタジアムのゲートまでの移動は別途必要です。",
+      "sourceId": "src-access-peace",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-peace",
+      "stationId": "st-urakami",
+      "basis": "official_access",
+      "walkMinutes": 8,
+      "accessMode": "walk",
+      "accessNote": "JR浦上駅からノース入口まで徒歩約8分。",
+      "sourceId": "src-access-peace",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "stadiumId": "sd-peace",
+      "stationId": "st-nagasaki",
+      "basis": "official_access",
+      "walkMinutes": 10,
+      "accessMode": "walk",
+      "accessNote": "JR長崎駅からノース入口まで徒歩約10分。",
+      "sourceId": "src-access-peace",
+      "checkedOn": "2026-10-29"
+    }
+  ],
+  "teams": [
+    {
+      "id": "team-kashima",
+      "name": "鹿島アントラーズ",
+      "defaultStadiumId": "sd-kashima",
+      "isDemo": false
+    },
+    {
+      "id": "team-mito",
+      "name": "水戸ホーリーホック",
+      "defaultStadiumId": "sd-kasamatsu",
+      "isDemo": false
+    },
+    {
+      "id": "team-urawa",
+      "name": "浦和レッズ",
+      "defaultStadiumId": "sd-saitama",
+      "isDemo": false
+    },
+    {
+      "id": "team-chiba",
+      "name": "ジェフユナイテッド千葉",
+      "defaultStadiumId": "sd-fukuari",
+      "isDemo": false
+    },
+    {
+      "id": "team-kashiwa",
+      "name": "柏レイソル",
+      "defaultStadiumId": "sd-kashiwa",
+      "isDemo": false
+    },
+    {
+      "id": "team-fctokyo",
+      "name": "ＦＣ東京",
+      "defaultStadiumId": "sd-ajino",
+      "isDemo": false
+    },
+    {
+      "id": "team-tokyov",
+      "name": "東京ヴェルディ",
+      "defaultStadiumId": "sd-ajino",
+      "isDemo": false
+    },
+    {
+      "id": "team-machida",
+      "name": "ＦＣ町田ゼルビア",
+      "defaultStadiumId": "sd-machida",
+      "isDemo": false
+    },
+    {
+      "id": "team-kawasaki",
+      "name": "川崎フロンターレ",
+      "defaultStadiumId": "sd-todoroki",
+      "isDemo": false
+    },
+    {
+      "id": "team-yokohamafm",
+      "name": "横浜Ｆ・マリノス",
+      "defaultStadiumId": "sd-nissan",
+      "isDemo": false
+    },
+    {
+      "id": "team-shimizu",
+      "name": "清水エスパルス",
+      "defaultStadiumId": "sd-nihondaira",
+      "isDemo": false
+    },
+    {
+      "id": "team-nagoya",
+      "name": "名古屋グランパス",
+      "defaultStadiumId": "sd-toyota",
+      "isDemo": false
+    },
+    {
+      "id": "team-kyoto",
+      "name": "京都サンガF.C.",
+      "defaultStadiumId": "sd-sanga",
+      "isDemo": false
+    },
+    {
+      "id": "team-gosaka",
+      "name": "ガンバ大阪",
+      "defaultStadiumId": "sd-panasonic",
+      "isDemo": false
+    },
+    {
+      "id": "team-cosaka",
+      "name": "セレッソ大阪",
+      "defaultStadiumId": "sd-hanasaka",
+      "isDemo": false
+    },
+    {
+      "id": "team-kobe",
+      "name": "ヴィッセル神戸",
+      "defaultStadiumId": "sd-noevir",
+      "isDemo": false
+    },
+    {
+      "id": "team-okayama",
+      "name": "ファジアーノ岡山",
+      "defaultStadiumId": "sd-okayama",
+      "isDemo": false
+    },
+    {
+      "id": "team-hiroshima",
+      "name": "サンフレッチェ広島",
+      "defaultStadiumId": "sd-hiroshima",
+      "isDemo": false
+    },
+    {
+      "id": "team-fukuoka",
+      "name": "アビスパ福岡",
+      "defaultStadiumId": "sd-best-denki",
+      "isDemo": false
+    },
+    {
+      "id": "team-nagasaki",
+      "name": "Ｖ・ファーレン長崎",
+      "defaultStadiumId": "sd-peace",
+      "isDemo": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-access-kashima",
+      "title": "メルカリスタジアム 公式アクセス",
+      "url": "https://www.rintetsu.co.jp/route_map/kashima-stadium",
+      "checkedOn": "2026-10-29",
+      "purpose": "venue_station_reference"
+    },
+    {
+      "id": "src-access-kasamatsu",
+      "title": "水戸信用金庫スタジアム 公式アクセス",
+      "url": "https://www.mito-hollyhock.net/news/p%3D55591/",
+      "checkedOn": "2026-10-29",
+      "purpose": "venue_station_reference"
+    },
+    {
+      "id": "src-access-saitama",
+      "title": "埼玉スタジアム2002 公式アクセス",
+      "url": "https://www.stadium2002.com/access.html",
+      "checkedOn": "2026-10-29",
+      "purpose": "venue_station_reference"
+    },
+    {
+      "id": "src-access-fukuari",
+      "title": "フクダ電子アリーナ 公式アクセス",
+      "url": "https://jefunited.co.jp/stadium/access/",
+      "checkedOn": "2026-10-29",
+      "purpose": "venue_station_reference"
+    },
+    {
+      "id": "src-access-kashiwa",
+      "title": "三協フロンテア柏スタジアム 公式アクセス",
+      "url": "https://reysol.co.jp/game/beginnersguide/",
+      "checkedOn": "2026-10-29",
+      "purpose": "venue_station_reference"
+    },
+    {
+      "id": "src-access-ajino",
+      "title": "味の素スタジアム 公式アクセス",
+      "url": "https://www.ajinomotostadium.com/access/",
+      "checkedOn": "2026-10-29",
+      "purpose": "venue_station_reference"
+    },
+    {
+      "id": "src-access-machida",
+      "title": "町田GIONスタジアム 公式アクセス",
+      "url": "https://www.nozuta-park.com/access.html",
+      "checkedOn": "2026-10-29",
+      "purpose": "venue_station_reference"
+    },
+    {
+      "id": "src-access-kokuritsu",
+      "title": "MUFGスタジアム 公式アクセス",
+      "url": "https://jns-e.com/access/",
+      "checkedOn": "2026-10-29",
+      "purpose": "venue_station_reference"
+    },
+    {
+      "id": "src-access-nissan",
+      "title": "日産スタジアム 公式アクセス",
+      "url": "https://www.nissan-stadium.jp/access/train.php",
+      "checkedOn": "2026-10-29",
+      "purpose": "venue_station_reference"
+    },
+    {
+      "id": "src-access-todoroki",
+      "title": "Uvanceとどろきスタジアム by Fujitsu 公式アクセス",
+      "url": "https://www.frontale.co.jp/access/uvance_todoroki.html",
+      "checkedOn": "2026-10-29",
+      "purpose": "venue_station_reference"
+    },
+    {
+      "id": "src-access-nihondaira",
+      "title": "IAIスタジアム日本平 公式アクセス",
+      "url": "https://www.s-pulse.co.jp/guides/faq",
+      "checkedOn": "2026-10-29",
+      "purpose": "venue_station_reference"
+    },
+    {
+      "id": "src-access-toyota",
+      "title": "豊田スタジアム 公式アクセス",
+      "url": "https://www.nagoya-grampus.jp/stadium/toyota-stadium/access.html",
+      "checkedOn": "2026-10-29",
+      "purpose": "venue_station_reference"
+    },
+    {
+      "id": "src-access-mizuho",
+      "title": "パロマ瑞穂スタジアム 公式アクセス",
+      "url": "https://nagoya-grampus.jp/news/game/2026/0414post-2714.php",
+      "checkedOn": "2026-10-29",
+      "purpose": "venue_station_reference"
+    },
+    {
+      "id": "src-access-sanga",
+      "title": "サンガスタジアム by KYOCERA 公式アクセス",
+      "url": "https://sangastadium-by-kyocera.jp/access-parking",
+      "checkedOn": "2026-10-29",
+      "purpose": "venue_station_reference"
+    },
+    {
+      "id": "src-access-panasonic",
+      "title": "パナソニック スタジアム 吹田 公式アクセス",
+      "url": "https://www.gamba-osaka.net/c/stadium/access.html",
+      "checkedOn": "2026-10-29",
+      "purpose": "venue_station_reference"
+    },
+    {
+      "id": "src-access-hanasaka",
+      "title": "YANMAR HANASAKA STADIUM 公式アクセス",
+      "url": "https://www.cerezo.jp/stadium/",
+      "checkedOn": "2026-10-29",
+      "purpose": "venue_station_reference"
+    },
+    {
+      "id": "src-access-nagai",
+      "title": "ヤンマースタジアム長居 公式アクセス",
+      "url": "https://nagaipark.com/access/",
+      "checkedOn": "2026-10-29",
+      "purpose": "venue_station_reference"
+    },
+    {
+      "id": "src-access-noevir",
+      "title": "ノエビアスタジアム神戸 公式アクセス",
+      "url": "https://www.noevir-stadium.jp/access/",
+      "checkedOn": "2026-10-29",
+      "purpose": "venue_station_reference"
+    },
+    {
+      "id": "src-access-okayama",
+      "title": "JFE晴れの国スタジアム 公式アクセス",
+      "url": "https://www.fagiano-okayama.com/stadium/car/",
+      "checkedOn": "2026-10-29",
+      "purpose": "venue_station_reference"
+    },
+    {
+      "id": "src-access-hiroshima",
+      "title": "エディオンピースウイング広島 公式アクセス",
+      "url": "https://www.sanfrecce.co.jp/games/stadium/access",
+      "checkedOn": "2026-10-29",
+      "purpose": "venue_station_reference"
+    },
+    {
+      "id": "src-access-best-denki",
+      "title": "ベスト電器スタジアム 公式アクセス",
+      "url": "https://www.avispa.co.jp/match/stadiumaccess",
+      "checkedOn": "2026-10-29",
+      "purpose": "venue_station_reference"
+    },
+    {
+      "id": "src-access-peace",
+      "title": "PEACE STADIUM Connected by SoftBank 公式アクセス",
+      "url": "https://www.nagasakistadiumcity.com/access/",
+      "checkedOn": "2026-10-29",
+      "purpose": "venue_station_reference"
+    }
+  ]
+}

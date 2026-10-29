@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-10-29",
+  "reviewedRuleVersion": "reference-early-departure-v2",
+  "reviewedRules": {"arrivalStartBeforeMinutes": 150, "arrivalEndBeforeMinutes": 15, "matchEndEarliestAfterMinutes": 110, "matchEndLatestAfterMinutes": 130, "departureTailMinutes": 90, "earlyDepartureAfterMinutes": 60},
+  "baselineReview": {
+    "ruleVersion": "reference-unvalidated-v1",
+    "rules": {"arrivalStartBeforeMinutes": 150, "arrivalEndBeforeMinutes": 15, "matchEndEarliestAfterMinutes": 110, "matchEndLatestAfterMinutes": 130, "departureTailMinutes": 90}
+  },
+  "sources": [
+    {
+      "id": "time-jstats-2025",
+      "title": "J STATS REPORT 2025：試合時間のシーズン推移",
+      "publisher": "Jリーグ",
+      "url": "https://www.jleague.jp/img/pdf/33433_01.pdf#page=18",
+      "period": "2021〜2025年のJ1各シーズン",
+      "kind": "公式集計",
+      "location": "冊子34ページ・PDF18ページ左上",
+      "finding": "J1の平均試合時間は98分18秒、98分11秒、99分30秒、100分45秒、100分30秒。",
+      "use": "試合時間にハーフタイムを加え、現在の終了見込み110〜130分と比較しました。",
+      "limitation": "シーズンごとの平均値です。個々の試合の最短・最長、分位点、駅の混雑時間は分かりません。APTは別の指標で、今回の計算には使いません。"
+    },
+    {
+      "id": "time-jleague-rules",
+      "title": "サッカーの試合時間・タイムルール",
+      "publisher": "Jリーグ",
+      "url": "https://www.jleague.jp/a-to-z/game_time/",
+      "period": "2026-10-29に確認した公式解説",
+      "kind": "競技時間の説明",
+      "location": "「プロサッカーの試合時間は90分」",
+      "finding": "前後半は各45分、ハーフタイムは15分。試合にはアディショナルタイムが加わります。",
+      "use": "統計の試合時間と実際の経過時間を区別し、15分を加算する根拠にしました。",
+      "limitation": "混雑や退場の実測資料ではありません。延長、中断、実際の再開遅れはこの加算だけでは扱えません。"
+    },
+    {
+      "id": "time-todoroki-2024",
+      "title": "人流・決済データを活用したスポーツ施設の影響分析",
+      "publisher": "日本経済研究所・川崎フロンターレ・インテージ・JCBの共同調査",
+      "url": "https://www.jeri.or.jp/wp-content/uploads/2025/06/202508-09_06_report.pdf#page=25",
+      "relatedUrl": "https://www.jeri.or.jp/survey/202508-09_06/",
+      "period": "等々力周辺・2024年3〜10月。資料公表2025-06-27",
+      "kind": "基地局データによる人流推計",
+      "location": "資料7〜10、24〜28ページ（表紙を含むPDFでは各1ページ後）",
+      "finding": "駅周辺の人流は開始1時間前がピーク。開始4時間後まで減少する様子が報告され、昼と夜でも傾向が異なります。",
+      "use": "来場帯が報告されたピークを含むか確認し、帰宅帯の終端を検証できるか検討しました。",
+      "limitation": "約500m四方・1時間単位のエリア推計です。改札通過人数や待ち時間ではなく、5分単位の境界や全国共通の範囲は検証できません。"
+    },
+    {
+      "id": "time-kokuritsu-2024",
+      "title": "FC東京・国立競技場でのナガレミル人流観測",
+      "publisher": "岡谷エレクトロニクス／FC東京の実証事例",
+      "url": "https://www.oec.okaya.co.jp/solution/nagaremiru/jirei/cs-nagaremiru-fctokyo-kokuritsu/",
+      "period": "2024-09-14 FC東京対名古屋、国立競技場",
+      "kind": "ゲートのLiDAR実測",
+      "location": "「実施概要」「実施結果」、ベクトル総研の分析コメント",
+      "finding": "19時開始・21時終了の事例で、終了約1時間前から退場を確認。21:00〜21:09の千駄ヶ谷方面ゲートは約2,300人、22時に退場完了と報告されています。",
+      "use": "旧計算に含まれない早期退場を確認しました。この事例を参考に、J1の退場開始の仮定を開始60分後へ見直し、駅の帰宅時間帯には公式徒歩分数を加えます。",
+      "limitation": "1試合のゲート計測です。駅到着の時刻や全国の分布へ直接置き換えられず、資料も傾向の再現性を未確認としています。"
+    },
+    {
+      "id": "time-ajino-20250525",
+      "title": "東京ヴェルディ対京都：飛田給駅の臨時停車案内",
+      "publisher": "味の素スタジアム",
+      "url": "https://www.ajinomotostadium.com/schedule/2025/0525_9009.php",
+      "period": "2025-05-25 J1第18節・15:00開始",
+      "kind": "公表された運行計画",
+      "location": "「交通臨時便（開始前・終了後）」の上下線時刻表",
+      "finding": "試合前の駅到着13本、試合後の駅出発11本の臨時停車時刻を確認しました。",
+      "use": "当日の開始時刻と徒歩5分を使い、現行の時間帯に各列車の時刻が含まれるか照合しました。",
+      "limitation": "列車の運行計画であり、実際の運行実績や乗客数・混雑の観測値ではありません。通常列車は含みません。"
+    },
+    {
+      "id": "time-ajino-20250614",
+      "title": "FC東京対C大阪：飛田給駅の臨時停車案内",
+      "publisher": "味の素スタジアム",
+      "url": "https://www.ajinomotostadium.com/schedule/2025/0614_9010.php",
+      "period": "2025-06-14 J1第20節・19:00開始",
+      "kind": "公表された運行計画",
+      "location": "「交通臨時便（開始前・終了後）」の上下線時刻表",
+      "finding": "試合前の駅到着14本、試合後の駅出発11本の臨時停車時刻を確認しました。",
+      "use": "昼開催の例とは別に、夜開催でも現行の時間帯との包含関係を確認しました。",
+      "limitation": "列車の運行計画です。含まれる本数の割合を混雑予測の的中率として扱いません。2試合とも同じ会場・同じ駅です。"
+    },
+    {
+      "id": "time-kobe-experiment",
+      "title": "スポーツイベントにおける混雑緩和のための人流制御技術開発",
+      "publisher": "デンソーテン",
+      "url": "https://www.denso-ten.com/jp/technicalreview/vol4/2/index.html",
+      "period": "ノエビアスタジアム神戸での実証。Web概要には対象試合の全日付の記載なし",
+      "kind": "分散退場施策の実証",
+      "location": "「取組紹介：困ってMaaS」",
+      "finding": "施策の利用者では、試合後のスタジアム滞在が約30分長くなったと報告されています。",
+      "use": "退場後の時間幅が運営施策でも変わり、90分を一律の実測値として扱えないことの参考にしました。",
+      "limitation": "施策の効果を報告する資料です。通常時の全観客の退場分布や、90分という終端の根拠ではありません。"
+    },
+    {
+      "id": "time-aist-2021",
+      "title": "天皇杯第101回大会・準決勝と決勝の調査",
+      "publisher": "産業技術総合研究所",
+      "url": "https://www.aist.go.jp/aist_j/new_research/2022/nr20220322/nr20220322.html",
+      "period": "2021年12月の3試合。発表2022-03-22",
+      "kind": "ゲート・周辺の実測調査",
+      "location": "「概要」「レーザーレーダーによる混雑分析」",
+      "finding": "決勝では試合終了、表彰式、インタビューのタイミングで退場のピークを確認し、分散退場の影響も報告されています。",
+      "use": "試合後イベントが退場時間を変えることを確認しました。数値の校正には使用していません。",
+      "limitation": "J1リーグ戦ではなく、コロナ禍の天皇杯です。現在のJ1へそのまま適用できません。"
+    }
+  ],
+  "duration": {
+    "sourceId": "time-jstats-2025",
+    "halftimeSourceId": "time-jleague-rules",
+    "halftimeSeconds": 900,
+    "seasons": [
+      {"year": 2021, "gameSeconds": 5898},
+      {"year": 2022, "gameSeconds": 5891},
+      {"year": 2023, "gameSeconds": 5970},
+      {"year": 2024, "gameSeconds": 6045},
+      {"year": 2025, "gameSeconds": 6030}
+    ]
+  },
+  "todoroki": {"sourceId": "time-todoroki-2024", "arrivalPeakMinutes": -60, "departureReportedUntilMinutes": 240, "grainMinutes": 60, "stationId": "st-shinmaruko", "stadiumId": "sd-todoroki"},
+  "kokuritsu": {"sourceId": "time-kokuritsu-2024", "date": "2024-09-14", "kickoff": "19:00", "earlyExitMinutes": 60, "endMinutes": 120, "exitCompleteMinutes": 180},
+  "transportCases": [
+    {
+      "sourceId": "time-ajino-20250525", "date": "2025-05-25", "kickoff": "15:00", "stadiumId": "sd-ajino", "stationId": "st-tobitakyu",
+      "arrivalDown": ["13:40", "13:50", "14:00", "14:10", "14:20", "14:30", "14:40"],
+      "arrivalUp": ["13:52", "14:01", "14:11", "14:20", "14:31", "14:41"],
+      "departureDown": ["17:18", "17:29", "17:36", "17:46", "17:59"],
+      "departureUp": ["17:11", "17:20", "17:30", "17:40", "17:51", "18:00"]
+    },
+    {
+      "sourceId": "time-ajino-20250614", "date": "2025-06-14", "kickoff": "19:00", "stadiumId": "sd-ajino", "stationId": "st-tobitakyu",
+      "arrivalDown": ["17:29", "17:36", "17:46", "17:59", "18:08", "18:18", "18:28", "18:36"],
+      "arrivalUp": ["17:51", "18:00", "18:11", "18:20", "18:31", "18:41"],
+      "departureDown": ["21:08", "21:19", "21:28", "21:36", "21:46"],
+      "departureUp": ["21:05", "21:17", "21:29", "21:42", "21:55", "22:05"]
+    }
+  ]
+}

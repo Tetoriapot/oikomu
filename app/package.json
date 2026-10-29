@@ -1,0 +1,31 @@
+{
+  "name": "oikomu-demo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": { "node": "^22.22.2 || ^24.15.0 || >=26.0.0" },
+  "packageManager": "npm@12.2.1",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "data:update": "node scripts/update-j1.mjs",
+    "data:build": "node scripts/update-j1.mjs --offline",
+    "data:collect": "node scripts/collect-j1.mjs",
+    "data:archive": "node scripts/collect-j1.mjs --archive-existing",
+    "verify:time": "node scripts/verify-time.mjs",
+    "build": "npm run typecheck && vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": { "react": "19.3.1", "react-dom": "19.3.1" },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.5",
+    "vitest": "5.0.5"
+  }
+}
