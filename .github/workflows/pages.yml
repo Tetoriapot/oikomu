@@ -29,6 +29,26 @@ jobs:
       collection_failed: ${{ steps.collect.outcome == 'failure' }}
     steps:
       - uses: actions/checkout@v6
+      - name: Import verified project files
+        id: import
+        if: hashFiles('oikomu-release.zip') != ''
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile
+          with ZipFile('oikomu-release.zip') as archive:
+              for name in archive.namelist():
+                  p = Path(name)
+                  if p.is_absolute() or '..' in p.parts or p.parts[0] in {'.git', '.github'}:
+                      raise ValueError(name)
+              archive.extractall('.')
+          Path('oikomu-release.zip').unlink()
+          PY
+          git add .
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Import verified Oikomu application'
+          git push origin HEAD:main
       - uses: actions/setup-node@v6
         with:
           node-version: '24.19.0'
@@ -39,7 +59,7 @@ jobs:
         run: npm ci
       - name: Collect and archive official J1 data
         id: collect
-        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.refresh_data)
+        if: steps.import.outcome == 'success' || github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.refresh_data)
         continue-on-error: true
         working-directory: app
         run: npm run data:collect
@@ -58,7 +78,7 @@ jobs:
         working-directory: app
         run: npm run test:e2e
       - name: Save checked data and collection history
-        if: github.event_name != 'push'
+        if: github.event_name != 'push' || steps.import.outcome == 'success'
         run: |
           git add data/j1.json data/sources/j1-2026-27.json data/collection.json data/history/
           if ! git diff --cached --quiet; then
