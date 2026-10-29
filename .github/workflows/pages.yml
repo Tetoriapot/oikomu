@@ -1,0 +1,115 @@
+name: Update J1 data and publish Pages
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 15 * * *' # 00:00 Asia/Tokyo; GitHub may delay execution.
+  workflow_dispatch:
+    inputs:
+      refresh_data:
+        description: Fetch current J1 schedules before publishing
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: oikomu-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: write
+    outputs:
+      collection_failed: ${{ steps.collect.outcome == 'failure' }}
+    steps:
+      - uses: actions/checkout@v6
+      - name: Import verified project files
+        if: hashFiles('oikomu-release.zip') != ''
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile
+          with ZipFile('oikomu-release.zip') as archive:
+              for name in archive.namelist():
+                  p = Path(name)
+                  if p.is_absolute() or '..' in p.parts or p.parts[0] in {'.git', '.github'}:
+                      raise ValueError(name)
+              archive.extractall('.')
+          Path('oikomu-release.zip').unlink()
+          PY
+          git add .
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Import verified Oikomu application'
+          git push origin HEAD:main
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24.19.0'
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - name: Install locked dependencies
+        working-directory: app
+        run: npm ci
+      - name: Collect and archive official J1 data
+        id: collect
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.refresh_data)
+        continue-on-error: true
+        working-directory: app
+        run: npm run data:collect
+      - name: Validate calculations and build
+        working-directory: app
+        run: |
+          npm test
+          npm run verify:time
+          npm run build
+      - name: Install test browser
+        if: github.event_name == 'push'
+        working-directory: app
+        run: npx playwright install --with-deps chromium
+      - name: Browser regression tests
+        if: github.event_name == 'push'
+        working-directory: app
+        run: npm run test:e2e
+      - name: Save checked data and collection history
+        if: github.event_name != 'push'
+        run: |
+          git add data/j1.json data/sources/j1-2026-27.json data/collection.json data/history/
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Record J1 schedule collection'
+            git push origin HEAD:main
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: app/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  report-collection-failure:
+    needs: [build, deploy]
+    if: always() && needs.build.outputs.collection_failed == 'true' && needs.deploy.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo 'Collection failed. The previous valid data and a failure notice were published.'
+          exit 1
