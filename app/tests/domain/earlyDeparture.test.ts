@@ -4,8 +4,9 @@ import { calculateWindows, clipToDay, mergeWindows } from '../../src/domain/wind
 import { summarizeDay } from '../../src/domain/search';
 import { validateTimeEvidence } from '../../src/data/validateTimeEvidence';
 import evidence from '../../../data/time-evidence.json';
+import { referenceData } from '../fixtures/j1-reference';
 
-const data = getDataset();
+const data = { ...referenceData, rules: getDataset().rules };
 const match = data.matches.find(item => item.id === 'j1-2026-27-fctokyo-kashima')!;
 const link = data.accessLinks.find(item => item.stadiumId === 'sd-ajino' && item.stationId === 'st-tobitakyu')!;
 

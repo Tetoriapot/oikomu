@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test';
+import { expect, test } from './fixtures';
 
 test('revised returns are consistent in search, calendar, station, match and saved favorites', async ({ page }) => {
   await page.goto('/#/search?date=2026-11-07&place=station:st-tobitakyu&view=list');

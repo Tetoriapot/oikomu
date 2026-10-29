@@ -1,4 +1,4 @@
-import { chromium, expect, test } from '@playwright/test';
+import { chromium, expect, test, useReferenceData } from './fixtures';
 import { mkdir, writeFile } from 'node:fs/promises';
 
 test('real data is default, today uses JST and a next match can be opened', async ({ page }) => {
@@ -104,6 +104,7 @@ test('real pages and candidate labels remain readable at 200% browser zoom', asy
   await mkdir(`${profile}/Default`, { recursive: true });
   await writeFile(`${profile}/Default/Preferences`, JSON.stringify({ partition: { default_zoom_level: { x: Math.log(2) / Math.log(1.2) } } }));
   const context = await chromium.launchPersistentContext(profile, { channel: process.env.CI ? 'chromium' : 'msedge', viewport: null, args: ['--window-size=1440,1000'] });
+  await useReferenceData(context);
   try {
     const page = context.pages()[0];
     for (const path of ['/search?date=2026-11-07', '/search?date=2027-02-13&view=calendar', '/stations/st-tsurukawa?date=2026-11-01', '/matches/j1-2026-27-cosaka-gosaka', '/favorites', '/about']) {

@@ -5,10 +5,22 @@ import { calculateWindows } from '../../src/domain/windows';
 import { emptyText, isStale, matchDateText } from '../../src/domain/dataStatus';
 import { parseRoute } from '../../src/app/router';
 import { FAVORITES_KEY, J1_FAVORITES_KEY, loadFavorites, saveFavorites } from '../../src/state/favorites';
+import { referenceData } from '../fixtures/j1-reference';
 
-const data = getDataset();
+const data = referenceData;
 const all = { type: 'all' as const };
 describe('J1 official snapshot', () => {
+  it('validates the latest live dataset independently of historical behavior fixtures', () => {
+    const live = getDataset();
+    expect(live.matches).toHaveLength(380);
+    expect(live.teams).toHaveLength(20);
+    expect(new Set(live.matches.map(match => `${match.homeTeamId}:${match.awayTeamId}`)).size).toBe(380);
+    for (const team of live.teams) {
+      expect(live.matches.filter(match => match.homeTeamId === team.id)).toHaveLength(19);
+      expect(live.matches.filter(match => match.awayTeamId === team.id)).toHaveLength(19);
+    }
+    expect(live.rules).toMatchObject({ earlyDepartureAfterMinutes: 60, validatedForRealUse: false });
+  });
   it('contains all 20 clubs and 380 unique home/away fixtures with official sources', () => {
     expect([data.teams.length, data.matches.length, data.stadiums.length, data.stations.length]).toEqual([20, 380, 22, 39]);
     expect(data.matches.every(m => !m.isDemo && m.sourceId && m.checkedAt)).toBe(true);

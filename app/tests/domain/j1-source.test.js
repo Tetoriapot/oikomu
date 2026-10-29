@@ -2,13 +2,19 @@ import { describe, expect, it } from 'vitest';
 import { readFileSync } from 'node:fs';
 import { buildDataset, noteDates, parseDetailNote, parseSchedule } from '../../scripts/j1-source.mjs';
 import { validateDataset } from '../../src/data/validate';
+import { referenceData, referenceRaw } from '../fixtures/j1-reference';
 
 const read = path => JSON.parse(readFileSync(new URL(path, import.meta.url), 'utf8'));
-const raw = read('../../../data/sources/j1-2026-27.json');
+const raw = referenceRaw;
 const access = read('../../../data/j1-access.json');
-const current = read('../../../data/j1.json');
+const current = referenceData;
 const html = record => `<script>self.__next_f.push(${JSON.stringify([1, '1:' + JSON.stringify(record) + '\n'])})</script>`;
 describe('official source import', () => {
+  it('rebuilds the latest live acquisition without changing it', () => {
+    const liveRaw = read('../../../data/sources/j1-2026-27.json');
+    const liveData = read('../../../data/j1.json');
+    expect(buildDataset(liveRaw, access, liveData, validateDataset)).toEqual(liveData);
+  });
   it('rebuilds the checked-in data without changing IDs or dates', () => expect(buildDataset(raw, access, current, validateDataset)).toEqual(current));
   it('retains early-departure rules when importing from a previous v1 snapshot', () => {
     const previous = structuredClone(current);

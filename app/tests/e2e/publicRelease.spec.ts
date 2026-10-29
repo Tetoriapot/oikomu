@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from './fixtures';
 
 test('header tools preserve context, theme and favorites after reload', async ({ page }) => {
   await page.goto('/#/search?date=2026-11-07&place=station:st-tobitakyu');

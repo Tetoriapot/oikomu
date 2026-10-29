@@ -1,4 +1,4 @@
-import { test, expect, chromium } from '@playwright/test';
+import { test, expect, chromium, useReferenceData } from './fixtures';
 import { mkdir, writeFile } from 'node:fs/promises';
 
 test('time explanation opens evidence, preserves search context and favorites', async ({ page }) => {
@@ -87,6 +87,7 @@ test('evidence and source URLs remain readable at 200% zoom', async ({}, testInf
   await mkdir(`${profile}/Default`, { recursive: true });
   await writeFile(`${profile}/Default/Preferences`, JSON.stringify({ partition: { default_zoom_level: { x: Math.log(2) / Math.log(1.2) } } }));
   const context = await chromium.launchPersistentContext(profile, { channel: process.env.CI ? 'chromium' : 'msedge', viewport: null, args: ['--window-size=1440,1000'] });
+  await useReferenceData(context);
   try {
     const page = context.pages()[0];
     await page.goto('http://127.0.0.1:5187/#/sources');

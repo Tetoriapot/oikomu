@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { gzipSync, gunzipSync } from 'node:zlib';
 import { createHash } from 'node:crypto';
+import { setTimeout as delay } from 'node:timers/promises';
 import { validateDataset } from '../src/data/validate.ts';
 import { validateCollection } from '../src/data/validateCollection.ts';
 
@@ -14,7 +15,14 @@ export async function readCollection(root) {
 export async function writeAtomic(file, bytes) {
   const temp = file + '.pending';
   await fs.writeFile(temp, bytes);
-  await fs.rename(temp, file);
+  for (let attempt = 0; ; attempt++) {
+    try { await fs.rename(temp, file); return; }
+    catch (error) {
+      // Windows scanners can briefly lock a just-written file. Never delete the prior data.
+      if (process.platform !== 'win32' || !['EPERM', 'EACCES', 'EBUSY'].includes(error.code) || attempt >= 4) throw error;
+      await delay(25 * 2 ** attempt);
+    }
+  }
 }
 export async function recordFailure(root, startedAt) {
   const old = await readCollection(root);

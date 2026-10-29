@@ -48,3 +48,5 @@ GitHubのActionsで「Update J1 data and publish Pages」を選び、`Run workfl
 - [GitHub Pagesのカスタムワークフロー](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)
 - [Pagesの公開元の設定](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 - [GitHub Actionsの定期実行と制約](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)
+
+回帰テストは初回の取得記録を固定入力として使います。最新の日程は別の検証で読み込み、件数・参照関係・再構築結果・画面表示を確認します。日程の更新そのものを回帰と誤判定しないための区別です。
