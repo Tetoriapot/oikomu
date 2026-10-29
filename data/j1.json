@@ -8,7 +8,7 @@
     "rangeStart": "2026-08-01",
     "rangeEnd": "2027-06-30",
     "season": "2026-27",
-    "updatedAt": "2026-10-29T15:20:18.001Z",
+    "updatedAt": "2026-10-29T20:08:40.556Z",
     "scheduleUrl": "https://www.jleague.jp/j1/match/search-list/?category=j1&period=custom&startdate=2026-08-01&enddate=2027-06-30",
     "freshnessDays": 7,
     "notice": "デモ版・実験公開中。J1公式日程の確認時点の情報です。公開版は毎日0:00（日本時間）に取得を開始します。反映の遅れや失敗があるため、最新の公式案内も確認してください。"
@@ -1382,7 +1382,7 @@
       "sourceId": "src-j1-2026-27-gosaka-urawa",
       "note": "",
       "round": 1,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1400,7 +1400,7 @@
       "sourceId": "src-j1-2026-27-yokohamafm-kashima",
       "note": "",
       "round": 1,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1418,7 +1418,7 @@
       "sourceId": "src-j1-2026-27-cosaka-okayama",
       "note": "",
       "round": 1,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1436,7 +1436,7 @@
       "sourceId": "src-j1-2026-27-fctokyo-machida",
       "note": "",
       "round": 1,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1454,7 +1454,7 @@
       "sourceId": "src-j1-2026-27-fukuoka-kobe",
       "note": "",
       "round": 1,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1472,7 +1472,7 @@
       "sourceId": "src-j1-2026-27-hiroshima-chiba",
       "note": "",
       "round": 1,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1490,7 +1490,7 @@
       "sourceId": "src-j1-2026-27-kashiwa-mito",
       "note": "",
       "round": 1,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1508,7 +1508,7 @@
       "sourceId": "src-j1-2026-27-nagoya-shimizu",
       "note": "",
       "round": 1,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1526,7 +1526,7 @@
       "sourceId": "src-j1-2026-27-nagasaki-kyoto",
       "note": "",
       "round": 1,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1544,7 +1544,7 @@
       "sourceId": "src-j1-2026-27-tokyov-kawasaki",
       "note": "",
       "round": 1,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1562,7 +1562,7 @@
       "sourceId": "src-j1-2026-27-tokyov-kashiwa",
       "note": "",
       "round": 2,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1580,7 +1580,7 @@
       "sourceId": "src-j1-2026-27-chiba-machida",
       "note": "",
       "round": 2,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1598,7 +1598,7 @@
       "sourceId": "src-j1-2026-27-fukuoka-cosaka",
       "note": "",
       "round": 2,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1616,7 +1616,7 @@
       "sourceId": "src-j1-2026-27-kashima-nagoya",
       "note": "",
       "round": 2,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1634,7 +1634,7 @@
       "sourceId": "src-j1-2026-27-kawasaki-kyoto",
       "note": "",
       "round": 2,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1652,7 +1652,7 @@
       "sourceId": "src-j1-2026-27-kobe-fctokyo",
       "note": "",
       "round": 2,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1670,7 +1670,7 @@
       "sourceId": "src-j1-2026-27-mito-gosaka",
       "note": "",
       "round": 2,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1688,7 +1688,7 @@
       "sourceId": "src-j1-2026-27-okayama-nagasaki",
       "note": "",
       "round": 2,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1706,7 +1706,7 @@
       "sourceId": "src-j1-2026-27-shimizu-yokohamafm",
       "note": "",
       "round": 2,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1724,7 +1724,7 @@
       "sourceId": "src-j1-2026-27-urawa-hiroshima",
       "note": "",
       "round": 2,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1742,7 +1742,7 @@
       "sourceId": "src-j1-2026-27-fctokyo-chiba",
       "note": "",
       "round": 3,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1760,7 +1760,7 @@
       "sourceId": "src-j1-2026-27-kashiwa-nagasaki",
       "note": "",
       "round": 3,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1778,7 +1778,7 @@
       "sourceId": "src-j1-2026-27-cosaka-shimizu",
       "note": "",
       "round": 3,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1796,7 +1796,7 @@
       "sourceId": "src-j1-2026-27-hiroshima-kawasaki",
       "note": "",
       "round": 3,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1814,7 +1814,7 @@
       "sourceId": "src-j1-2026-27-kashima-fukuoka",
       "note": "",
       "round": 3,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1832,7 +1832,7 @@
       "sourceId": "src-j1-2026-27-kyoto-mito",
       "note": "",
       "round": 3,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1850,7 +1850,7 @@
       "sourceId": "src-j1-2026-27-nagoya-gosaka",
       "note": "",
       "round": 3,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1868,7 +1868,7 @@
       "sourceId": "src-j1-2026-27-okayama-tokyov",
       "note": "",
       "round": 3,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1886,7 +1886,7 @@
       "sourceId": "src-j1-2026-27-yokohamafm-kobe",
       "note": "",
       "round": 3,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1904,7 +1904,7 @@
       "sourceId": "src-j1-2026-27-machida-urawa",
       "note": "",
       "round": 3,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1922,7 +1922,7 @@
       "sourceId": "src-j1-2026-27-gosaka-hiroshima",
       "note": "",
       "round": 4,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1940,7 +1940,7 @@
       "sourceId": "src-j1-2026-27-kawasaki-chiba",
       "note": "",
       "round": 4,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1958,7 +1958,7 @@
       "sourceId": "src-j1-2026-27-kobe-cosaka",
       "note": "",
       "round": 4,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1976,7 +1976,7 @@
       "sourceId": "src-j1-2026-27-kyoto-fukuoka",
       "note": "",
       "round": 4,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -1994,7 +1994,7 @@
       "sourceId": "src-j1-2026-27-mito-machida",
       "note": "",
       "round": 4,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2012,7 +2012,7 @@
       "sourceId": "src-j1-2026-27-nagasaki-fctokyo",
       "note": "",
       "round": 4,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2030,7 +2030,7 @@
       "sourceId": "src-j1-2026-27-nagoya-okayama",
       "note": "",
       "round": 4,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2048,7 +2048,7 @@
       "sourceId": "src-j1-2026-27-shimizu-kashiwa",
       "note": "",
       "round": 4,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2066,7 +2066,7 @@
       "sourceId": "src-j1-2026-27-tokyov-kashima",
       "note": "",
       "round": 4,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2084,7 +2084,7 @@
       "sourceId": "src-j1-2026-27-urawa-yokohamafm",
       "note": "",
       "round": 4,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2102,7 +2102,7 @@
       "sourceId": "src-j1-2026-27-chiba-okayama",
       "note": "",
       "round": 5,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2120,7 +2120,7 @@
       "sourceId": "src-j1-2026-27-cosaka-kashiwa",
       "note": "",
       "round": 5,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2138,7 +2138,7 @@
       "sourceId": "src-j1-2026-27-fukuoka-urawa",
       "note": "",
       "round": 5,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2156,7 +2156,7 @@
       "sourceId": "src-j1-2026-27-hiroshima-nagoya",
       "note": "",
       "round": 5,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2174,7 +2174,7 @@
       "sourceId": "src-j1-2026-27-machida-kawasaki",
       "note": "",
       "round": 5,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2192,7 +2192,7 @@
       "sourceId": "src-j1-2026-27-mito-kashima",
       "note": "",
       "round": 5,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2210,7 +2210,7 @@
       "sourceId": "src-j1-2026-27-nagasaki-gosaka",
       "note": "",
       "round": 5,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2228,7 +2228,7 @@
       "sourceId": "src-j1-2026-27-shimizu-fctokyo",
       "note": "",
       "round": 5,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2246,7 +2246,7 @@
       "sourceId": "src-j1-2026-27-tokyov-kobe",
       "note": "",
       "round": 5,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2264,7 +2264,7 @@
       "sourceId": "src-j1-2026-27-yokohamafm-kyoto",
       "note": "",
       "round": 5,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2282,7 +2282,7 @@
       "sourceId": "src-j1-2026-27-fukuoka-mito",
       "note": "",
       "round": 6,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2300,7 +2300,7 @@
       "sourceId": "src-j1-2026-27-chiba-gosaka",
       "note": "",
       "round": 6,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2318,7 +2318,7 @@
       "sourceId": "src-j1-2026-27-cosaka-tokyov",
       "note": "",
       "round": 6,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2336,7 +2336,7 @@
       "sourceId": "src-j1-2026-27-fctokyo-kyoto",
       "note": "",
       "round": 6,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2354,7 +2354,7 @@
       "sourceId": "src-j1-2026-27-kashima-urawa",
       "note": "",
       "round": 6,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2372,7 +2372,7 @@
       "sourceId": "src-j1-2026-27-kashiwa-yokohamafm",
       "note": "",
       "round": 6,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2390,7 +2390,7 @@
       "sourceId": "src-j1-2026-27-kawasaki-shimizu",
       "note": "",
       "round": 6,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2408,7 +2408,7 @@
       "sourceId": "src-j1-2026-27-kobe-nagasaki",
       "note": "",
       "round": 6,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2426,7 +2426,7 @@
       "sourceId": "src-j1-2026-27-nagoya-machida",
       "note": "",
       "round": 6,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2444,7 +2444,7 @@
       "sourceId": "src-j1-2026-27-okayama-hiroshima",
       "note": "",
       "round": 6,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2462,7 +2462,7 @@
       "sourceId": "src-j1-2026-27-kobe-kashima",
       "note": "",
       "round": 7,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2480,7 +2480,7 @@
       "sourceId": "src-j1-2026-27-kyoto-kashiwa",
       "note": "",
       "round": 7,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2498,7 +2498,7 @@
       "sourceId": "src-j1-2026-27-gosaka-fctokyo",
       "note": "",
       "round": 7,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2516,7 +2516,7 @@
       "sourceId": "src-j1-2026-27-hiroshima-cosaka",
       "note": "",
       "round": 7,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2534,7 +2534,7 @@
       "sourceId": "src-j1-2026-27-machida-yokohamafm",
       "note": "",
       "round": 7,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2552,7 +2552,7 @@
       "sourceId": "src-j1-2026-27-mito-kawasaki",
       "note": "",
       "round": 7,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2570,7 +2570,7 @@
       "sourceId": "src-j1-2026-27-nagasaki-nagoya",
       "note": "",
       "round": 7,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2588,7 +2588,7 @@
       "sourceId": "src-j1-2026-27-shimizu-fukuoka",
       "note": "",
       "round": 7,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2606,7 +2606,7 @@
       "sourceId": "src-j1-2026-27-tokyov-chiba",
       "note": "",
       "round": 7,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2624,7 +2624,7 @@
       "sourceId": "src-j1-2026-27-urawa-okayama",
       "note": "",
       "round": 7,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2642,7 +2642,7 @@
       "sourceId": "src-j1-2026-27-fctokyo-nagoya",
       "note": "",
       "round": 8,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2660,7 +2660,7 @@
       "sourceId": "src-j1-2026-27-fukuoka-hiroshima",
       "note": "",
       "round": 8,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2678,7 +2678,7 @@
       "sourceId": "src-j1-2026-27-kawasaki-kashima",
       "note": "",
       "round": 8,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2696,7 +2696,7 @@
       "sourceId": "src-j1-2026-27-nagasaki-cosaka",
       "note": "",
       "round": 8,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2714,7 +2714,7 @@
       "sourceId": "src-j1-2026-27-okayama-kyoto",
       "note": "",
       "round": 8,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2732,7 +2732,7 @@
       "sourceId": "src-j1-2026-27-shimizu-chiba",
       "note": "",
       "round": 8,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2750,7 +2750,7 @@
       "sourceId": "src-j1-2026-27-urawa-tokyov",
       "note": "",
       "round": 8,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2768,7 +2768,7 @@
       "sourceId": "src-j1-2026-27-yokohamafm-mito",
       "note": "",
       "round": 8,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2786,7 +2786,7 @@
       "sourceId": "src-j1-2026-27-gosaka-kobe",
       "note": "",
       "round": 8,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2804,7 +2804,7 @@
       "sourceId": "src-j1-2026-27-machida-kashiwa",
       "note": "",
       "round": 8,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2822,7 +2822,7 @@
       "sourceId": "src-j1-2026-27-kashima-gosaka",
       "note": "",
       "round": 9,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2840,7 +2840,7 @@
       "sourceId": "src-j1-2026-27-kashiwa-kobe",
       "note": "",
       "round": 9,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2858,7 +2858,7 @@
       "sourceId": "src-j1-2026-27-cosaka-yokohamafm",
       "note": "",
       "round": 9,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2876,7 +2876,7 @@
       "sourceId": "src-j1-2026-27-fctokyo-urawa",
       "note": "",
       "round": 9,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2894,7 +2894,7 @@
       "sourceId": "src-j1-2026-27-fukuoka-okayama",
       "note": "",
       "round": 9,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2912,7 +2912,7 @@
       "sourceId": "src-j1-2026-27-kyoto-machida",
       "note": "",
       "round": 9,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2930,7 +2930,7 @@
       "sourceId": "src-j1-2026-27-chiba-nagasaki",
       "note": "",
       "round": 9,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2948,7 +2948,7 @@
       "sourceId": "src-j1-2026-27-kawasaki-nagoya",
       "note": "",
       "round": 9,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2966,7 +2966,7 @@
       "sourceId": "src-j1-2026-27-mito-shimizu",
       "note": "",
       "round": 9,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -2984,7 +2984,7 @@
       "sourceId": "src-j1-2026-27-tokyov-hiroshima",
       "note": "",
       "round": 9,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3002,7 +3002,7 @@
       "sourceId": "src-j1-2026-27-chiba-yokohamafm",
       "note": "",
       "round": 10,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3020,7 +3020,7 @@
       "sourceId": "src-j1-2026-27-cosaka-kawasaki",
       "note": "",
       "round": 10,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3038,7 +3038,7 @@
       "sourceId": "src-j1-2026-27-hiroshima-kyoto",
       "note": "",
       "round": 10,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3056,7 +3056,7 @@
       "sourceId": "src-j1-2026-27-kashima-nagasaki",
       "note": "",
       "round": 10,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3074,7 +3074,7 @@
       "sourceId": "src-j1-2026-27-kashiwa-nagoya",
       "note": "",
       "round": 10,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3092,7 +3092,7 @@
       "sourceId": "src-j1-2026-27-mito-urawa",
       "note": "",
       "round": 10,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3110,7 +3110,7 @@
       "sourceId": "src-j1-2026-27-shimizu-gosaka",
       "note": "",
       "round": 10,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3128,7 +3128,7 @@
       "sourceId": "src-j1-2026-27-tokyov-fctokyo",
       "note": "",
       "round": 10,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3146,7 +3146,7 @@
       "sourceId": "src-j1-2026-27-machida-fukuoka",
       "note": "",
       "round": 10,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3164,7 +3164,7 @@
       "sourceId": "src-j1-2026-27-okayama-kobe",
       "note": "",
       "round": 10,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3182,7 +3182,7 @@
       "sourceId": "src-j1-2026-27-fctokyo-kashiwa",
       "note": "",
       "round": 11,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3200,7 +3200,7 @@
       "sourceId": "src-j1-2026-27-fukuoka-gosaka",
       "note": "",
       "round": 11,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3218,7 +3218,7 @@
       "sourceId": "src-j1-2026-27-kawasaki-kobe",
       "note": "",
       "round": 11,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3236,7 +3236,7 @@
       "sourceId": "src-j1-2026-27-kyoto-kashima",
       "note": "",
       "round": 11,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3254,7 +3254,7 @@
       "sourceId": "src-j1-2026-27-nagasaki-hiroshima",
       "note": "",
       "round": 11,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3272,7 +3272,7 @@
       "sourceId": "src-j1-2026-27-nagoya-cosaka",
       "note": "",
       "round": 11,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3290,7 +3290,7 @@
       "sourceId": "src-j1-2026-27-okayama-mito",
       "note": "",
       "round": 11,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3308,7 +3308,7 @@
       "sourceId": "src-j1-2026-27-shimizu-machida",
       "note": "",
       "round": 11,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3326,7 +3326,7 @@
       "sourceId": "src-j1-2026-27-urawa-chiba",
       "note": "",
       "round": 11,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3344,7 +3344,7 @@
       "sourceId": "src-j1-2026-27-yokohamafm-tokyov",
       "note": "",
       "round": 11,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3362,7 +3362,7 @@
       "sourceId": "src-j1-2026-27-gosaka-kyoto",
       "note": "",
       "round": 12,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3380,7 +3380,7 @@
       "sourceId": "src-j1-2026-27-hiroshima-shimizu",
       "note": "",
       "round": 12,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3398,7 +3398,7 @@
       "sourceId": "src-j1-2026-27-kashima-kashiwa",
       "note": "",
       "round": 12,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3416,7 +3416,7 @@
       "sourceId": "src-j1-2026-27-kobe-machida",
       "note": "",
       "round": 12,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3434,7 +3434,7 @@
       "sourceId": "src-j1-2026-27-tokyov-fukuoka",
       "note": "",
       "round": 12,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3452,7 +3452,7 @@
       "sourceId": "src-j1-2026-27-cosaka-chiba",
       "note": "",
       "round": 12,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3470,7 +3470,7 @@
       "sourceId": "src-j1-2026-27-fctokyo-mito",
       "note": "",
       "round": 12,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3488,7 +3488,7 @@
       "sourceId": "src-j1-2026-27-kawasaki-okayama",
       "note": "",
       "round": 12,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3506,7 +3506,7 @@
       "sourceId": "src-j1-2026-27-nagoya-yokohamafm",
       "note": "",
       "round": 12,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3524,7 +3524,7 @@
       "sourceId": "src-j1-2026-27-urawa-nagasaki",
       "note": "",
       "round": 12,
-      "checkedAt": "2026-10-29T15:15:41.980Z",
+      "checkedAt": "2026-10-29T20:03:38.445Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3542,7 +3542,7 @@
       "sourceId": "src-j1-2026-27-kashima-cosaka",
       "note": "",
       "round": 13,
-      "checkedAt": "2026-10-29T15:15:48.175Z",
+      "checkedAt": "2026-10-29T20:03:44.538Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3560,7 +3560,7 @@
       "sourceId": "src-j1-2026-27-kashiwa-urawa",
       "note": "",
       "round": 13,
-      "checkedAt": "2026-10-29T15:15:50.272Z",
+      "checkedAt": "2026-10-29T20:03:47.824Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3578,7 +3578,7 @@
       "sourceId": "src-j1-2026-27-kobe-nagoya",
       "note": "",
       "round": 13,
-      "checkedAt": "2026-10-29T15:15:49.077Z",
+      "checkedAt": "2026-10-29T20:03:45.982Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3596,7 +3596,7 @@
       "sourceId": "src-j1-2026-27-kyoto-shimizu",
       "note": "",
       "round": 13,
-      "checkedAt": "2026-10-29T15:15:46.738Z",
+      "checkedAt": "2026-10-29T20:03:42.570Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3614,7 +3614,7 @@
       "sourceId": "src-j1-2026-27-mito-hiroshima",
       "note": "",
       "round": 13,
-      "checkedAt": "2026-10-29T15:15:45.356Z",
+      "checkedAt": "2026-10-29T20:03:41.650Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3632,7 +3632,7 @@
       "sourceId": "src-j1-2026-27-okayama-fctokyo",
       "note": "",
       "round": 13,
-      "checkedAt": "2026-10-29T15:15:47.646Z",
+      "checkedAt": "2026-10-29T20:03:43.503Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3650,7 +3650,7 @@
       "sourceId": "src-j1-2026-27-chiba-fukuoka",
       "note": "",
       "round": 13,
-      "checkedAt": "2026-10-29T15:15:52.656Z",
+      "checkedAt": "2026-10-29T20:03:50.710Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3668,7 +3668,7 @@
       "sourceId": "src-j1-2026-27-machida-gosaka",
       "note": "",
       "round": 13,
-      "checkedAt": "2026-10-29T15:15:54.568Z",
+      "checkedAt": "2026-10-29T20:03:53.323Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3686,7 +3686,7 @@
       "sourceId": "src-j1-2026-27-nagasaki-tokyov",
       "note": "",
       "round": 13,
-      "checkedAt": "2026-10-29T15:15:53.194Z",
+      "checkedAt": "2026-10-29T20:03:52.164Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3704,7 +3704,7 @@
       "sourceId": "src-j1-2026-27-yokohamafm-kawasaki",
       "note": "",
       "round": 13,
-      "checkedAt": "2026-10-29T15:15:51.166Z",
+      "checkedAt": "2026-10-29T20:03:49.273Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3722,7 +3722,7 @@
       "sourceId": "src-j1-2026-27-fctokyo-kashima",
       "note": "",
       "round": 14,
-      "checkedAt": "2026-10-29T15:15:58.527Z",
+      "checkedAt": "2026-10-29T20:04:00.188Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3740,7 +3740,7 @@
       "sourceId": "src-j1-2026-27-fukuoka-nagasaki",
       "note": "",
       "round": 14,
-      "checkedAt": "2026-10-29T15:15:59.425Z",
+      "checkedAt": "2026-10-29T20:04:01.632Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3758,7 +3758,7 @@
       "sourceId": "src-j1-2026-27-kashiwa-kawasaki",
       "note": "",
       "round": 14,
-      "checkedAt": "2026-10-29T15:16:00.395Z",
+      "checkedAt": "2026-10-29T20:04:03.068Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3776,7 +3776,7 @@
       "sourceId": "src-j1-2026-27-nagoya-kyoto",
       "note": "",
       "round": 14,
-      "checkedAt": "2026-10-29T15:15:57.442Z",
+      "checkedAt": "2026-10-29T20:03:58.663Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3794,7 +3794,7 @@
       "sourceId": "src-j1-2026-27-shimizu-tokyov",
       "note": "",
       "round": 14,
-      "checkedAt": "2026-10-29T15:15:55.439Z",
+      "checkedAt": "2026-10-29T20:03:54.512Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3812,7 +3812,7 @@
       "sourceId": "src-j1-2026-27-yokohamafm-okayama",
       "note": "",
       "round": 14,
-      "checkedAt": "2026-10-29T15:15:56.570Z",
+      "checkedAt": "2026-10-29T20:03:55.993Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3830,7 +3830,7 @@
       "sourceId": "src-j1-2026-27-chiba-mito",
       "note": "",
       "round": 14,
-      "checkedAt": "2026-10-29T15:16:04.634Z",
+      "checkedAt": "2026-10-29T20:04:08.687Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3848,7 +3848,7 @@
       "sourceId": "src-j1-2026-27-gosaka-cosaka",
       "note": "",
       "round": 14,
-      "checkedAt": "2026-10-29T15:16:03.763Z",
+      "checkedAt": "2026-10-29T20:04:06.662Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3866,7 +3866,7 @@
       "sourceId": "src-j1-2026-27-kobe-urawa",
       "note": "",
       "round": 14,
-      "checkedAt": "2026-10-29T15:16:02.276Z",
+      "checkedAt": "2026-10-29T20:04:05.467Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3884,7 +3884,7 @@
       "sourceId": "src-j1-2026-27-machida-hiroshima",
       "note": "",
       "round": 14,
-      "checkedAt": "2026-10-29T15:16:01.278Z",
+      "checkedAt": "2026-10-29T20:04:04.542Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3902,7 +3902,7 @@
       "sourceId": "src-j1-2026-27-kashima-shimizu",
       "note": "",
       "round": 15,
-      "checkedAt": "2026-10-29T15:16:06.103Z",
+      "checkedAt": "2026-10-29T20:04:09.578Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3920,7 +3920,7 @@
       "sourceId": "src-j1-2026-27-kashiwa-chiba",
       "note": "",
       "round": 15,
-      "checkedAt": "2026-10-29T15:16:07.301Z",
+      "checkedAt": "2026-10-29T20:04:10.907Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3938,7 +3938,7 @@
       "sourceId": "src-j1-2026-27-kobe-mito",
       "note": "",
       "round": 15,
-      "checkedAt": "2026-10-29T15:16:08.178Z",
+      "checkedAt": "2026-10-29T20:04:12.334Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3956,7 +3956,7 @@
       "sourceId": "src-j1-2026-27-cosaka-fctokyo",
       "note": "",
       "round": 15,
-      "checkedAt": "2026-10-29T15:16:14.404Z",
+      "checkedAt": "2026-10-29T20:04:19.701Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3974,7 +3974,7 @@
       "sourceId": "src-j1-2026-27-gosaka-okayama",
       "note": "",
       "round": 15,
-      "checkedAt": "2026-10-29T15:16:15.881Z",
+      "checkedAt": "2026-10-29T20:04:21.240Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -3992,7 +3992,7 @@
       "sourceId": "src-j1-2026-27-hiroshima-yokohamafm",
       "note": "",
       "round": 15,
-      "checkedAt": "2026-10-29T15:16:12.359Z",
+      "checkedAt": "2026-10-29T20:04:17.347Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4010,7 +4010,7 @@
       "sourceId": "src-j1-2026-27-kawasaki-fukuoka",
       "note": "",
       "round": 15,
-      "checkedAt": "2026-10-29T15:16:13.514Z",
+      "checkedAt": "2026-10-29T20:04:18.780Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4028,7 +4028,7 @@
       "sourceId": "src-j1-2026-27-kyoto-urawa",
       "note": "",
       "round": 15,
-      "checkedAt": "2026-10-29T15:16:11.477Z",
+      "checkedAt": "2026-10-29T20:04:16.389Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4046,7 +4046,7 @@
       "sourceId": "src-j1-2026-27-machida-nagasaki",
       "note": "",
       "round": 15,
-      "checkedAt": "2026-10-29T15:16:09.979Z",
+      "checkedAt": "2026-10-29T20:04:15.490Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4064,7 +4064,7 @@
       "sourceId": "src-j1-2026-27-tokyov-nagoya",
       "note": "",
       "round": 15,
-      "checkedAt": "2026-10-29T15:16:09.077Z",
+      "checkedAt": "2026-10-29T20:04:13.988Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4082,7 +4082,7 @@
       "sourceId": "src-j1-2026-27-chiba-nagoya",
       "note": "",
       "round": 16,
-      "checkedAt": "2026-10-29T15:16:17.986Z",
+      "checkedAt": "2026-10-29T20:04:23.334Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4100,7 +4100,7 @@
       "sourceId": "src-j1-2026-27-fctokyo-hiroshima",
       "note": "",
       "round": 16,
-      "checkedAt": "2026-10-29T15:16:19.178Z",
+      "checkedAt": "2026-10-29T20:04:24.236Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4118,7 +4118,7 @@
       "sourceId": "src-j1-2026-27-fukuoka-yokohamafm",
       "note": "",
       "round": 16,
-      "checkedAt": "2026-10-29T15:16:21.361Z",
+      "checkedAt": "2026-10-29T20:04:26.341Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4136,7 +4136,7 @@
       "sourceId": "src-j1-2026-27-mito-tokyov",
       "note": "",
       "round": 16,
-      "checkedAt": "2026-10-29T15:16:17.080Z",
+      "checkedAt": "2026-10-29T20:04:22.432Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4154,7 +4154,7 @@
       "sourceId": "src-j1-2026-27-nagasaki-kawasaki",
       "note": "",
       "round": 16,
-      "checkedAt": "2026-10-29T15:16:22.545Z",
+      "checkedAt": "2026-10-29T20:04:27.518Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4172,7 +4172,7 @@
       "sourceId": "src-j1-2026-27-okayama-shimizu",
       "note": "",
       "round": 16,
-      "checkedAt": "2026-10-29T15:16:20.067Z",
+      "checkedAt": "2026-10-29T20:04:25.148Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4190,7 +4190,7 @@
       "sourceId": "src-j1-2026-27-urawa-cosaka",
       "note": "",
       "round": 16,
-      "checkedAt": "2026-10-29T15:16:24.009Z",
+      "checkedAt": "2026-10-29T20:04:28.396Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4208,7 +4208,7 @@
       "sourceId": "src-j1-2026-27-kashima-okayama",
       "note": "",
       "round": 17,
-      "checkedAt": "2026-10-29T15:16:27.014Z",
+      "checkedAt": "2026-10-29T20:04:31.839Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4226,7 +4226,7 @@
       "sourceId": "src-j1-2026-27-kashiwa-hiroshima",
       "note": "",
       "round": 17,
-      "checkedAt": "2026-10-29T15:16:28.757Z",
+      "checkedAt": "2026-10-29T20:04:34.145Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4244,7 +4244,7 @@
       "sourceId": "src-j1-2026-27-kobe-chiba",
       "note": "",
       "round": 17,
-      "checkedAt": "2026-10-29T15:16:27.886Z",
+      "checkedAt": "2026-10-29T20:04:33.248Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4262,7 +4262,7 @@
       "sourceId": "src-j1-2026-27-kyoto-cosaka",
       "note": "",
       "round": 17,
-      "checkedAt": "2026-10-29T15:16:25.811Z",
+      "checkedAt": "2026-10-29T20:04:30.378Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4280,7 +4280,7 @@
       "sourceId": "src-j1-2026-27-shimizu-urawa",
       "note": "",
       "round": 17,
-      "checkedAt": "2026-10-29T15:16:24.916Z",
+      "checkedAt": "2026-10-29T20:04:29.501Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4298,7 +4298,7 @@
       "sourceId": "src-j1-2026-27-kawasaki-gosaka",
       "note": "",
       "round": 17,
-      "checkedAt": "2026-10-29T15:16:31.975Z",
+      "checkedAt": "2026-10-29T20:04:36.925Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4316,7 +4316,7 @@
       "sourceId": "src-j1-2026-27-machida-tokyov",
       "note": "",
       "round": 17,
-      "checkedAt": "2026-10-29T15:16:34.357Z",
+      "checkedAt": "2026-10-29T20:04:38.870Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4334,7 +4334,7 @@
       "sourceId": "src-j1-2026-27-mito-nagasaki",
       "note": "",
       "round": 17,
-      "checkedAt": "2026-10-29T15:16:29.619Z",
+      "checkedAt": "2026-10-29T20:04:35.049Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4352,7 +4352,7 @@
       "sourceId": "src-j1-2026-27-nagoya-fukuoka",
       "note": "",
       "round": 17,
-      "checkedAt": "2026-10-29T15:16:33.168Z",
+      "checkedAt": "2026-10-29T20:04:37.992Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4370,7 +4370,7 @@
       "sourceId": "src-j1-2026-27-yokohamafm-fctokyo",
       "note": "",
       "round": 17,
-      "checkedAt": "2026-10-29T15:16:30.532Z",
+      "checkedAt": "2026-10-29T20:04:36.045Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4388,7 +4388,7 @@
       "sourceId": "src-j1-2026-27-fctokyo-kawasaki",
       "note": "",
       "round": 18,
-      "checkedAt": "2026-10-29T15:16:35.587Z",
+      "checkedAt": "2026-10-29T20:04:39.759Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4406,7 +4406,7 @@
       "sourceId": "src-j1-2026-27-chiba-kashima",
       "note": "",
       "round": 18,
-      "checkedAt": "2026-10-29T15:16:36.784Z",
+      "checkedAt": "2026-10-29T20:04:40.934Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4424,7 +4424,7 @@
       "sourceId": "src-j1-2026-27-cosaka-mito",
       "note": "",
       "round": 18,
-      "checkedAt": "2026-10-29T15:16:40.202Z",
+      "checkedAt": "2026-10-29T20:04:44.167Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4442,7 +4442,7 @@
       "sourceId": "src-j1-2026-27-nagasaki-shimizu",
       "note": "",
       "round": 18,
-      "checkedAt": "2026-10-29T15:16:41.052Z",
+      "checkedAt": "2026-10-29T20:04:45.648Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4460,7 +4460,7 @@
       "sourceId": "src-j1-2026-27-tokyov-kyoto",
       "note": "",
       "round": 18,
-      "checkedAt": "2026-10-29T15:16:39.285Z",
+      "checkedAt": "2026-10-29T20:04:43.270Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4478,7 +4478,7 @@
       "sourceId": "src-j1-2026-27-urawa-nagoya",
       "note": "",
       "round": 18,
-      "checkedAt": "2026-10-29T15:16:38.173Z",
+      "checkedAt": "2026-10-29T20:04:42.368Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4496,7 +4496,7 @@
       "sourceId": "src-j1-2026-27-gosaka-yokohamafm",
       "note": "",
       "round": 18,
-      "checkedAt": "2026-10-29T15:16:42.839Z",
+      "checkedAt": "2026-10-29T20:04:48.003Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4514,7 +4514,7 @@
       "sourceId": "src-j1-2026-27-hiroshima-kobe",
       "note": "",
       "round": 18,
-      "checkedAt": "2026-10-29T15:16:41.950Z",
+      "checkedAt": "2026-10-29T20:04:46.540Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4532,7 +4532,7 @@
       "sourceId": "src-j1-2026-27-kashiwa-fukuoka",
       "note": "",
       "round": 18,
-      "checkedAt": "2026-10-29T15:16:43.702Z",
+      "checkedAt": "2026-10-29T20:04:48.923Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4550,7 +4550,7 @@
       "sourceId": "src-j1-2026-27-machida-okayama",
       "note": "",
       "round": 18,
-      "checkedAt": "2026-10-29T15:16:44.564Z",
+      "checkedAt": "2026-10-29T20:04:50.079Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4568,7 +4568,7 @@
       "sourceId": "src-j1-2026-27-cosaka-machida",
       "note": "",
       "round": 19,
-      "checkedAt": "2026-10-29T15:16:46.320Z",
+      "checkedAt": "2026-10-29T20:04:52.429Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4586,7 +4586,7 @@
       "sourceId": "src-j1-2026-27-gosaka-tokyov",
       "note": "",
       "round": 19,
-      "checkedAt": "2026-10-29T15:16:47.192Z",
+      "checkedAt": "2026-10-29T20:04:53.340Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4604,7 +4604,7 @@
       "sourceId": "src-j1-2026-27-shimizu-kobe",
       "note": "",
       "round": 19,
-      "checkedAt": "2026-10-29T15:16:45.450Z",
+      "checkedAt": "2026-10-29T20:04:51.523Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4622,7 +4622,7 @@
       "sourceId": "src-j1-2026-27-fukuoka-fctokyo",
       "note": "",
       "round": 19,
-      "checkedAt": "2026-10-29T15:16:54.197Z",
+      "checkedAt": "2026-10-29T20:05:00.157Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4640,7 +4640,7 @@
       "sourceId": "src-j1-2026-27-hiroshima-kashima",
       "note": "",
       "round": 19,
-      "checkedAt": "2026-10-29T15:16:51.064Z",
+      "checkedAt": "2026-10-29T20:04:56.890Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4658,7 +4658,7 @@
       "sourceId": "src-j1-2026-27-kyoto-chiba",
       "note": "",
       "round": 19,
-      "checkedAt": "2026-10-29T15:16:48.968Z",
+      "checkedAt": "2026-10-29T20:04:55.113Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4676,7 +4676,7 @@
       "sourceId": "src-j1-2026-27-nagoya-mito",
       "note": "",
       "round": 19,
-      "checkedAt": "2026-10-29T15:16:53.314Z",
+      "checkedAt": "2026-10-29T20:04:58.712Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4694,7 +4694,7 @@
       "sourceId": "src-j1-2026-27-okayama-kashiwa",
       "note": "",
       "round": 19,
-      "checkedAt": "2026-10-29T15:16:50.174Z",
+      "checkedAt": "2026-10-29T20:04:56.007Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4712,7 +4712,7 @@
       "sourceId": "src-j1-2026-27-urawa-kawasaki",
       "note": "",
       "round": 19,
-      "checkedAt": "2026-10-29T15:16:52.474Z",
+      "checkedAt": "2026-10-29T20:04:57.794Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4730,7 +4730,7 @@
       "sourceId": "src-j1-2026-27-yokohamafm-nagasaki",
       "note": "",
       "round": 19,
-      "checkedAt": "2026-10-29T15:16:48.073Z",
+      "checkedAt": "2026-10-29T20:04:54.227Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4748,7 +4748,7 @@
       "sourceId": "src-j1-2026-27-gosaka-kashiwa",
       "note": "",
       "round": 16,
-      "checkedAt": "2026-10-29T15:16:55.974Z",
+      "checkedAt": "2026-10-29T20:05:02.629Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4766,7 +4766,7 @@
       "sourceId": "src-j1-2026-27-kashima-machida",
       "note": "",
       "round": 16,
-      "checkedAt": "2026-10-29T15:16:55.067Z",
+      "checkedAt": "2026-10-29T20:05:01.637Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4784,7 +4784,7 @@
       "sourceId": "src-j1-2026-27-chiba-cosaka",
       "note": "",
       "round": 20,
-      "checkedAt": "2026-10-29T15:16:56.829Z",
+      "checkedAt": "2026-10-29T20:05:04.085Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4802,7 +4802,7 @@
       "sourceId": "src-j1-2026-27-fukuoka-shimizu",
       "note": "",
       "round": 20,
-      "checkedAt": "2026-10-29T15:17:00.762Z",
+      "checkedAt": "2026-10-29T20:05:09.821Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4820,7 +4820,7 @@
       "sourceId": "src-j1-2026-27-gosaka-machida",
       "note": "",
       "round": 20,
-      "checkedAt": "2026-10-29T15:17:05.983Z",
+      "checkedAt": "2026-10-29T20:05:16.032Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4838,7 +4838,7 @@
       "sourceId": "src-j1-2026-27-kashima-tokyov",
       "note": "",
       "round": 20,
-      "checkedAt": "2026-10-29T15:17:02.975Z",
+      "checkedAt": "2026-10-29T20:05:12.003Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4856,7 +4856,7 @@
       "sourceId": "src-j1-2026-27-kawasaki-kashiwa",
       "note": "",
       "round": 20,
-      "checkedAt": "2026-10-29T15:17:05.111Z",
+      "checkedAt": "2026-10-29T20:05:14.608Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4874,7 +4874,7 @@
       "sourceId": "src-j1-2026-27-kobe-yokohamafm",
       "note": "",
       "round": 20,
-      "checkedAt": "2026-10-29T15:17:03.862Z",
+      "checkedAt": "2026-10-29T20:05:13.415Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4892,7 +4892,7 @@
       "sourceId": "src-j1-2026-27-kyoto-okayama",
       "note": "",
       "round": 20,
-      "checkedAt": "2026-10-29T15:16:57.742Z",
+      "checkedAt": "2026-10-29T20:05:05.162Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4910,7 +4910,7 @@
       "sourceId": "src-j1-2026-27-mito-fctokyo",
       "note": "",
       "round": 20,
-      "checkedAt": "2026-10-29T15:16:58.937Z",
+      "checkedAt": "2026-10-29T20:05:06.588Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4928,7 +4928,7 @@
       "sourceId": "src-j1-2026-27-nagasaki-urawa",
       "note": "",
       "round": 20,
-      "checkedAt": "2026-10-29T15:17:01.791Z",
+      "checkedAt": "2026-10-29T20:05:11.102Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4946,7 +4946,7 @@
       "sourceId": "src-j1-2026-27-nagoya-hiroshima",
       "note": "",
       "round": 20,
-      "checkedAt": "2026-10-29T15:16:59.848Z",
+      "checkedAt": "2026-10-29T20:05:08.041Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -4964,7 +4964,7 @@
       "sourceId": "src-j1-2026-27-cosaka-gosaka",
       "note": "※２／１３（土）　ｏｒ　２／１４（日）",
       "round": 21,
-      "checkedAt": "2026-10-29T15:17:12.695Z",
+      "checkedAt": "2026-10-29T20:05:21.768Z",
       "candidateDates": [
         "2027-02-13",
         "2027-02-14"
@@ -4985,7 +4985,7 @@
       "sourceId": "src-j1-2026-27-hiroshima-okayama",
       "note": "※２／１３（土）　ｏｒ　２／１４（日）",
       "round": 21,
-      "checkedAt": "2026-10-29T15:17:14.736Z",
+      "checkedAt": "2026-10-29T20:05:24.673Z",
       "candidateDates": [
         "2027-02-13",
         "2027-02-14"
@@ -5006,7 +5006,7 @@
       "sourceId": "src-j1-2026-27-kashima-mito",
       "note": "※２／１３（土）　ｏｒ　２／１４（日）",
       "round": 21,
-      "checkedAt": "2026-10-29T15:17:06.874Z",
+      "checkedAt": "2026-10-29T20:05:16.925Z",
       "candidateDates": [
         "2027-02-13",
         "2027-02-14"
@@ -5027,7 +5027,7 @@
       "sourceId": "src-j1-2026-27-kashiwa-shimizu",
       "note": "※２／１３（土）　ｏｒ　２／１４（日）",
       "round": 21,
-      "checkedAt": "2026-10-29T15:17:07.763Z",
+      "checkedAt": "2026-10-29T20:05:18.111Z",
       "candidateDates": [
         "2027-02-13",
         "2027-02-14"
@@ -5048,7 +5048,7 @@
       "sourceId": "src-j1-2026-27-kobe-kawasaki",
       "note": "※２／１３（土）　ｏｒ　２／１４（日）",
       "round": 21,
-      "checkedAt": "2026-10-29T15:17:13.869Z",
+      "checkedAt": "2026-10-29T20:05:22.937Z",
       "candidateDates": [
         "2027-02-13",
         "2027-02-14"
@@ -5069,7 +5069,7 @@
       "sourceId": "src-j1-2026-27-kyoto-yokohamafm",
       "note": "※２／１３（土）　ｏｒ　２／１４（日）",
       "round": 21,
-      "checkedAt": "2026-10-29T15:17:11.827Z",
+      "checkedAt": "2026-10-29T20:05:20.891Z",
       "candidateDates": [
         "2027-02-13",
         "2027-02-14"
@@ -5090,7 +5090,7 @@
       "sourceId": "src-j1-2026-27-machida-chiba",
       "note": "※２／１３（土）　ｏｒ　２／１４（日）",
       "round": 21,
-      "checkedAt": "2026-10-29T15:17:08.627Z",
+      "checkedAt": "2026-10-29T20:05:19.036Z",
       "candidateDates": [
         "2027-02-13",
         "2027-02-14"
@@ -5111,7 +5111,7 @@
       "sourceId": "src-j1-2026-27-nagasaki-fukuoka",
       "note": "※２／１３（土）　ｏｒ　２／１４（日）",
       "round": 21,
-      "checkedAt": "2026-10-29T15:17:15.631Z",
+      "checkedAt": "2026-10-29T20:05:25.602Z",
       "candidateDates": [
         "2027-02-13",
         "2027-02-14"
@@ -5132,7 +5132,7 @@
       "sourceId": "src-j1-2026-27-nagoya-fctokyo",
       "note": "※２／１３（土）　ｏｒ　２／１４（日）",
       "round": 21,
-      "checkedAt": "2026-10-29T15:17:09.821Z",
+      "checkedAt": "2026-10-29T20:05:19.942Z",
       "candidateDates": [
         "2027-02-13",
         "2027-02-14"
@@ -5153,7 +5153,7 @@
       "sourceId": "src-j1-2026-27-tokyov-urawa",
       "note": "",
       "round": 21,
-      "checkedAt": "2026-10-29T15:17:16.807Z",
+      "checkedAt": "2026-10-29T20:05:26.815Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -5171,7 +5171,7 @@
       "sourceId": "src-j1-2026-27-chiba-kawasaki",
       "note": "※２／２０（土）　ｏｒ　２／２１（日）",
       "round": 22,
-      "checkedAt": "2026-10-29T15:17:19.087Z",
+      "checkedAt": "2026-10-29T20:05:29.514Z",
       "candidateDates": [
         "2027-02-20",
         "2027-02-21"
@@ -5192,7 +5192,7 @@
       "sourceId": "src-j1-2026-27-cosaka-kobe",
       "note": "※２／２０（土）　ｏｒ　２／２１（日）",
       "round": 22,
-      "checkedAt": "2026-10-29T15:17:23.344Z",
+      "checkedAt": "2026-10-29T20:05:33.179Z",
       "candidateDates": [
         "2027-02-20",
         "2027-02-21"
@@ -5213,7 +5213,7 @@
       "sourceId": "src-j1-2026-27-fctokyo-nagasaki",
       "note": "",
       "round": 22,
-      "checkedAt": "2026-10-29T15:17:19.976Z",
+      "checkedAt": "2026-10-29T20:05:30.421Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -5231,7 +5231,7 @@
       "sourceId": "src-j1-2026-27-fukuoka-nagoya",
       "note": "※２／２０（土）　ｏｒ　２／２１（日）",
       "round": 22,
-      "checkedAt": "2026-10-29T15:17:25.990Z",
+      "checkedAt": "2026-10-29T20:05:36.437Z",
       "candidateDates": [
         "2027-02-20",
         "2027-02-21"
@@ -5252,7 +5252,7 @@
       "sourceId": "src-j1-2026-27-hiroshima-tokyov",
       "note": "※２／２０（土）　ｏｒ　２／２１（日）",
       "round": 22,
-      "checkedAt": "2026-10-29T15:17:25.109Z",
+      "checkedAt": "2026-10-29T20:05:35.507Z",
       "candidateDates": [
         "2027-02-20",
         "2027-02-21"
@@ -5273,7 +5273,7 @@
       "sourceId": "src-j1-2026-27-mito-kashiwa",
       "note": "※２／２０（土）　ｏｒ　２／２１（日）",
       "round": 22,
-      "checkedAt": "2026-10-29T15:17:17.696Z",
+      "checkedAt": "2026-10-29T20:05:27.712Z",
       "candidateDates": [
         "2027-02-20",
         "2027-02-21"
@@ -5294,7 +5294,7 @@
       "sourceId": "src-j1-2026-27-okayama-gosaka",
       "note": "※２／２０（土）　ｏｒ　２／２１（日）",
       "round": 22,
-      "checkedAt": "2026-10-29T15:17:24.236Z",
+      "checkedAt": "2026-10-29T20:05:34.606Z",
       "candidateDates": [
         "2027-02-20",
         "2027-02-21"
@@ -5315,7 +5315,7 @@
       "sourceId": "src-j1-2026-27-shimizu-kyoto",
       "note": "※２／２０（土）　ｏｒ　２／２１（日）",
       "round": 22,
-      "checkedAt": "2026-10-29T15:17:22.420Z",
+      "checkedAt": "2026-10-29T20:05:32.211Z",
       "candidateDates": [
         "2027-02-20",
         "2027-02-21"
@@ -5336,7 +5336,7 @@
       "sourceId": "src-j1-2026-27-urawa-kashima",
       "note": "※２／２０（土）　ｏｒ　２／２１（日）",
       "round": 22,
-      "checkedAt": "2026-10-29T15:17:18.218Z",
+      "checkedAt": "2026-10-29T20:05:28.630Z",
       "candidateDates": [
         "2027-02-20",
         "2027-02-21"
@@ -5357,7 +5357,7 @@
       "sourceId": "src-j1-2026-27-yokohamafm-machida",
       "note": "※２／２０（土）　ｏｒ　２／２１（日）",
       "round": 22,
-      "checkedAt": "2026-10-29T15:17:21.539Z",
+      "checkedAt": "2026-10-29T20:05:31.312Z",
       "candidateDates": [
         "2027-02-20",
         "2027-02-21"
@@ -5378,7 +5378,7 @@
       "sourceId": "src-j1-2026-27-chiba-fctokyo",
       "note": "※２／２７（土）　ｏｒ　２／２８（日）",
       "round": 23,
-      "checkedAt": "2026-10-29T15:17:27.769Z",
+      "checkedAt": "2026-10-29T20:05:38.240Z",
       "candidateDates": [
         "2027-02-27",
         "2027-02-28"
@@ -5399,7 +5399,7 @@
       "sourceId": "src-j1-2026-27-gosaka-fukuoka",
       "note": "※２／２７（土）　ｏｒ　２／２８（日）",
       "round": 23,
-      "checkedAt": "2026-10-29T15:17:34.208Z",
+      "checkedAt": "2026-10-29T20:05:44.842Z",
       "candidateDates": [
         "2027-02-27",
         "2027-02-28"
@@ -5420,7 +5420,7 @@
       "sourceId": "src-j1-2026-27-kawasaki-machida",
       "note": "",
       "round": 23,
-      "checkedAt": "2026-10-29T15:17:28.654Z",
+      "checkedAt": "2026-10-29T20:05:39.424Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -5438,7 +5438,7 @@
       "sourceId": "src-j1-2026-27-kyoto-tokyov",
       "note": "※２／２７（土）　ｏｒ　２／２８（日）",
       "round": 23,
-      "checkedAt": "2026-10-29T15:17:33.165Z",
+      "checkedAt": "2026-10-29T20:05:43.824Z",
       "candidateDates": [
         "2027-02-27",
         "2027-02-28"
@@ -5459,7 +5459,7 @@
       "sourceId": "src-j1-2026-27-mito-kobe",
       "note": "※２／２７（土）　ｏｒ　２／２８（日）",
       "round": 23,
-      "checkedAt": "2026-10-29T15:17:26.875Z",
+      "checkedAt": "2026-10-29T20:05:37.332Z",
       "candidateDates": [
         "2027-02-27",
         "2027-02-28"
@@ -5480,7 +5480,7 @@
       "sourceId": "src-j1-2026-27-nagasaki-kashiwa",
       "note": "※２／２７（土）　ｏｒ　２／２８（日）",
       "round": 23,
-      "checkedAt": "2026-10-29T15:17:37.074Z",
+      "checkedAt": "2026-10-29T20:05:47.124Z",
       "candidateDates": [
         "2027-02-27",
         "2027-02-28"
@@ -5501,7 +5501,7 @@
       "sourceId": "src-j1-2026-27-nagoya-urawa",
       "note": "※２／２７（土）　ｏｒ　２／２８（日）",
       "round": 23,
-      "checkedAt": "2026-10-29T15:17:32.282Z",
+      "checkedAt": "2026-10-29T20:05:42.887Z",
       "candidateDates": [
         "2027-02-27",
         "2027-02-28"
@@ -5522,7 +5522,7 @@
       "sourceId": "src-j1-2026-27-okayama-kashima",
       "note": "※２／２７（土）　ｏｒ　２／２８（日）",
       "round": 23,
-      "checkedAt": "2026-10-29T15:17:35.607Z",
+      "checkedAt": "2026-10-29T20:05:45.718Z",
       "candidateDates": [
         "2027-02-27",
         "2027-02-28"
@@ -5543,7 +5543,7 @@
       "sourceId": "src-j1-2026-27-shimizu-hiroshima",
       "note": "※２／２７（土）　ｏｒ　２／２８（日）",
       "round": 23,
-      "checkedAt": "2026-10-29T15:17:30.443Z",
+      "checkedAt": "2026-10-29T20:05:41.470Z",
       "candidateDates": [
         "2027-02-27",
         "2027-02-28"
@@ -5564,7 +5564,7 @@
       "sourceId": "src-j1-2026-27-yokohamafm-cosaka",
       "note": "※２／２７（土）　ｏｒ　２／２８（日）",
       "round": 23,
-      "checkedAt": "2026-10-29T15:17:29.529Z",
+      "checkedAt": "2026-10-29T20:05:40.570Z",
       "candidateDates": [
         "2027-02-27",
         "2027-02-28"
@@ -5585,7 +5585,7 @@
       "sourceId": "src-j1-2026-27-cosaka-hiroshima",
       "note": "※３／６（土）　ｏｒ　３／７（日）",
       "round": 24,
-      "checkedAt": "2026-10-29T15:17:44.636Z",
+      "checkedAt": "2026-10-29T20:05:55.265Z",
       "candidateDates": [
         "2027-03-06",
         "2027-03-07"
@@ -5606,7 +5606,7 @@
       "sourceId": "src-j1-2026-27-fukuoka-kashiwa",
       "note": "※３／６（土）　ｏｒ　３／７（日）",
       "round": 24,
-      "checkedAt": "2026-10-29T15:17:46.535Z",
+      "checkedAt": "2026-10-29T20:05:57.079Z",
       "candidateDates": [
         "2027-03-06",
         "2027-03-07"
@@ -5627,7 +5627,7 @@
       "sourceId": "src-j1-2026-27-gosaka-nagoya",
       "note": "※３／６（土）　ｏｒ　３／７（日）",
       "round": 24,
-      "checkedAt": "2026-10-29T15:17:43.149Z",
+      "checkedAt": "2026-10-29T20:05:53.536Z",
       "candidateDates": [
         "2027-03-06",
         "2027-03-07"
@@ -5648,7 +5648,7 @@
       "sourceId": "src-j1-2026-27-kashima-chiba",
       "note": "※３／６（土）　ｏｒ　３／７（日）",
       "round": 24,
-      "checkedAt": "2026-10-29T15:17:37.958Z",
+      "checkedAt": "2026-10-29T20:05:48.020Z",
       "candidateDates": [
         "2027-03-06",
         "2027-03-07"
@@ -5669,7 +5669,7 @@
       "sourceId": "src-j1-2026-27-kawasaki-urawa",
       "note": "※３／６（土）　ｏｒ　３／７（日）",
       "round": 24,
-      "checkedAt": "2026-10-29T15:17:40.864Z",
+      "checkedAt": "2026-10-29T20:05:51.422Z",
       "candidateDates": [
         "2027-03-06",
         "2027-03-07"
@@ -5690,7 +5690,7 @@
       "sourceId": "src-j1-2026-27-kobe-okayama",
       "note": "※３／６（土）　ｏｒ　３／７（日）",
       "round": 24,
-      "checkedAt": "2026-10-29T15:17:45.512Z",
+      "checkedAt": "2026-10-29T20:05:56.157Z",
       "candidateDates": [
         "2027-03-06",
         "2027-03-07"
@@ -5711,7 +5711,7 @@
       "sourceId": "src-j1-2026-27-kyoto-fctokyo",
       "note": "※３／６（土）　ｏｒ　３／７（日）",
       "round": 24,
-      "checkedAt": "2026-10-29T15:17:42.267Z",
+      "checkedAt": "2026-10-29T20:05:52.316Z",
       "candidateDates": [
         "2027-03-06",
         "2027-03-07"
@@ -5732,7 +5732,7 @@
       "sourceId": "src-j1-2026-27-machida-shimizu",
       "note": "※３／６（土）　ｏｒ　３／７（日）",
       "round": 24,
-      "checkedAt": "2026-10-29T15:17:39.787Z",
+      "checkedAt": "2026-10-29T20:05:49.809Z",
       "candidateDates": [
         "2027-03-06",
         "2027-03-07"
@@ -5753,7 +5753,7 @@
       "sourceId": "src-j1-2026-27-nagasaki-mito",
       "note": "※３／６（土）　ｏｒ　３／７（日）",
       "round": 24,
-      "checkedAt": "2026-10-29T15:17:47.422Z",
+      "checkedAt": "2026-10-29T20:05:58.526Z",
       "candidateDates": [
         "2027-03-06",
         "2027-03-07"
@@ -5774,7 +5774,7 @@
       "sourceId": "src-j1-2026-27-tokyov-yokohamafm",
       "note": "",
       "round": 24,
-      "checkedAt": "2026-10-29T15:17:38.845Z",
+      "checkedAt": "2026-10-29T20:05:48.896Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -5792,7 +5792,7 @@
       "sourceId": "src-j1-2026-27-chiba-tokyov",
       "note": "",
       "round": 25,
-      "checkedAt": "2026-10-29T15:17:51.037Z",
+      "checkedAt": "2026-10-29T20:06:02.261Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -5810,7 +5810,7 @@
       "sourceId": "src-j1-2026-27-hiroshima-fukuoka",
       "note": "",
       "round": 25,
-      "checkedAt": "2026-10-29T15:17:58.200Z",
+      "checkedAt": "2026-10-29T20:06:10.019Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -5828,7 +5828,7 @@
       "sourceId": "src-j1-2026-27-kashiwa-kyoto",
       "note": "※ＡＦＣクラブ競技会の試合日程により、２／２４（水）に開催する可能性があります",
       "round": 25,
-      "checkedAt": "2026-10-29T15:17:52.107Z",
+      "checkedAt": "2026-10-29T20:06:03.341Z",
       "candidateDates": [],
       "conditionalDates": [
         "2027-02-24"
@@ -5848,7 +5848,7 @@
       "sourceId": "src-j1-2026-27-kobe-gosaka",
       "note": "※ＡＦＣクラブ競技会の試合日程により、２／２４（水）に開催する可能性があります",
       "round": 25,
-      "checkedAt": "2026-10-29T15:17:56.390Z",
+      "checkedAt": "2026-10-29T20:06:07.659Z",
       "candidateDates": [],
       "conditionalDates": [
         "2027-02-24"
@@ -5868,7 +5868,7 @@
       "sourceId": "src-j1-2026-27-machida-kashima",
       "note": "※ＡＦＣクラブ競技会の試合日程により、２／２４（水）に開催する可能性があります",
       "round": 25,
-      "checkedAt": "2026-10-29T15:17:52.997Z",
+      "checkedAt": "2026-10-29T20:06:04.509Z",
       "candidateDates": [],
       "conditionalDates": [
         "2027-02-24"
@@ -5888,7 +5888,7 @@
       "sourceId": "src-j1-2026-27-mito-cosaka",
       "note": "",
       "round": 25,
-      "checkedAt": "2026-10-29T15:17:48.326Z",
+      "checkedAt": "2026-10-29T20:06:00.255Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -5906,7 +5906,7 @@
       "sourceId": "src-j1-2026-27-nagoya-nagasaki",
       "note": "",
       "round": 25,
-      "checkedAt": "2026-10-29T15:17:55.441Z",
+      "checkedAt": "2026-10-29T20:06:06.747Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -5924,7 +5924,7 @@
       "sourceId": "src-j1-2026-27-okayama-yokohamafm",
       "note": "",
       "round": 25,
-      "checkedAt": "2026-10-29T15:17:57.294Z",
+      "checkedAt": "2026-10-29T20:06:09.070Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -5942,7 +5942,7 @@
       "sourceId": "src-j1-2026-27-shimizu-kawasaki",
       "note": "",
       "round": 25,
-      "checkedAt": "2026-10-29T15:17:54.537Z",
+      "checkedAt": "2026-10-29T20:06:05.458Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -5960,7 +5960,7 @@
       "sourceId": "src-j1-2026-27-urawa-fctokyo",
       "note": "",
       "round": 25,
-      "checkedAt": "2026-10-29T15:17:50.183Z",
+      "checkedAt": "2026-10-29T20:06:01.159Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -5978,7 +5978,7 @@
       "sourceId": "src-j1-2026-27-fctokyo-cosaka",
       "note": "※３／１３（土）　ｏｒ　３／１４（日）",
       "round": 26,
-      "checkedAt": "2026-10-29T15:18:01.434Z",
+      "checkedAt": "2026-10-29T20:06:14.144Z",
       "candidateDates": [
         "2027-03-13",
         "2027-03-14"
@@ -5999,7 +5999,7 @@
       "sourceId": "src-j1-2026-27-gosaka-nagasaki",
       "note": "※３／１３（土）　ｏｒ　３／１４（日）　※ＡＦＣクラブ競技会の試合日程により、３／３（水）　もしくは４／７（水）に開催する可能性があります",
       "round": 26,
-      "checkedAt": "2026-10-29T15:18:06.437Z",
+      "checkedAt": "2026-10-29T20:06:19.334Z",
       "candidateDates": [
         "2027-03-13",
         "2027-03-14"
@@ -6023,7 +6023,7 @@
       "sourceId": "src-j1-2026-27-kashima-hiroshima",
       "note": "※３／１３（土）　ｏｒ　３／１４（日）　※ＡＦＣクラブ競技会の試合日程により、　３／３（水）もしくは４／７（水）に開催する可能性があります",
       "round": 26,
-      "checkedAt": "2026-10-29T15:17:59.554Z",
+      "checkedAt": "2026-10-29T20:06:11.472Z",
       "candidateDates": [
         "2027-03-13",
         "2027-03-14"
@@ -6047,7 +6047,7 @@
       "sourceId": "src-j1-2026-27-kashiwa-okayama",
       "note": "※３／１３（土）　ｏｒ　３／１４（日）　※ＡＦＣクラブ競技会の試合日程により、３／３（水）　もしくは４／７（水）に開催する可能性があります",
       "round": 26,
-      "checkedAt": "2026-10-29T15:18:00.459Z",
+      "checkedAt": "2026-10-29T20:06:13.259Z",
       "candidateDates": [
         "2027-03-13",
         "2027-03-14"
@@ -6071,7 +6071,7 @@
       "sourceId": "src-j1-2026-27-kobe-shimizu",
       "note": "※３／１３（土）　ｏｒ　３／１４（日）　※ＡＦＣクラブ競技会の試合日程により、３／３（水）　もしくは４／７（水）に開催する可能性があります",
       "round": 26,
-      "checkedAt": "2026-10-29T15:18:07.336Z",
+      "checkedAt": "2026-10-29T20:06:20.766Z",
       "candidateDates": [
         "2027-03-13",
         "2027-03-14"
@@ -6095,7 +6095,7 @@
       "sourceId": "src-j1-2026-27-kyoto-kawasaki",
       "note": "※３／１３（土）　ｏｒ　３／１４（日）　※ＡＦＣクラブ競技会の試合日程により、３／３（水）　もしくは４／７（水）に開催する可能性があります",
       "round": 26,
-      "checkedAt": "2026-10-29T15:18:05.581Z",
+      "checkedAt": "2026-10-29T20:06:18.454Z",
       "candidateDates": [
         "2027-03-13",
         "2027-03-14"
@@ -6119,7 +6119,7 @@
       "sourceId": "src-j1-2026-27-machida-nagoya",
       "note": "※３／１３（土）　ｏｒ　３／１４（日）",
       "round": 26,
-      "checkedAt": "2026-10-29T15:18:03.810Z",
+      "checkedAt": "2026-10-29T20:06:16.233Z",
       "candidateDates": [
         "2027-03-13",
         "2027-03-14"
@@ -6140,7 +6140,7 @@
       "sourceId": "src-j1-2026-27-tokyov-mito",
       "note": "※３／１３（土）　ｏｒ　３／１４（日）",
       "round": 26,
-      "checkedAt": "2026-10-29T15:18:02.754Z",
+      "checkedAt": "2026-10-29T20:06:15.049Z",
       "candidateDates": [
         "2027-03-13",
         "2027-03-14"
@@ -6161,7 +6161,7 @@
       "sourceId": "src-j1-2026-27-yokohamafm-fukuoka",
       "note": "※３／１３（土）　ｏｒ　３／１４（日）",
       "round": 26,
-      "checkedAt": "2026-10-29T15:18:04.710Z",
+      "checkedAt": "2026-10-29T20:06:17.548Z",
       "candidateDates": [
         "2027-03-13",
         "2027-03-14"
@@ -6182,7 +6182,7 @@
       "sourceId": "src-j1-2026-27-chiba-urawa",
       "note": "",
       "round": 26,
-      "checkedAt": "2026-10-29T15:18:08.219Z",
+      "checkedAt": "2026-10-29T20:06:22.202Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -6200,7 +6200,7 @@
       "sourceId": "src-j1-2026-27-cosaka-kyoto",
       "note": "※３／２０（土）　ｏｒ　３／２１（日・祝）",
       "round": 27,
-      "checkedAt": "2026-10-29T15:18:16.697Z",
+      "checkedAt": "2026-10-29T20:06:28.040Z",
       "candidateDates": [
         "2027-03-20",
         "2027-03-21"
@@ -6221,7 +6221,7 @@
       "sourceId": "src-j1-2026-27-fukuoka-chiba",
       "note": "※３／２０（土）　ｏｒ　３／２１（日・祝）",
       "round": 27,
-      "checkedAt": "2026-10-29T15:18:19.733Z",
+      "checkedAt": "2026-10-29T20:06:29.838Z",
       "candidateDates": [
         "2027-03-20",
         "2027-03-21"
@@ -6242,7 +6242,7 @@
       "sourceId": "src-j1-2026-27-hiroshima-gosaka",
       "note": "※３／２０（土）　ｏｒ　３／２１（日・祝）",
       "round": 27,
-      "checkedAt": "2026-10-29T15:18:17.622Z",
+      "checkedAt": "2026-10-29T20:06:28.947Z",
       "candidateDates": [
         "2027-03-20",
         "2027-03-21"
@@ -6263,7 +6263,7 @@
       "sourceId": "src-j1-2026-27-kashiwa-tokyov",
       "note": "※３／２０（土）　ｏｒ　３／２１（日・祝）",
       "round": 27,
-      "checkedAt": "2026-10-29T15:18:09.419Z",
+      "checkedAt": "2026-10-29T20:06:23.123Z",
       "candidateDates": [
         "2027-03-20",
         "2027-03-21"
@@ -6284,7 +6284,7 @@
       "sourceId": "src-j1-2026-27-kawasaki-fctokyo",
       "note": "※３／２０（土）　ｏｒ　３／２１（日・祝）",
       "round": 27,
-      "checkedAt": "2026-10-29T15:18:12.412Z",
+      "checkedAt": "2026-10-29T20:06:25.237Z",
       "candidateDates": [
         "2027-03-20",
         "2027-03-21"
@@ -6305,7 +6305,7 @@
       "sourceId": "src-j1-2026-27-machida-mito",
       "note": "※３／２０（土）　ｏｒ　３／２１（日・祝）",
       "round": 27,
-      "checkedAt": "2026-10-29T15:18:10.913Z",
+      "checkedAt": "2026-10-29T20:06:24.298Z",
       "candidateDates": [
         "2027-03-20",
         "2027-03-21"
@@ -6326,7 +6326,7 @@
       "sourceId": "src-j1-2026-27-nagasaki-okayama",
       "note": "※３／２０（土）　ｏｒ　３／２１（日・祝）",
       "round": 27,
-      "checkedAt": "2026-10-29T15:18:20.614Z",
+      "checkedAt": "2026-10-29T20:06:30.747Z",
       "candidateDates": [
         "2027-03-20",
         "2027-03-21"
@@ -6347,7 +6347,7 @@
       "sourceId": "src-j1-2026-27-nagoya-kobe",
       "note": "※３／２０（土）　ｏｒ　３／２１（日・祝）",
       "round": 27,
-      "checkedAt": "2026-10-29T15:18:15.725Z",
+      "checkedAt": "2026-10-29T20:06:27.175Z",
       "candidateDates": [
         "2027-03-20",
         "2027-03-21"
@@ -6368,7 +6368,7 @@
       "sourceId": "src-j1-2026-27-yokohamafm-urawa",
       "note": "※３／２０（土）　ｏｒ　３／２１（日・祝）",
       "round": 27,
-      "checkedAt": "2026-10-29T15:18:14.302Z",
+      "checkedAt": "2026-10-29T20:06:26.128Z",
       "candidateDates": [
         "2027-03-20",
         "2027-03-21"
@@ -6389,7 +6389,7 @@
       "sourceId": "src-j1-2026-27-shimizu-kashima",
       "note": "",
       "round": 27,
-      "checkedAt": "2026-10-29T15:18:21.503Z",
+      "checkedAt": "2026-10-29T20:06:31.973Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -6407,7 +6407,7 @@
       "sourceId": "src-j1-2026-27-fctokyo-fukuoka",
       "note": "※４／３（土）　ｏｒ　４／４（日）",
       "round": 28,
-      "checkedAt": "2026-10-29T15:18:27.383Z",
+      "checkedAt": "2026-10-29T20:06:37.084Z",
       "candidateDates": [
         "2027-04-03",
         "2027-04-04"
@@ -6428,7 +6428,7 @@
       "sourceId": "src-j1-2026-27-gosaka-kawasaki",
       "note": "※４／３（土）　ｏｒ　４／４（日）",
       "round": 28,
-      "checkedAt": "2026-10-29T15:18:30.920Z",
+      "checkedAt": "2026-10-29T20:06:40.266Z",
       "candidateDates": [
         "2027-04-03",
         "2027-04-04"
@@ -6449,7 +6449,7 @@
       "sourceId": "src-j1-2026-27-kashima-yokohamafm",
       "note": "※４／３（土）　ｏｒ　４／４（日）",
       "round": 28,
-      "checkedAt": "2026-10-29T15:18:23.301Z",
+      "checkedAt": "2026-10-29T20:06:32.879Z",
       "candidateDates": [
         "2027-04-03",
         "2027-04-04"
@@ -6470,7 +6470,7 @@
       "sourceId": "src-j1-2026-27-kashiwa-cosaka",
       "note": "※４／３（土）　ｏｒ　４／４（日）",
       "round": 28,
-      "checkedAt": "2026-10-29T15:18:26.501Z",
+      "checkedAt": "2026-10-29T20:06:36.182Z",
       "candidateDates": [
         "2027-04-03",
         "2027-04-04"
@@ -6491,7 +6491,7 @@
       "sourceId": "src-j1-2026-27-kobe-hiroshima",
       "note": "※４／３（土）　ｏｒ　４／４（日）",
       "round": 28,
-      "checkedAt": "2026-10-29T15:18:31.811Z",
+      "checkedAt": "2026-10-29T20:06:41.688Z",
       "candidateDates": [
         "2027-04-03",
         "2027-04-04"
@@ -6512,7 +6512,7 @@
       "sourceId": "src-j1-2026-27-kyoto-nagasaki",
       "note": "※４／３（土）　ｏｒ　４／４（日）",
       "round": 28,
-      "checkedAt": "2026-10-29T15:18:30.043Z",
+      "checkedAt": "2026-10-29T20:06:38.859Z",
       "candidateDates": [
         "2027-04-03",
         "2027-04-04"
@@ -6533,7 +6533,7 @@
       "sourceId": "src-j1-2026-27-mito-chiba",
       "note": "※４／３（土）　ｏｒ　４／４（日）",
       "round": 28,
-      "checkedAt": "2026-10-29T15:18:24.439Z",
+      "checkedAt": "2026-10-29T20:06:33.796Z",
       "candidateDates": [
         "2027-04-03",
         "2027-04-04"
@@ -6554,7 +6554,7 @@
       "sourceId": "src-j1-2026-27-okayama-nagoya",
       "note": "※４／３（土）　ｏｒ　４／４（日）",
       "round": 28,
-      "checkedAt": "2026-10-29T15:18:33.009Z",
+      "checkedAt": "2026-10-29T20:06:43.100Z",
       "candidateDates": [
         "2027-04-03",
         "2027-04-04"
@@ -6575,7 +6575,7 @@
       "sourceId": "src-j1-2026-27-tokyov-machida",
       "note": "※４／３（土）　ｏｒ　４／４（日）",
       "round": 28,
-      "checkedAt": "2026-10-29T15:18:29.120Z",
+      "checkedAt": "2026-10-29T20:06:37.961Z",
       "candidateDates": [
         "2027-04-03",
         "2027-04-04"
@@ -6596,7 +6596,7 @@
       "sourceId": "src-j1-2026-27-urawa-shimizu",
       "note": "※４／３（土）　ｏｒ　４／４（日）",
       "round": 28,
-      "checkedAt": "2026-10-29T15:18:25.612Z",
+      "checkedAt": "2026-10-29T20:06:35.283Z",
       "candidateDates": [
         "2027-04-03",
         "2027-04-04"
@@ -6617,7 +6617,7 @@
       "sourceId": "src-j1-2026-27-cosaka-fukuoka",
       "note": "",
       "round": 29,
-      "checkedAt": "2026-10-29T15:18:34.144Z",
+      "checkedAt": "2026-10-29T20:06:45.035Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -6635,7 +6635,7 @@
       "sourceId": "src-j1-2026-27-chiba-kyoto",
       "note": "※４／１０（土）　ｏｒ　４／１１（日）",
       "round": 29,
-      "checkedAt": "2026-10-29T15:18:36.233Z",
+      "checkedAt": "2026-10-29T20:06:46.909Z",
       "candidateDates": [
         "2027-04-10",
         "2027-04-11"
@@ -6656,7 +6656,7 @@
       "sourceId": "src-j1-2026-27-fctokyo-okayama",
       "note": "※４／１０（土）　ｏｒ　４／１１（日）",
       "round": 29,
-      "checkedAt": "2026-10-29T15:18:37.707Z",
+      "checkedAt": "2026-10-29T20:06:48.567Z",
       "candidateDates": [
         "2027-04-10",
         "2027-04-11"
@@ -6677,7 +6677,7 @@
       "sourceId": "src-j1-2026-27-kawasaki-nagasaki",
       "note": "※４／１０（土）　ｏｒ　４／１１（日）",
       "round": 29,
-      "checkedAt": "2026-10-29T15:18:41.000Z",
+      "checkedAt": "2026-10-29T20:06:52.859Z",
       "candidateDates": [
         "2027-04-10",
         "2027-04-11"
@@ -6698,7 +6698,7 @@
       "sourceId": "src-j1-2026-27-machida-kobe",
       "note": "※４／１０（土）　ｏｒ　４／１１（日）",
       "round": 29,
-      "checkedAt": "2026-10-29T15:18:40.108Z",
+      "checkedAt": "2026-10-29T20:06:51.420Z",
       "candidateDates": [
         "2027-04-10",
         "2027-04-11"
@@ -6719,7 +6719,7 @@
       "sourceId": "src-j1-2026-27-nagoya-kashima",
       "note": "※４／１０（土）　ｏｒ　４／１１（日）",
       "round": 29,
-      "checkedAt": "2026-10-29T15:18:43.853Z",
+      "checkedAt": "2026-10-29T20:06:57.039Z",
       "candidateDates": [
         "2027-04-10",
         "2027-04-11"
@@ -6740,7 +6740,7 @@
       "sourceId": "src-j1-2026-27-shimizu-mito",
       "note": "※４／１０（土）　ｏｒ　４／１１（日）",
       "round": 29,
-      "checkedAt": "2026-10-29T15:18:42.962Z",
+      "checkedAt": "2026-10-29T20:06:56.127Z",
       "candidateDates": [
         "2027-04-10",
         "2027-04-11"
@@ -6761,7 +6761,7 @@
       "sourceId": "src-j1-2026-27-tokyov-gosaka",
       "note": "※４／１０（土）　ｏｒ　４／１１（日）",
       "round": 29,
-      "checkedAt": "2026-10-29T15:18:38.920Z",
+      "checkedAt": "2026-10-29T20:06:49.980Z",
       "candidateDates": [
         "2027-04-10",
         "2027-04-11"
@@ -6782,7 +6782,7 @@
       "sourceId": "src-j1-2026-27-urawa-kashiwa",
       "note": "※４／１０（土）　ｏｒ　４／１１（日）",
       "round": 29,
-      "checkedAt": "2026-10-29T15:18:35.037Z",
+      "checkedAt": "2026-10-29T20:06:45.962Z",
       "candidateDates": [
         "2027-04-10",
         "2027-04-11"
@@ -6803,7 +6803,7 @@
       "sourceId": "src-j1-2026-27-yokohamafm-hiroshima",
       "note": "※４／１０（土）　ｏｒ　４／１１（日）",
       "round": 29,
-      "checkedAt": "2026-10-29T15:18:41.873Z",
+      "checkedAt": "2026-10-29T20:06:53.756Z",
       "candidateDates": [
         "2027-04-10",
         "2027-04-11"
@@ -6824,7 +6824,7 @@
       "sourceId": "src-j1-2026-27-kyoto-kobe",
       "note": "",
       "round": 16,
-      "checkedAt": "2026-10-29T15:18:44.732Z",
+      "checkedAt": "2026-10-29T20:06:58.546Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -6842,7 +6842,7 @@
       "sourceId": "src-j1-2026-27-hiroshima-fctokyo",
       "note": "",
       "round": 30,
-      "checkedAt": "2026-10-29T15:18:45.623Z",
+      "checkedAt": "2026-10-29T20:06:59.442Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -6860,7 +6860,7 @@
       "sourceId": "src-j1-2026-27-cosaka-kashima",
       "note": "※４／１７（土）　ｏｒ　４／１８（日）",
       "round": 30,
-      "checkedAt": "2026-10-29T15:18:51.993Z",
+      "checkedAt": "2026-10-29T20:07:05.276Z",
       "candidateDates": [
         "2027-04-17",
         "2027-04-18"
@@ -6881,7 +6881,7 @@
       "sourceId": "src-j1-2026-27-fukuoka-machida",
       "note": "※４／１７（土）　ｏｒ　４／１８（日）",
       "round": 30,
-      "checkedAt": "2026-10-29T15:18:54.344Z",
+      "checkedAt": "2026-10-29T20:07:08.122Z",
       "candidateDates": [
         "2027-04-17",
         "2027-04-18"
@@ -6902,7 +6902,7 @@
       "sourceId": "src-j1-2026-27-gosaka-chiba",
       "note": "※４／１７（土）　ｏｒ　４／１８（日）",
       "round": 30,
-      "checkedAt": "2026-10-29T15:18:50.563Z",
+      "checkedAt": "2026-10-29T20:07:04.384Z",
       "candidateDates": [
         "2027-04-17",
         "2027-04-18"
@@ -6923,7 +6923,7 @@
       "sourceId": "src-j1-2026-27-kawasaki-tokyov",
       "note": "※４／１７（土）　ｏｒ　４／１８（日）",
       "round": 30,
-      "checkedAt": "2026-10-29T15:18:47.357Z",
+      "checkedAt": "2026-10-29T20:07:01.556Z",
       "candidateDates": [
         "2027-04-17",
         "2027-04-18"
@@ -6944,7 +6944,7 @@
       "sourceId": "src-j1-2026-27-mito-kyoto",
       "note": "※４／１７（土）　ｏｒ　４／１８（日）",
       "round": 30,
-      "checkedAt": "2026-10-29T15:18:46.489Z",
+      "checkedAt": "2026-10-29T20:07:00.369Z",
       "candidateDates": [
         "2027-04-17",
         "2027-04-18"
@@ -6965,7 +6965,7 @@
       "sourceId": "src-j1-2026-27-nagasaki-kobe",
       "note": "※４／１７（土）　ｏｒ　４／１８（日）",
       "round": 30,
-      "checkedAt": "2026-10-29T15:18:55.230Z",
+      "checkedAt": "2026-10-29T20:07:09.565Z",
       "candidateDates": [
         "2027-04-17",
         "2027-04-18"
@@ -6986,7 +6986,7 @@
       "sourceId": "src-j1-2026-27-okayama-urawa",
       "note": "※４／１７（土）　ｏｒ　４／１８（日）",
       "round": 30,
-      "checkedAt": "2026-10-29T15:18:53.453Z",
+      "checkedAt": "2026-10-29T20:07:06.682Z",
       "candidateDates": [
         "2027-04-17",
         "2027-04-18"
@@ -7007,7 +7007,7 @@
       "sourceId": "src-j1-2026-27-shimizu-nagoya",
       "note": "※４／１７（土）　ｏｒ　４／１８（日）",
       "round": 30,
-      "checkedAt": "2026-10-29T15:18:49.689Z",
+      "checkedAt": "2026-10-29T20:07:03.475Z",
       "candidateDates": [
         "2027-04-17",
         "2027-04-18"
@@ -7028,7 +7028,7 @@
       "sourceId": "src-j1-2026-27-yokohamafm-kashiwa",
       "note": "※４／１７（土）　ｏｒ　４／１８（日）",
       "round": 30,
-      "checkedAt": "2026-10-29T15:18:48.501Z",
+      "checkedAt": "2026-10-29T20:07:02.563Z",
       "candidateDates": [
         "2027-04-17",
         "2027-04-18"
@@ -7049,7 +7049,7 @@
       "sourceId": "src-j1-2026-27-fctokyo-yokohamafm",
       "note": "※４／２４（土）　ｏｒ　４／２５（日）",
       "round": 31,
-      "checkedAt": "2026-10-29T15:18:58.772Z",
+      "checkedAt": "2026-10-29T20:07:14.278Z",
       "candidateDates": [
         "2027-04-24",
         "2027-04-25"
@@ -7070,7 +7070,7 @@
       "sourceId": "src-j1-2026-27-hiroshima-machida",
       "note": "※４／２４（土）　ｏｒ　４／２５（日）",
       "round": 31,
-      "checkedAt": "2026-10-29T15:19:04.468Z",
+      "checkedAt": "2026-10-29T20:07:20.932Z",
       "candidateDates": [
         "2027-04-24",
         "2027-04-25"
@@ -7091,7 +7091,7 @@
       "sourceId": "src-j1-2026-27-kashima-kyoto",
       "note": "※４／２４（土）　ｏｒ　４／２５（日）　※ＡＣＬ　Ｅｌｉｔｅ出場クラブがＡＣＬ　Ｅｌｉｔｅ準々決勝進出の場合は４／１（木）　もしくは４／７（水）に開催する可能性があります。",
       "round": 31,
-      "checkedAt": "2026-10-29T15:18:56.103Z",
+      "checkedAt": "2026-10-29T20:07:10.489Z",
       "candidateDates": [
         "2027-04-24",
         "2027-04-25"
@@ -7115,7 +7115,7 @@
       "sourceId": "src-j1-2026-27-kashiwa-gosaka",
       "note": "※４／２４（土）　ｏｒ　４／２５（日）　※ＡＣＬ　Ｅｌｉｔｅ出場クラブがＡＣＬ　Ｅｌｉｔｅ準々決勝進出の場合は４／１（木）　もしくは４／７（水）に開催する可能性があります。",
       "round": 31,
-      "checkedAt": "2026-10-29T15:18:57.894Z",
+      "checkedAt": "2026-10-29T20:07:12.843Z",
       "candidateDates": [
         "2027-04-24",
         "2027-04-25"
@@ -7139,7 +7139,7 @@
       "sourceId": "src-j1-2026-27-kobe-fukuoka",
       "note": "※４／２４（土）　ｏｒ　４／２５（日）　※ＡＣＬ　Ｅｌｉｔｅ出場クラブがＡＣＬ　Ｅｌｉｔｅ準々決勝進出の場合は４／１（木）　もしくは４／７（水）に開催する可能性があります。",
       "round": 31,
-      "checkedAt": "2026-10-29T15:19:02.011Z",
+      "checkedAt": "2026-10-29T20:07:18.354Z",
       "candidateDates": [
         "2027-04-24",
         "2027-04-25"
@@ -7163,7 +7163,7 @@
       "sourceId": "src-j1-2026-27-nagasaki-chiba",
       "note": "※４／２４（土）　ｏｒ　４／２５（日）",
       "round": 31,
-      "checkedAt": "2026-10-29T15:19:05.374Z",
+      "checkedAt": "2026-10-29T20:07:21.847Z",
       "candidateDates": [
         "2027-04-24",
         "2027-04-25"
@@ -7184,7 +7184,7 @@
       "sourceId": "src-j1-2026-27-nagoya-kawasaki",
       "note": "※４／２４（土）　ｏｒ　４／２５（日）",
       "round": 31,
-      "checkedAt": "2026-10-29T15:19:00.814Z",
+      "checkedAt": "2026-10-29T20:07:16.659Z",
       "candidateDates": [
         "2027-04-24",
         "2027-04-25"
@@ -7205,7 +7205,7 @@
       "sourceId": "src-j1-2026-27-okayama-cosaka",
       "note": "※４／２４（土）　ｏｒ　４／２５（日）",
       "round": 31,
-      "checkedAt": "2026-10-29T15:19:02.972Z",
+      "checkedAt": "2026-10-29T20:07:19.779Z",
       "candidateDates": [
         "2027-04-24",
         "2027-04-25"
@@ -7226,7 +7226,7 @@
       "sourceId": "src-j1-2026-27-tokyov-shimizu",
       "note": "※４／２４（土）　ｏｒ　４／２５（日）",
       "round": 31,
-      "checkedAt": "2026-10-29T15:18:59.949Z",
+      "checkedAt": "2026-10-29T20:07:15.723Z",
       "candidateDates": [
         "2027-04-24",
         "2027-04-25"
@@ -7247,7 +7247,7 @@
       "sourceId": "src-j1-2026-27-urawa-mito",
       "note": "※４／２４（土）　ｏｒ　４／２５（日）",
       "round": 31,
-      "checkedAt": "2026-10-29T15:18:56.970Z",
+      "checkedAt": "2026-10-29T20:07:11.929Z",
       "candidateDates": [
         "2027-04-24",
         "2027-04-25"
@@ -7268,7 +7268,7 @@
       "sourceId": "src-j1-2026-27-chiba-hiroshima",
       "note": "",
       "round": 32,
-      "checkedAt": "2026-10-29T15:19:08.480Z",
+      "checkedAt": "2026-10-29T20:07:25.332Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -7286,7 +7286,7 @@
       "sourceId": "src-j1-2026-27-cosaka-nagasaki",
       "note": "",
       "round": 32,
-      "checkedAt": "2026-10-29T15:19:14.086Z",
+      "checkedAt": "2026-10-29T20:07:32.487Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -7304,7 +7304,7 @@
       "sourceId": "src-j1-2026-27-fukuoka-tokyov",
       "note": "",
       "round": 32,
-      "checkedAt": "2026-10-29T15:19:15.265Z",
+      "checkedAt": "2026-10-29T20:07:33.381Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -7322,7 +7322,7 @@
       "sourceId": "src-j1-2026-27-kashima-kobe",
       "note": "※ＡＣＬ　Ｅｌｉｔｅ出場クラブがＡＣＬ　Ｅｌｉｔｅ準々決勝進出の場合は５／１９（水）に開催する可能性があります。",
       "round": 32,
-      "checkedAt": "2026-10-29T15:19:06.376Z",
+      "checkedAt": "2026-10-29T20:07:23.030Z",
       "candidateDates": [],
       "conditionalDates": [
         "2027-05-19"
@@ -7342,7 +7342,7 @@
       "sourceId": "src-j1-2026-27-kashiwa-fctokyo",
       "note": "※ＡＣＬ　Ｅｌｉｔｅ出場クラブがＡＣＬ　Ｅｌｉｔｅ準々決勝進出の場合は５／１９（水）に開催する可能性があります。",
       "round": 32,
-      "checkedAt": "2026-10-29T15:19:09.387Z",
+      "checkedAt": "2026-10-29T20:07:26.784Z",
       "candidateDates": [],
       "conditionalDates": [
         "2027-05-19"
@@ -7362,7 +7362,7 @@
       "sourceId": "src-j1-2026-27-kawasaki-mito",
       "note": "",
       "round": 32,
-      "checkedAt": "2026-10-29T15:19:10.527Z",
+      "checkedAt": "2026-10-29T20:07:28.086Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -7380,7 +7380,7 @@
       "sourceId": "src-j1-2026-27-kyoto-gosaka",
       "note": "※ＡＣＬ　Ｅｌｉｔｅ出場クラブがＡＣＬ　Ｅｌｉｔｅ準々決勝進出の場合は５／１９（水）に開催する可能性があります。",
       "round": 32,
-      "checkedAt": "2026-10-29T15:19:13.210Z",
+      "checkedAt": "2026-10-29T20:07:31.315Z",
       "candidateDates": [],
       "conditionalDates": [
         "2027-05-19"
@@ -7400,7 +7400,7 @@
       "sourceId": "src-j1-2026-27-shimizu-okayama",
       "note": "",
       "round": 32,
-      "checkedAt": "2026-10-29T15:19:12.331Z",
+      "checkedAt": "2026-10-29T20:07:29.896Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -7418,7 +7418,7 @@
       "sourceId": "src-j1-2026-27-urawa-machida",
       "note": "",
       "round": 32,
-      "checkedAt": "2026-10-29T15:19:07.570Z",
+      "checkedAt": "2026-10-29T20:07:24.441Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -7436,7 +7436,7 @@
       "sourceId": "src-j1-2026-27-yokohamafm-nagoya",
       "note": "",
       "round": 32,
-      "checkedAt": "2026-10-29T15:19:11.403Z",
+      "checkedAt": "2026-10-29T20:07:28.980Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -7454,7 +7454,7 @@
       "sourceId": "src-j1-2026-27-fctokyo-shimizu",
       "note": "※５／３（月・祝）　ｏｒ　５／４（火・祝）",
       "round": 33,
-      "checkedAt": "2026-10-29T15:19:17.612Z",
+      "checkedAt": "2026-10-29T20:07:35.936Z",
       "candidateDates": [
         "2027-05-03",
         "2027-05-04"
@@ -7475,7 +7475,7 @@
       "sourceId": "src-j1-2026-27-gosaka-kashima",
       "note": "※５／３（月・祝）　ｏｒ　５／４（火・祝）　※ＡＣＬ　Ｅｌｉｔｅ出場クラブがＡＣＬ　Ｅｌｉｔｅ準々決勝進出の場合は５／５（水・祝）もしくは５／２６（水）に開催する可能性があります。",
       "round": 33,
-      "checkedAt": "2026-10-29T15:19:21.100Z",
+      "checkedAt": "2026-10-29T20:07:39.648Z",
       "candidateDates": [
         "2027-05-03",
         "2027-05-04"
@@ -7499,7 +7499,7 @@
       "sourceId": "src-j1-2026-27-hiroshima-urawa",
       "note": "※５／３（月・祝）　ｏｒ　５／４（火・祝）",
       "round": 33,
-      "checkedAt": "2026-10-29T15:19:23.991Z",
+      "checkedAt": "2026-10-29T20:07:43.180Z",
       "candidateDates": [
         "2027-05-03",
         "2027-05-04"
@@ -7520,7 +7520,7 @@
       "sourceId": "src-j1-2026-27-kobe-kashiwa",
       "note": "※５／３（月・祝）　ｏｒ　５／４（火・祝）　※ＡＣＬ　Ｅｌｉｔｅ出場クラブがＡＣＬ　Ｅｌｉｔｅ準々決勝進出の場合は５／５（水・祝）もしくは５／２６（水）に開催する可能性があります。",
       "round": 33,
-      "checkedAt": "2026-10-29T15:19:21.989Z",
+      "checkedAt": "2026-10-29T20:07:40.597Z",
       "candidateDates": [
         "2027-05-03",
         "2027-05-04"
@@ -7544,7 +7544,7 @@
       "sourceId": "src-j1-2026-27-machida-kyoto",
       "note": "※５／３（月・祝）　ｏｒ　５／４（火・祝）　※ＡＣＬ　Ｅｌｉｔｅ出場クラブがＡＣＬ　Ｅｌｉｔｅ準々決勝進出の場合は５／５（水・祝）もしくは５／２６（水）に開催する可能性があります。",
       "round": 33,
-      "checkedAt": "2026-10-29T15:19:19.345Z",
+      "checkedAt": "2026-10-29T20:07:37.852Z",
       "candidateDates": [
         "2027-05-03",
         "2027-05-04"
@@ -7568,7 +7568,7 @@
       "sourceId": "src-j1-2026-27-mito-fukuoka",
       "note": "※５／３（月・祝）　ｏｒ　５／４（火・祝）",
       "round": 33,
-      "checkedAt": "2026-10-29T15:19:16.734Z",
+      "checkedAt": "2026-10-29T20:07:34.572Z",
       "candidateDates": [
         "2027-05-03",
         "2027-05-04"
@@ -7589,7 +7589,7 @@
       "sourceId": "src-j1-2026-27-nagasaki-yokohamafm",
       "note": "※５／３（月・祝）　ｏｒ　５／４（火・祝）",
       "round": 33,
-      "checkedAt": "2026-10-29T15:19:24.907Z",
+      "checkedAt": "2026-10-29T20:07:44.923Z",
       "candidateDates": [
         "2027-05-03",
         "2027-05-04"
@@ -7610,7 +7610,7 @@
       "sourceId": "src-j1-2026-27-nagoya-chiba",
       "note": "※５／３（月・祝）　ｏｒ　５／４（火・祝）",
       "round": 33,
-      "checkedAt": "2026-10-29T15:19:20.231Z",
+      "checkedAt": "2026-10-29T20:07:38.730Z",
       "candidateDates": [
         "2027-05-03",
         "2027-05-04"
@@ -7631,7 +7631,7 @@
       "sourceId": "src-j1-2026-27-okayama-kawasaki",
       "note": "※５／３（月・祝）　ｏｒ　５／４（火・祝）",
       "round": 33,
-      "checkedAt": "2026-10-29T15:19:23.112Z",
+      "checkedAt": "2026-10-29T20:07:42.022Z",
       "candidateDates": [
         "2027-05-03",
         "2027-05-04"
@@ -7652,7 +7652,7 @@
       "sourceId": "src-j1-2026-27-tokyov-cosaka",
       "note": "※５／３（月・祝）　ｏｒ　５／４（火・祝）",
       "round": 33,
-      "checkedAt": "2026-10-29T15:19:18.503Z",
+      "checkedAt": "2026-10-29T20:07:36.952Z",
       "candidateDates": [
         "2027-05-03",
         "2027-05-04"
@@ -7673,7 +7673,7 @@
       "sourceId": "src-j1-2026-27-chiba-shimizu",
       "note": "※ルヴァンカップ決勝進出クラブの試合は４／２１（水）、５／１２（水）、５／１９（水）、　６／２（水）のいずれかに開催する可能性があります。",
       "round": 34,
-      "checkedAt": "2026-10-29T15:19:28.567Z",
+      "checkedAt": "2026-10-29T20:07:48.809Z",
       "candidateDates": [],
       "conditionalDates": [
         "2027-04-21",
@@ -7696,7 +7696,7 @@
       "sourceId": "src-j1-2026-27-cosaka-nagoya",
       "note": "※ルヴァンカップ決勝進出クラブの試合は４／２１（水）、５／１２（水）、５／１９（水）、　６／２（水）のいずれかに開催する可能性があります。",
       "round": 34,
-      "checkedAt": "2026-10-29T15:19:33.008Z",
+      "checkedAt": "2026-10-29T20:07:53.033Z",
       "candidateDates": [],
       "conditionalDates": [
         "2027-04-21",
@@ -7719,7 +7719,7 @@
       "sourceId": "src-j1-2026-27-fctokyo-tokyov",
       "note": "※ルヴァンカップ決勝進出クラブの試合は４／２１（水）、５／１２（水）、５／１９（水）、　６／２（水）のいずれかに開催する可能性があります。",
       "round": 34,
-      "checkedAt": "2026-10-29T15:19:30.862Z",
+      "checkedAt": "2026-10-29T20:07:51.105Z",
       "candidateDates": [],
       "conditionalDates": [
         "2027-04-21",
@@ -7742,7 +7742,7 @@
       "sourceId": "src-j1-2026-27-fukuoka-kyoto",
       "note": "※ルヴァンカップ決勝進出クラブの試合は４／２１（水）、５／１２（水）、５／１９（水）、　６／２（水）のいずれかに開催する可能性があります。",
       "round": 34,
-      "checkedAt": "2026-10-29T15:19:34.896Z",
+      "checkedAt": "2026-10-29T20:07:54.809Z",
       "candidateDates": [],
       "conditionalDates": [
         "2027-04-21",
@@ -7765,7 +7765,7 @@
       "sourceId": "src-j1-2026-27-hiroshima-nagasaki",
       "note": "※ルヴァンカップ決勝進出クラブの試合は４／２１（水）、５／１２（水）、５／１９（水）、　６／２（水）のいずれかに開催する可能性があります。",
       "round": 34,
-      "checkedAt": "2026-10-29T15:19:33.862Z",
+      "checkedAt": "2026-10-29T20:07:53.936Z",
       "candidateDates": [],
       "conditionalDates": [
         "2027-04-21",
@@ -7788,7 +7788,7 @@
       "sourceId": "src-j1-2026-27-kashima-kawasaki",
       "note": "※ルヴァンカップ決勝進出クラブの試合は４／２１（水）、５／１２（水）、５／１９（水）、　６／２（水）のいずれかに開催する可能性があります。",
       "round": 34,
-      "checkedAt": "2026-10-29T15:19:25.787Z",
+      "checkedAt": "2026-10-29T20:07:45.887Z",
       "candidateDates": [],
       "conditionalDates": [
         "2027-04-21",
@@ -7811,7 +7811,7 @@
       "sourceId": "src-j1-2026-27-kashiwa-machida",
       "note": "※ルヴァンカップ決勝進出クラブの試合は４／２１（水）、５／１２（水）、５／１９（水）、　６／２（水）のいずれかに開催する可能性があります。",
       "round": 34,
-      "checkedAt": "2026-10-29T15:19:29.938Z",
+      "checkedAt": "2026-10-29T20:07:49.716Z",
       "candidateDates": [],
       "conditionalDates": [
         "2027-04-21",
@@ -7834,7 +7834,7 @@
       "sourceId": "src-j1-2026-27-mito-okayama",
       "note": "※ルヴァンカップ決勝進出クラブの試合は４／２１（水）、５／１２（水）、５／１９（水）、　６／２（水）のいずれかに開催する可能性があります。",
       "round": 34,
-      "checkedAt": "2026-10-29T15:19:26.658Z",
+      "checkedAt": "2026-10-29T20:07:46.770Z",
       "candidateDates": [],
       "conditionalDates": [
         "2027-04-21",
@@ -7857,7 +7857,7 @@
       "sourceId": "src-j1-2026-27-urawa-kobe",
       "note": "※ルヴァンカップ決勝進出クラブの試合は４／２１（水）、５／１２（水）、５／１９（水）、　６／２（水）のいずれかに開催する可能性があります。",
       "round": 34,
-      "checkedAt": "2026-10-29T15:19:27.546Z",
+      "checkedAt": "2026-10-29T20:07:47.937Z",
       "candidateDates": [],
       "conditionalDates": [
         "2027-04-21",
@@ -7880,7 +7880,7 @@
       "sourceId": "src-j1-2026-27-yokohamafm-gosaka",
       "note": "※ルヴァンカップ決勝進出クラブの試合は４／２１（水）、５／１２（水）、５／１９（水）、　６／２（水）のいずれかに開催する可能性があります。",
       "round": 34,
-      "checkedAt": "2026-10-29T15:19:31.823Z",
+      "checkedAt": "2026-10-29T20:07:52.019Z",
       "candidateDates": [],
       "conditionalDates": [
         "2027-04-21",
@@ -7903,7 +7903,7 @@
       "sourceId": "src-j1-2026-27-gosaka-mito",
       "note": "※５／１５（土）　ｏｒ　５／１６（日）　※ＡＣＬ　Ｔｗｏ出場クラブがＡＣＬ　Ｔｗｏ決勝進出の場合は５／２６（水）に開催する可能性があります。",
       "round": 35,
-      "checkedAt": "2026-10-29T15:19:41.813Z",
+      "checkedAt": "2026-10-29T20:08:03.098Z",
       "candidateDates": [
         "2027-05-15",
         "2027-05-16"
@@ -7926,7 +7926,7 @@
       "sourceId": "src-j1-2026-27-kawasaki-yokohamafm",
       "note": "※５／１５（土）　ｏｒ　５／１６（日）",
       "round": 35,
-      "checkedAt": "2026-10-29T15:19:38.281Z",
+      "checkedAt": "2026-10-29T20:07:58.101Z",
       "candidateDates": [
         "2027-05-15",
         "2027-05-16"
@@ -7947,7 +7947,7 @@
       "sourceId": "src-j1-2026-27-kobe-tokyov",
       "note": "※５／１５（土）　ｏｒ　５／１６（日）",
       "round": 35,
-      "checkedAt": "2026-10-29T15:19:42.709Z",
+      "checkedAt": "2026-10-29T20:08:04.003Z",
       "candidateDates": [
         "2027-05-15",
         "2027-05-16"
@@ -7968,7 +7968,7 @@
       "sourceId": "src-j1-2026-27-kyoto-hiroshima",
       "note": "※５／１５（土）　ｏｒ　５／１６（日）",
       "round": 35,
-      "checkedAt": "2026-10-29T15:19:40.958Z",
+      "checkedAt": "2026-10-29T20:08:01.635Z",
       "candidateDates": [
         "2027-05-15",
         "2027-05-16"
@@ -7989,7 +7989,7 @@
       "sourceId": "src-j1-2026-27-machida-fctokyo",
       "note": "※５／１５（土）　ｏｒ　５／１６（日）　※ＡＣＬ　Ｔｗｏ出場クラブがＡＣＬ　Ｔｗｏ決勝進出の場合は５／２６（水）に開催する可能性があります。",
       "round": 35,
-      "checkedAt": "2026-10-29T15:19:37.402Z",
+      "checkedAt": "2026-10-29T20:07:56.667Z",
       "candidateDates": [
         "2027-05-15",
         "2027-05-16"
@@ -8012,7 +8012,7 @@
       "sourceId": "src-j1-2026-27-nagasaki-kashima",
       "note": "※５／１５（土）　ｏｒ　５／１６（日）",
       "round": 35,
-      "checkedAt": "2026-10-29T15:19:44.537Z",
+      "checkedAt": "2026-10-29T20:08:06.334Z",
       "candidateDates": [
         "2027-05-15",
         "2027-05-16"
@@ -8033,7 +8033,7 @@
       "sourceId": "src-j1-2026-27-nagoya-kashiwa",
       "note": "※５／１５（土）　ｏｒ　５／１６（日）",
       "round": 35,
-      "checkedAt": "2026-10-29T15:19:40.048Z",
+      "checkedAt": "2026-10-29T20:08:00.472Z",
       "candidateDates": [
         "2027-05-15",
         "2027-05-16"
@@ -8054,7 +8054,7 @@
       "sourceId": "src-j1-2026-27-okayama-chiba",
       "note": "※５／１５（土）　ｏｒ　５／１６（日）",
       "round": 35,
-      "checkedAt": "2026-10-29T15:19:43.609Z",
+      "checkedAt": "2026-10-29T20:08:04.908Z",
       "candidateDates": [
         "2027-05-15",
         "2027-05-16"
@@ -8075,7 +8075,7 @@
       "sourceId": "src-j1-2026-27-shimizu-cosaka",
       "note": "※５／１５（土）　ｏｒ　５／１６（日）",
       "round": 35,
-      "checkedAt": "2026-10-29T15:19:39.149Z",
+      "checkedAt": "2026-10-29T20:07:59.027Z",
       "candidateDates": [
         "2027-05-15",
         "2027-05-16"
@@ -8096,7 +8096,7 @@
       "sourceId": "src-j1-2026-27-urawa-fukuoka",
       "note": "※５／１５（土）　ｏｒ　５／１６（日）",
       "round": 35,
-      "checkedAt": "2026-10-29T15:19:36.477Z",
+      "checkedAt": "2026-10-29T20:07:55.767Z",
       "candidateDates": [
         "2027-05-15",
         "2027-05-16"
@@ -8117,7 +8117,7 @@
       "sourceId": "src-j1-2026-27-chiba-kobe",
       "note": "※５／２２（土）　ｏｒ　５／２３（日）",
       "round": 36,
-      "checkedAt": "2026-10-29T15:19:47.752Z",
+      "checkedAt": "2026-10-29T20:08:10.359Z",
       "candidateDates": [
         "2027-05-22",
         "2027-05-23"
@@ -8138,7 +8138,7 @@
       "sourceId": "src-j1-2026-27-fctokyo-gosaka",
       "note": "※５／２２（土）　ｏｒ　５／２３（日）",
       "round": 36,
-      "checkedAt": "2026-10-29T15:19:48.669Z",
+      "checkedAt": "2026-10-29T20:08:11.794Z",
       "candidateDates": [
         "2027-05-22",
         "2027-05-23"
@@ -8159,7 +8159,7 @@
       "sourceId": "src-j1-2026-27-fukuoka-kashima",
       "note": "※５／２２（土）　ｏｒ　５／２３（日）",
       "round": 36,
-      "checkedAt": "2026-10-29T15:19:55.765Z",
+      "checkedAt": "2026-10-29T20:08:19.273Z",
       "candidateDates": [
         "2027-05-22",
         "2027-05-23"
@@ -8180,7 +8180,7 @@
       "sourceId": "src-j1-2026-27-hiroshima-kashiwa",
       "note": "※５／２２（土）　ｏｒ　５／２３（日）",
       "round": 36,
-      "checkedAt": "2026-10-29T15:19:54.820Z",
+      "checkedAt": "2026-10-29T20:08:18.368Z",
       "candidateDates": [
         "2027-05-22",
         "2027-05-23"
@@ -8201,7 +8201,7 @@
       "sourceId": "src-j1-2026-27-kawasaki-cosaka",
       "note": "※５／２２（土）　ｏｒ　５／２３（日）",
       "round": 36,
-      "checkedAt": "2026-10-29T15:19:50.619Z",
+      "checkedAt": "2026-10-29T20:08:15.124Z",
       "candidateDates": [
         "2027-05-22",
         "2027-05-23"
@@ -8222,7 +8222,7 @@
       "sourceId": "src-j1-2026-27-mito-nagoya",
       "note": "※５／２２（土）　ｏｒ　５／２３（日）",
       "round": 36,
-      "checkedAt": "2026-10-29T15:19:45.413Z",
+      "checkedAt": "2026-10-29T20:08:07.770Z",
       "candidateDates": [
         "2027-05-22",
         "2027-05-23"
@@ -8243,7 +8243,7 @@
       "sourceId": "src-j1-2026-27-okayama-machida",
       "note": "※５／２２（土）　ｏｒ　５／２３（日）",
       "round": 36,
-      "checkedAt": "2026-10-29T15:19:53.610Z",
+      "checkedAt": "2026-10-29T20:08:17.458Z",
       "candidateDates": [
         "2027-05-22",
         "2027-05-23"
@@ -8264,7 +8264,7 @@
       "sourceId": "src-j1-2026-27-tokyov-nagasaki",
       "note": "※５／２２（土）　ｏｒ　５／２３（日）",
       "round": 36,
-      "checkedAt": "2026-10-29T15:19:49.521Z",
+      "checkedAt": "2026-10-29T20:08:13.640Z",
       "candidateDates": [
         "2027-05-22",
         "2027-05-23"
@@ -8285,7 +8285,7 @@
       "sourceId": "src-j1-2026-27-urawa-kyoto",
       "note": "※５／２２（土）　ｏｒ　５／２３（日）",
       "round": 36,
-      "checkedAt": "2026-10-29T15:19:46.895Z",
+      "checkedAt": "2026-10-29T20:08:09.202Z",
       "candidateDates": [
         "2027-05-22",
         "2027-05-23"
@@ -8306,7 +8306,7 @@
       "sourceId": "src-j1-2026-27-yokohamafm-shimizu",
       "note": "※５／２２（土）　ｏｒ　５／２３（日）",
       "round": 36,
-      "checkedAt": "2026-10-29T15:19:52.072Z",
+      "checkedAt": "2026-10-29T20:08:16.032Z",
       "candidateDates": [
         "2027-05-22",
         "2027-05-23"
@@ -8327,7 +8327,7 @@
       "sourceId": "src-j1-2026-27-cosaka-urawa",
       "note": "※５／２９（土）　ｏｒ　５／３０（日）",
       "round": 37,
-      "checkedAt": "2026-10-29T15:20:03.163Z",
+      "checkedAt": "2026-10-29T20:08:26.773Z",
       "candidateDates": [
         "2027-05-29",
         "2027-05-30"
@@ -8348,7 +8348,7 @@
       "sourceId": "src-j1-2026-27-fctokyo-kobe",
       "note": "※５／２９（土）　ｏｒ　５／３０（日）",
       "round": 37,
-      "checkedAt": "2026-10-29T15:19:57.631Z",
+      "checkedAt": "2026-10-29T20:08:21.647Z",
       "candidateDates": [
         "2027-05-29",
         "2027-05-30"
@@ -8369,7 +8369,7 @@
       "sourceId": "src-j1-2026-27-fukuoka-kawasaki",
       "note": "※５／２９（土）　ｏｒ　５／３０（日）",
       "round": 37,
-      "checkedAt": "2026-10-29T15:20:05.241Z",
+      "checkedAt": "2026-10-29T20:08:28.640Z",
       "candidateDates": [
         "2027-05-29",
         "2027-05-30"
@@ -8390,7 +8390,7 @@
       "sourceId": "src-j1-2026-27-gosaka-shimizu",
       "note": "※５／２９（土）　ｏｒ　５／３０（日）",
       "round": 37,
-      "checkedAt": "2026-10-29T15:20:02.166Z",
+      "checkedAt": "2026-10-29T20:08:25.846Z",
       "candidateDates": [
         "2027-05-29",
         "2027-05-30"
@@ -8411,7 +8411,7 @@
       "sourceId": "src-j1-2026-27-hiroshima-mito",
       "note": "※５／２９（土）　ｏｒ　５／３０（日）",
       "round": 37,
-      "checkedAt": "2026-10-29T15:20:04.339Z",
+      "checkedAt": "2026-10-29T20:08:27.682Z",
       "candidateDates": [
         "2027-05-29",
         "2027-05-30"
@@ -8432,7 +8432,7 @@
       "sourceId": "src-j1-2026-27-kashiwa-kashima",
       "note": "※５／２９（土）　ｏｒ　５／３０（日）",
       "round": 37,
-      "checkedAt": "2026-10-29T15:19:56.694Z",
+      "checkedAt": "2026-10-29T20:08:20.702Z",
       "candidateDates": [
         "2027-05-29",
         "2027-05-30"
@@ -8453,7 +8453,7 @@
       "sourceId": "src-j1-2026-27-kyoto-nagoya",
       "note": "※５／２９（土）　ｏｒ　５／３０（日）",
       "round": 37,
-      "checkedAt": "2026-10-29T15:20:00.932Z",
+      "checkedAt": "2026-10-29T20:08:24.953Z",
       "candidateDates": [
         "2027-05-29",
         "2027-05-30"
@@ -8474,7 +8474,7 @@
       "sourceId": "src-j1-2026-27-nagasaki-machida",
       "note": "※５／２９（土）　ｏｒ　５／３０（日）",
       "round": 37,
-      "checkedAt": "2026-10-29T15:20:06.429Z",
+      "checkedAt": "2026-10-29T20:08:30.087Z",
       "candidateDates": [
         "2027-05-29",
         "2027-05-30"
@@ -8495,7 +8495,7 @@
       "sourceId": "src-j1-2026-27-tokyov-okayama",
       "note": "※５／２９（土）　ｏｒ　５／３０（日）",
       "round": 37,
-      "checkedAt": "2026-10-29T15:19:58.579Z",
+      "checkedAt": "2026-10-29T20:08:22.863Z",
       "candidateDates": [
         "2027-05-29",
         "2027-05-30"
@@ -8516,7 +8516,7 @@
       "sourceId": "src-j1-2026-27-yokohamafm-chiba",
       "note": "※５／２９（土）　ｏｒ　５／３０（日）",
       "round": 37,
-      "checkedAt": "2026-10-29T15:19:59.489Z",
+      "checkedAt": "2026-10-29T20:08:23.774Z",
       "candidateDates": [
         "2027-05-29",
         "2027-05-30"
@@ -8537,7 +8537,7 @@
       "sourceId": "src-j1-2026-27-chiba-kashiwa",
       "note": "",
       "round": 38,
-      "checkedAt": "2026-10-29T15:20:11.190Z",
+      "checkedAt": "2026-10-29T20:08:35.106Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -8555,7 +8555,7 @@
       "sourceId": "src-j1-2026-27-kashima-fctokyo",
       "note": "",
       "round": 38,
-      "checkedAt": "2026-10-29T15:20:08.521Z",
+      "checkedAt": "2026-10-29T20:08:31.263Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -8573,7 +8573,7 @@
       "sourceId": "src-j1-2026-27-kawasaki-hiroshima",
       "note": "",
       "round": 38,
-      "checkedAt": "2026-10-29T15:20:13.780Z",
+      "checkedAt": "2026-10-29T20:08:36.897Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -8591,7 +8591,7 @@
       "sourceId": "src-j1-2026-27-kobe-kyoto",
       "note": "",
       "round": 38,
-      "checkedAt": "2026-10-29T15:20:17.138Z",
+      "checkedAt": "2026-10-29T20:08:39.657Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -8609,7 +8609,7 @@
       "sourceId": "src-j1-2026-27-machida-cosaka",
       "note": "",
       "round": 38,
-      "checkedAt": "2026-10-29T15:20:12.910Z",
+      "checkedAt": "2026-10-29T20:08:36.000Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -8627,7 +8627,7 @@
       "sourceId": "src-j1-2026-27-mito-yokohamafm",
       "note": "",
       "round": 38,
-      "checkedAt": "2026-10-29T15:20:09.421Z",
+      "checkedAt": "2026-10-29T20:08:32.470Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -8645,7 +8645,7 @@
       "sourceId": "src-j1-2026-27-nagoya-tokyov",
       "note": "",
       "round": 38,
-      "checkedAt": "2026-10-29T15:20:15.946Z",
+      "checkedAt": "2026-10-29T20:08:38.705Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -8663,7 +8663,7 @@
       "sourceId": "src-j1-2026-27-okayama-fukuoka",
       "note": "",
       "round": 38,
-      "checkedAt": "2026-10-29T15:20:18.001Z",
+      "checkedAt": "2026-10-29T20:08:40.556Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -8681,7 +8681,7 @@
       "sourceId": "src-j1-2026-27-shimizu-nagasaki",
       "note": "",
       "round": 38,
-      "checkedAt": "2026-10-29T15:20:14.757Z",
+      "checkedAt": "2026-10-29T20:08:37.805Z",
       "candidateDates": [],
       "conditionalDates": []
     },
@@ -8699,7 +8699,7 @@
       "sourceId": "src-j1-2026-27-urawa-gosaka",
       "note": "",
       "round": 38,
-      "checkedAt": "2026-10-29T15:20:10.324Z",
+      "checkedAt": "2026-10-29T20:08:33.370Z",
       "candidateDates": [],
       "conditionalDates": []
     }
