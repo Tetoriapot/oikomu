@@ -16,6 +16,7 @@ export function UpdatesPage() {
   const overdue = lastSuccess && toJst(Date.parse(lastSuccess)).slice(0, 10) < todayJst();
   return <div className="sources-page updates-page"><p className="eyebrow">デモ版・実験公開中</p><h1 tabIndex={-1}>更新情報</h1>
     <section className="panel spaced"><h2>日程データの更新</h2><p>公開版は毎日0:00（日本時間）に取得を開始する設定です。GitHub Actionsの実行待ちや処理時間により、反映は遅れる場合があります。</p>
+      <p>毎時17分にも当日分の取得状況を確認し、未取得や取得失敗なら再試行します。取得済みなら再取得を省き、公開処理を再実行します。</p>
       {demo && <p className="info-note">現在の表示は架空のサンプルデモです。以下の更新履歴はJ1実データを対象としています。</p>}
       <dl><div><dt>最終成功日時</dt><dd>{lastSuccess ? stamp(lastSuccess) : '成功した更新の記録はありません'}</dd></div><div><dt>更新予定</dt><dd>毎日0:00（Asia/Tokyo）</dd></div><div><dt>蓄積件数</dt><dd>{collection ? `${collection.snapshots.length}回の取得記録` : '確認できません'}</dd></div>{collection?.latestAttempt && <div><dt>直近の試行</dt><dd>{stamp(collection.latestAttempt.finishedAt)} · {collection.latestAttempt.status === 'success' ? '成功' : '失敗'}</dd></div>}</dl>
       {collection?.latestAttempt?.status === 'failed' && <p className="info-note" role="alert">直近の取得に失敗しました。最後に成功した日程を表示しています。公式日程を確認してください。</p>}

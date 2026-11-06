@@ -8,6 +8,15 @@ import { validateCollection } from '../src/data/validateCollection.ts';
 
 export const digest = bytes => createHash('sha256').update(bytes).digest('hex');
 const json = value => JSON.stringify(value, null, 2) + '\n';
+export function isDailyCollectionDue(collection, now = Date.now()) {
+  validateCollection(collection);
+  if (!Number.isFinite(now)) throw new Error('更新判定の現在時刻が正しくありません。');
+  if (!collection.lastSuccessAt) return true;
+  const last = Date.parse(collection.lastSuccessAt);
+  if (last > now) throw new Error('最終成功日時が未来になっています。更新履歴を確認してください。');
+  const jstDay = time => new Date(time + 9 * 3_600_000).toISOString().slice(0, 10);
+  return jstDay(last) !== jstDay(now) || collection.latestAttempt?.status === 'failed';
+}
 export async function readCollection(root) {
   try { return validateCollection(JSON.parse(await fs.readFile(path.join(root, 'collection.json'), 'utf8'))); }
   catch (error) { if (error.code === 'ENOENT') return { schemaVersion: 1, lastSuccessAt: null, latestAttempt: null, snapshots: [] }; throw error; }

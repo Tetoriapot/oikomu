@@ -5,6 +5,7 @@ on:
     branches: [main]
   schedule:
     - cron: '0 15 * * *' # 00:00 Asia/Tokyo; GitHub may delay execution.
+    - cron: '17 * * * *' # Retry missing daily data away from the busy start of the hour.
   workflow_dispatch:
     inputs:
       refresh_data:
@@ -45,7 +46,12 @@ jobs:
         if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.refresh_data)
         continue-on-error: true
         working-directory: app
-        run: npm run data:collect
+        run: |
+          if [ "$GITHUB_EVENT_NAME" = 'schedule' ]; then
+            npm run data:collect -- --if-due
+          else
+            npm run data:collect
+          fi
       - name: Validate calculations and build
         working-directory: app
         run: |

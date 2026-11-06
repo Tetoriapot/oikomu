@@ -2,7 +2,9 @@ import { describe, expect, it, afterEach } from 'vitest';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { gunzipSync } from 'node:zlib';
-import { readCollection, saveSnapshot, recordFailure, digest } from '../../scripts/collection-store.mjs';
+import { execFileSync } from 'node:child_process';
+import { fileURLToPath } from 'node:url';
+import { readCollection, saveSnapshot, recordFailure, digest, isDailyCollectionDue } from '../../scripts/collection-store.mjs';
 import { validateCollection } from '../../src/data/validateCollection.ts';
 import { validateDataset } from '../../src/data/validate.ts';
 import { buildDataset } from '../../scripts/j1-source.mjs';
@@ -24,6 +26,41 @@ async function prepare() {
 afterEach(async () => { for (const root of dirs.splice(0)) if (path.dirname(root) === testRoot && path.basename(root).startsWith('oikomu-collection-')) await fs.rm(root, { recursive: true, force: true }); });
 
 describe('daily collection and immutable history', () => {
+  const collectionAt = (time, status = 'success') => ({
+    schemaVersion: 1, lastSuccessAt: time,
+    latestAttempt: { startedAt: time, finishedAt: time, status },
+    snapshots: [{ id: time, checkedAt: time, dateJst: new Date(Date.parse(time) + 9 * 3_600_000).toISOString().slice(0, 10), path: `data/history/j1-${time.replace(/[-:.]/g, '')}.json.gz`, matchCount: 380, sha256: '0'.repeat(64) }],
+  });
+  it('collects when no previous success exists', () => {
+    expect(isDailyCollectionDue({ schemaVersion: 1, lastSuccessAt: null, latestAttempt: null, snapshots: [] }, Date.parse('2026-11-06T15:00:00Z'))).toBe(true);
+  });
+  it.each([
+    ['2026-11-06T14:59:59.000Z', '2026-11-06T15:00:00Z', true],
+    ['2026-11-06T15:00:00.000Z', '2026-11-06T15:17:00Z', false],
+    ['2026-11-06T15:00:00.000Z', '2026-11-07T14:59:59Z', false],
+    ['2026-11-06T15:00:00.000Z', '2026-11-07T15:00:00Z', true],
+  ])('uses JST midnight for daily retry decisions: %s → %s', (last, now, due) => {
+    expect(isDailyCollectionDue(collectionAt(last), Date.parse(now))).toBe(due);
+  });
+  it('retries a failed attempt even if an earlier collection succeeded that day', () => {
+    expect(isDailyCollectionDue(collectionAt('2026-11-06T15:00:00.000Z', 'failed'), Date.parse('2026-11-06T16:17:00Z'))).toBe(true);
+  });
+  it('rejects invalid history and future successes instead of silently skipping', () => {
+    expect(() => isDailyCollectionDue({}, Date.now())).toThrow();
+    expect(() => isDailyCollectionDue(collectionAt('2026-11-07T15:00:00.000Z'), Date.parse('2026-11-06T15:00:00Z'))).toThrow('未来');
+    expect(() => isDailyCollectionDue(collectionAt('2026-11-06T15:00:00.000Z'), NaN)).toThrow('現在時刻');
+  });
+  it('skips a successful day without network access or file changes and releases its lock', async () => {
+    const root = await prepare();
+    await fs.writeFile(path.join(root, 'collection.json'), JSON.stringify(collectionAt(new Date().toISOString())));
+    const names = ['j1.json', 'sources/j1-2026-27.json', 'collection.json'];
+    const before = await Promise.all(names.map(name => fs.readFile(path.join(root, name), 'utf8')));
+    const stdout = execFileSync(process.execPath, [fileURLToPath(new URL('../../scripts/collect-j1.mjs', import.meta.url)), '--if-due'], { env: { ...process.env, OIKOMU_DATA_DIR: root }, encoding: 'utf8' });
+    expect(stdout).toContain('本日分の取得は成功済み');
+    expect(await Promise.all(names.map(name => fs.readFile(path.join(root, name), 'utf8')))).toEqual(before);
+    await expect(fs.access(path.join(root, '.collection.lock'))).rejects.toThrow();
+    await expect(fs.access(path.join(root, 'history'))).rejects.toThrow();
+  });
   it('archives facts, restores them exactly, and deduplicates the same collection', async () => {
     const root = await prepare();
     const first = await saveSnapshot(root, raw, current);
