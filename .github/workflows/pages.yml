@@ -28,6 +28,7 @@ jobs:
       contents: write
     outputs:
       collection_failed: ${{ steps.collect.outcome == 'failure' }}
+      html_sha: ${{ steps.fingerprint.outputs.html_sha }}
     steps:
       - uses: actions/checkout@v6
         with:
@@ -76,6 +77,9 @@ jobs:
             git commit -m 'Record J1 schedule collection'
             git push origin HEAD:main
           fi
+      - name: Fingerprint the validated build
+        id: fingerprint
+        run: echo "html_sha=$(sha256sum app/dist/index.html | cut -d ' ' -f 1)" >> "$GITHUB_OUTPUT"
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
@@ -85,15 +89,27 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     permissions:
+      contents: read
       pages: write
       id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24.19.0'
       - name: Deploy GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Verify the published content
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+          EXPECTED_HTML_SHA: ${{ needs.build.outputs.html_sha }}
+        run: node app/scripts/verify-pages.mjs
 
   report-collection-failure:
     needs: [build, deploy]
