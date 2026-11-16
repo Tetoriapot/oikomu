@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "lastSuccessAt": "2026-11-15T17:46:20.119Z",
+  "lastSuccessAt": "2026-11-16T21:04:45.788Z",
   "latestAttempt": {
-    "startedAt": "2026-11-15T17:41:52.904Z",
-    "finishedAt": "2026-11-15T17:46:20.199Z",
+    "startedAt": "2026-11-16T21:00:36.143Z",
+    "finishedAt": "2026-11-16T21:04:45.868Z",
     "status": "success"
   },
   "snapshots": [
@@ -174,6 +174,14 @@
       "path": "data/history/j1-20261115T174620119Z.json.gz",
       "matchCount": 380,
       "sha256": "22ead2ae65dfaddc844bdb0154e00cdfb50ae4aa11d730ba3f87541f3de8e3f1"
+    },
+    {
+      "id": "2026-11-16T21:04:45.788Z",
+      "checkedAt": "2026-11-16T21:04:45.788Z",
+      "dateJst": "2026-11-17",
+      "path": "data/history/j1-20261116T210445788Z.json.gz",
+      "matchCount": 380,
+      "sha256": "4de608c3bbaea0d423ce1c3274fcd3f16c10237855e583c9dcdc426736376b37"
     }
   ]
 }
