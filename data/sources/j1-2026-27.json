@@ -1,23 +1,23 @@
 {
   "season": "2026-27",
-  "updatedAt": "2026-11-17T22:23:55.839Z",
+  "updatedAt": "2026-11-18T21:29:23.829Z",
   "scheduleSources": [
     {
       "url": "https://www.jleague.jp/j1/match/search-list/?category=j1&period=custom&startdate=2026-08-01&enddate=2026-12-31",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
-      "sha256": "bad7f20f231ececa251b47bd5a9622416f2f912c39c07e70881ca0e8a622cecb",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
+      "sha256": "03bb64bea8adcd131fc250365246ddc17fc2139562e35be5610e03f272d1c20d",
       "count": 199
     },
     {
       "url": "https://www.jleague.jp/j1/match/search-list/?category=j1&period=custom&startdate=2027-01-01&enddate=2027-03-31",
-      "checkedAt": "2026-11-17T22:19:36.849Z",
-      "sha256": "32d231abae7cb4d49795b2f96ff31df6a9b0112364fa1da63acb1dcb0597958b",
+      "checkedAt": "2026-11-18T21:25:26.750Z",
+      "sha256": "9c3c1ab9eb655234257e30c3a04885a0611aa32e3276a876d0de8d21e8218d7c",
       "count": 70
     },
     {
       "url": "https://www.jleague.jp/j1/match/search-list/?category=j1&period=custom&startdate=2027-04-01&enddate=2027-06-30",
-      "checkedAt": "2026-11-17T22:19:37.905Z",
-      "sha256": "d214c0887f11524340e961969849fc505f19896daf65f3000fe3083416546849",
+      "checkedAt": "2026-11-18T21:25:29.288Z",
+      "sha256": "5c070f9c1b133281eda0c418fd5b1ab8b929c5be6f029d3d3bb7438b01f11f4d",
       "count": 111
     }
   ],
@@ -32,7 +32,7 @@
       "away": "鹿島アントラーズ",
       "stadium": "ＭＵＦＧスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/080701/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -45,7 +45,7 @@
       "away": "浦和レッズ",
       "stadium": "パナソニック スタジアム 吹田",
       "url": "https://www.jleague.jp/match/j1/2026/080702/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -58,7 +58,7 @@
       "away": "水戸ホーリーホック",
       "stadium": "三協フロンテア柏スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/080801/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -71,7 +71,7 @@
       "away": "ＦＣ町田ゼルビア",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/080802/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -84,7 +84,7 @@
       "away": "清水エスパルス",
       "stadium": "豊田スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/080803/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -97,7 +97,7 @@
       "away": "ファジアーノ岡山",
       "stadium": "YANMAR HANASAKA STADIUM",
       "url": "https://www.jleague.jp/match/j1/2026/080804/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -110,7 +110,7 @@
       "away": "ヴィッセル神戸",
       "stadium": "ベスト電器スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/080805/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -123,7 +123,7 @@
       "away": "ジェフユナイテッド千葉",
       "stadium": "エディオンピースウイング広島",
       "url": "https://www.jleague.jp/match/j1/2026/080806/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -136,7 +136,7 @@
       "away": "川崎フロンターレ",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/080901/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -149,7 +149,7 @@
       "away": "京都サンガF.C.",
       "stadium": "PEACE STADIUM Connected by SoftBank",
       "url": "https://www.jleague.jp/match/j1/2026/080902/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -162,7 +162,7 @@
       "away": "柏レイソル",
       "stadium": "ＭＵＦＧスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/081401/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -175,7 +175,7 @@
       "away": "名古屋グランパス",
       "stadium": "メルカリスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/081501/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -188,7 +188,7 @@
       "away": "ガンバ大阪",
       "stadium": "水戸信用金庫スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/081502/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -201,7 +201,7 @@
       "away": "横浜Ｆ・マリノス",
       "stadium": "ＩＡＩスタジアム日本平",
       "url": "https://www.jleague.jp/match/j1/2026/081503/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -214,7 +214,7 @@
       "away": "Ｖ・ファーレン長崎",
       "stadium": "ＪＦＥ晴れの国スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/081504/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -227,7 +227,7 @@
       "away": "サンフレッチェ広島",
       "stadium": "埼玉スタジアム２００２",
       "url": "https://www.jleague.jp/match/j1/2026/081505/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -240,7 +240,7 @@
       "away": "ＦＣ町田ゼルビア",
       "stadium": "フクダ電子アリーナ",
       "url": "https://www.jleague.jp/match/j1/2026/081506/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -253,7 +253,7 @@
       "away": "京都サンガF.C.",
       "stadium": "Ｕｖａｎｃｅとどろきスタジアム　ｂｙ　Ｆｕｊｉｔｓｕ",
       "url": "https://www.jleague.jp/match/j1/2026/081507/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -266,7 +266,7 @@
       "away": "ＦＣ東京",
       "stadium": "ノエビアスタジアム神戸",
       "url": "https://www.jleague.jp/match/j1/2026/081508/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -279,7 +279,7 @@
       "away": "セレッソ大阪",
       "stadium": "ベスト電器スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/081509/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -292,7 +292,7 @@
       "away": "Ｖ・ファーレン長崎",
       "stadium": "三協フロンテア柏スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/082102/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -305,7 +305,7 @@
       "away": "ジェフユナイテッド千葉",
       "stadium": "ＭＵＦＧスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/082101/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -318,7 +318,7 @@
       "away": "アビスパ福岡",
       "stadium": "メルカリスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/082201/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -331,7 +331,7 @@
       "away": "東京ヴェルディ",
       "stadium": "ＪＦＥ晴れの国スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/082202/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -344,7 +344,7 @@
       "away": "ガンバ大阪",
       "stadium": "豊田スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/082203/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -357,7 +357,7 @@
       "away": "水戸ホーリーホック",
       "stadium": "サンガスタジアム by ＫＹＯＣＥＲＡ",
       "url": "https://www.jleague.jp/match/j1/2026/082204/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -370,7 +370,7 @@
       "away": "清水エスパルス",
       "stadium": "YANMAR HANASAKA STADIUM",
       "url": "https://www.jleague.jp/match/j1/2026/082205/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -383,7 +383,7 @@
       "away": "川崎フロンターレ",
       "stadium": "エディオンピースウイング広島",
       "url": "https://www.jleague.jp/match/j1/2026/082206/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -396,7 +396,7 @@
       "away": "ヴィッセル神戸",
       "stadium": "日産スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/082207/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -409,7 +409,7 @@
       "away": "浦和レッズ",
       "stadium": "ＭＵＦＧスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/082301/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -422,7 +422,7 @@
       "away": "ＦＣ町田ゼルビア",
       "stadium": "水戸信用金庫スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/082901/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -435,7 +435,7 @@
       "away": "サンフレッチェ広島",
       "stadium": "パナソニック スタジアム 吹田",
       "url": "https://www.jleague.jp/match/j1/2026/082902/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -448,7 +448,7 @@
       "away": "柏レイソル",
       "stadium": "ＩＡＩスタジアム日本平",
       "url": "https://www.jleague.jp/match/j1/2026/082903/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -461,7 +461,7 @@
       "away": "ＦＣ東京",
       "stadium": "PEACE STADIUM Connected by SoftBank",
       "url": "https://www.jleague.jp/match/j1/2026/082904/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -474,7 +474,7 @@
       "away": "横浜Ｆ・マリノス",
       "stadium": "埼玉スタジアム２００２",
       "url": "https://www.jleague.jp/match/j1/2026/082905/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -487,7 +487,7 @@
       "away": "鹿島アントラーズ",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/082906/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -500,7 +500,7 @@
       "away": "ジェフユナイテッド千葉",
       "stadium": "Ｕｖａｎｃｅとどろきスタジアム　ｂｙ　Ｆｕｊｉｔｓｕ",
       "url": "https://www.jleague.jp/match/j1/2026/082907/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -513,7 +513,7 @@
       "away": "ファジアーノ岡山",
       "stadium": "豊田スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/082908/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -526,7 +526,7 @@
       "away": "アビスパ福岡",
       "stadium": "サンガスタジアム by ＫＹＯＣＥＲＡ",
       "url": "https://www.jleague.jp/match/j1/2026/082909/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -539,7 +539,7 @@
       "away": "セレッソ大阪",
       "stadium": "ノエビアスタジアム神戸",
       "url": "https://www.jleague.jp/match/j1/2026/082910/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -552,7 +552,7 @@
       "away": "鹿島アントラーズ",
       "stadium": "水戸信用金庫スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/090216/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -565,7 +565,7 @@
       "away": "ファジアーノ岡山",
       "stadium": "フクダ電子アリーナ",
       "url": "https://www.jleague.jp/match/j1/2026/090217/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -578,7 +578,7 @@
       "away": "ヴィッセル神戸",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/090218/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -591,7 +591,7 @@
       "away": "川崎フロンターレ",
       "stadium": "町田ＧＩＯＮスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/090219/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -604,7 +604,7 @@
       "away": "京都サンガF.C.",
       "stadium": "日産スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/090220/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -617,7 +617,7 @@
       "away": "ＦＣ東京",
       "stadium": "ＩＡＩスタジアム日本平",
       "url": "https://www.jleague.jp/match/j1/2026/090221/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -630,7 +630,7 @@
       "away": "柏レイソル",
       "stadium": "YANMAR HANASAKA STADIUM",
       "url": "https://www.jleague.jp/match/j1/2026/090222/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -643,7 +643,7 @@
       "away": "名古屋グランパス",
       "stadium": "エディオンピースウイング広島",
       "url": "https://www.jleague.jp/match/j1/2026/090223/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -656,7 +656,7 @@
       "away": "浦和レッズ",
       "stadium": "ベスト電器スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/090224/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -669,7 +669,7 @@
       "away": "ガンバ大阪",
       "stadium": "PEACE STADIUM Connected by SoftBank",
       "url": "https://www.jleague.jp/match/j1/2026/090225/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -682,7 +682,7 @@
       "away": "水戸ホーリーホック",
       "stadium": "ベスト電器スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/090501/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -695,7 +695,7 @@
       "away": "浦和レッズ",
       "stadium": "メルカリスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/090603/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -708,7 +708,7 @@
       "away": "ガンバ大阪",
       "stadium": "フクダ電子アリーナ",
       "url": "https://www.jleague.jp/match/j1/2026/090604/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -721,7 +721,7 @@
       "away": "ＦＣ町田ゼルビア",
       "stadium": "豊田スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/090605/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -734,7 +734,7 @@
       "away": "サンフレッチェ広島",
       "stadium": "ＪＦＥ晴れの国スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/090606/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -747,7 +747,7 @@
       "away": "横浜Ｆ・マリノス",
       "stadium": "三協フロンテア柏スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/090607/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -760,7 +760,7 @@
       "away": "清水エスパルス",
       "stadium": "ＭＵＦＧスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/090602/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -773,7 +773,7 @@
       "away": "東京ヴェルディ",
       "stadium": "YANMAR HANASAKA STADIUM",
       "url": "https://www.jleague.jp/match/j1/2026/090608/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -786,7 +786,7 @@
       "away": "Ｖ・ファーレン長崎",
       "stadium": "ノエビアスタジアム神戸",
       "url": "https://www.jleague.jp/match/j1/2026/090609/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -799,7 +799,7 @@
       "away": "京都サンガF.C.",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/090610/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -812,7 +812,7 @@
       "away": "柏レイソル",
       "stadium": "サンガスタジアム by ＫＹＯＣＥＲＡ",
       "url": "https://www.jleague.jp/match/j1/2026/091101/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -825,7 +825,7 @@
       "away": "鹿島アントラーズ",
       "stadium": "ノエビアスタジアム神戸",
       "url": "https://www.jleague.jp/match/j1/2026/091102/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -838,7 +838,7 @@
       "away": "川崎フロンターレ",
       "stadium": "水戸信用金庫スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/091202/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -851,7 +851,7 @@
       "away": "アビスパ福岡",
       "stadium": "ＩＡＩスタジアム日本平",
       "url": "https://www.jleague.jp/match/j1/2026/091203/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -864,7 +864,7 @@
       "away": "横浜Ｆ・マリノス",
       "stadium": "ＭＵＦＧスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/091201/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -877,7 +877,7 @@
       "away": "ＦＣ東京",
       "stadium": "パナソニック スタジアム 吹田",
       "url": "https://www.jleague.jp/match/j1/2026/091204/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -890,7 +890,7 @@
       "away": "セレッソ大阪",
       "stadium": "エディオンピースウイング広島",
       "url": "https://www.jleague.jp/match/j1/2026/091205/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -903,7 +903,7 @@
       "away": "名古屋グランパス",
       "stadium": "PEACE STADIUM Connected by SoftBank",
       "url": "https://www.jleague.jp/match/j1/2026/091206/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -916,7 +916,7 @@
       "away": "ジェフユナイテッド千葉",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/091302/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -929,7 +929,7 @@
       "away": "ファジアーノ岡山",
       "stadium": "埼玉スタジアム２００２",
       "url": "https://www.jleague.jp/match/j1/2026/091303/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -942,7 +942,7 @@
       "away": "鹿島アントラーズ",
       "stadium": "Ｕｖａｎｃｅとどろきスタジアム　ｂｙ　Ｆｕｊｉｔｓｕ",
       "url": "https://www.jleague.jp/match/j1/2026/091909/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -955,7 +955,7 @@
       "away": "サンフレッチェ広島",
       "stadium": "ベスト電器スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/091903/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -968,7 +968,7 @@
       "away": "東京ヴェルディ",
       "stadium": "埼玉スタジアム２００２",
       "url": "https://www.jleague.jp/match/j1/2026/091904/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -981,7 +981,7 @@
       "away": "ジェフユナイテッド千葉",
       "stadium": "ＩＡＩスタジアム日本平",
       "url": "https://www.jleague.jp/match/j1/2026/091905/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -994,7 +994,7 @@
       "away": "セレッソ大阪",
       "stadium": "PEACE STADIUM Connected by SoftBank",
       "url": "https://www.jleague.jp/match/j1/2026/091906/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1007,7 +1007,7 @@
       "away": "名古屋グランパス",
       "stadium": "ＭＵＦＧスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/091902/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1020,7 +1020,7 @@
       "away": "京都サンガF.C.",
       "stadium": "ＪＦＥ晴れの国スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/091907/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1033,7 +1033,7 @@
       "away": "水戸ホーリーホック",
       "stadium": "日産スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/091908/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1046,7 +1046,7 @@
       "away": "柏レイソル",
       "stadium": "町田ＧＩＯＮスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/092001/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1059,7 +1059,7 @@
       "away": "ヴィッセル神戸",
       "stadium": "パナソニック スタジアム 吹田",
       "url": "https://www.jleague.jp/match/j1/2026/092002/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1072,7 +1072,7 @@
       "away": "ガンバ大阪",
       "stadium": "メルカリスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/100903/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1085,7 +1085,7 @@
       "away": "ヴィッセル神戸",
       "stadium": "三協フロンテア柏スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/100901/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1098,7 +1098,7 @@
       "away": "横浜Ｆ・マリノス",
       "stadium": "YANMAR HANASAKA STADIUM",
       "url": "https://www.jleague.jp/match/j1/2026/101008/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1111,7 +1111,7 @@
       "away": "浦和レッズ",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/101009/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1124,7 +1124,7 @@
       "away": "ファジアーノ岡山",
       "stadium": "ベスト電器スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/101010/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1137,7 +1137,7 @@
       "away": "ＦＣ町田ゼルビア",
       "stadium": "サンガスタジアム by ＫＹＯＣＥＲＡ",
       "url": "https://www.jleague.jp/match/j1/2026/101012/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1150,7 +1150,7 @@
       "away": "Ｖ・ファーレン長崎",
       "stadium": "フクダ電子アリーナ",
       "url": "https://www.jleague.jp/match/j1/2026/101101/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1163,7 +1163,7 @@
       "away": "清水エスパルス",
       "stadium": "水戸信用金庫スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/101102/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1176,7 +1176,7 @@
       "away": "サンフレッチェ広島",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/101103/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1189,7 +1189,7 @@
       "away": "名古屋グランパス",
       "stadium": "Ｕｖａｎｃｅとどろきスタジアム　ｂｙ　Ｆｕｊｉｔｓｕ",
       "url": "https://www.jleague.jp/match/j1/2026/101104/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1202,7 +1202,7 @@
       "away": "ガンバ大阪",
       "stadium": "ＩＡＩスタジアム日本平",
       "url": "https://www.jleague.jp/match/j1/2026/101715/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1215,7 +1215,7 @@
       "away": "横浜Ｆ・マリノス",
       "stadium": "フクダ電子アリーナ",
       "url": "https://www.jleague.jp/match/j1/2026/101707/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1228,7 +1228,7 @@
       "away": "ＦＣ東京",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/101708/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1241,7 +1241,7 @@
       "away": "京都サンガF.C.",
       "stadium": "エディオンピースウイング広島",
       "url": "https://www.jleague.jp/match/j1/2026/101710/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1254,7 +1254,7 @@
       "away": "Ｖ・ファーレン長崎",
       "stadium": "メルカリスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/101711/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1267,7 +1267,7 @@
       "away": "川崎フロンターレ",
       "stadium": "YANMAR HANASAKA STADIUM",
       "url": "https://www.jleague.jp/match/j1/2026/101712/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1280,7 +1280,7 @@
       "away": "浦和レッズ",
       "stadium": "水戸信用金庫スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/101713/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1293,7 +1293,7 @@
       "away": "名古屋グランパス",
       "stadium": "三協フロンテア柏スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/101714/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1306,7 +1306,7 @@
       "away": "ヴィッセル神戸",
       "stadium": "ＪＦＥ晴れの国スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/101813/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1319,7 +1319,7 @@
       "away": "アビスパ福岡",
       "stadium": "町田ＧＩＯＮスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/101812/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1332,7 +1332,7 @@
       "away": "柏レイソル",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/102108/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1345,7 +1345,7 @@
       "away": "ヴィッセル神戸",
       "stadium": "Ｕｖａｎｃｅとどろきスタジアム　ｂｙ　Ｆｕｊｉｔｓｕ",
       "url": "https://www.jleague.jp/match/j1/2026/102109/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1358,7 +1358,7 @@
       "away": "東京ヴェルディ",
       "stadium": "ＭＵＦＧスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/102107/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1371,7 +1371,7 @@
       "away": "ＦＣ町田ゼルビア",
       "stadium": "ＩＡＩスタジアム日本平",
       "url": "https://www.jleague.jp/match/j1/2026/102110/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1384,7 +1384,7 @@
       "away": "セレッソ大阪",
       "stadium": "豊田スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/102111/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1397,7 +1397,7 @@
       "away": "鹿島アントラーズ",
       "stadium": "サンガスタジアム by ＫＹＯＣＥＲＡ",
       "url": "https://www.jleague.jp/match/j1/2026/102112/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1410,7 +1410,7 @@
       "away": "水戸ホーリーホック",
       "stadium": "ＪＦＥ晴れの国スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/102113/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1423,7 +1423,7 @@
       "away": "ガンバ大阪",
       "stadium": "ベスト電器スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/102114/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1436,7 +1436,7 @@
       "away": "サンフレッチェ広島",
       "stadium": "PEACE STADIUM Connected by SoftBank",
       "url": "https://www.jleague.jp/match/j1/2026/102115/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1449,7 +1449,7 @@
       "away": "ジェフユナイテッド千葉",
       "stadium": "埼玉スタジアム２００２",
       "url": "https://www.jleague.jp/match/j1/2026/102116/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1462,7 +1462,7 @@
       "away": "清水エスパルス",
       "stadium": "エディオンピースウイング広島",
       "url": "https://www.jleague.jp/match/j1/2026/102406/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1475,7 +1475,7 @@
       "away": "柏レイソル",
       "stadium": "メルカリスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/102407/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1488,7 +1488,7 @@
       "away": "アビスパ福岡",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/102408/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1501,7 +1501,7 @@
       "away": "ＦＣ町田ゼルビア",
       "stadium": "ノエビアスタジアム神戸",
       "url": "https://www.jleague.jp/match/j1/2026/102410/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1514,7 +1514,7 @@
       "away": "京都サンガF.C.",
       "stadium": "パナソニック スタジアム 吹田",
       "url": "https://www.jleague.jp/match/j1/2026/102409/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1527,7 +1527,7 @@
       "away": "横浜Ｆ・マリノス",
       "stadium": "豊田スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/102502/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1540,7 +1540,7 @@
       "away": "Ｖ・ファーレン長崎",
       "stadium": "埼玉スタジアム２００２",
       "url": "https://www.jleague.jp/match/j1/2026/102503/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1553,7 +1553,7 @@
       "away": "ジェフユナイテッド千葉",
       "stadium": "YANMAR HANASAKA STADIUM",
       "url": "https://www.jleague.jp/match/j1/2026/102504/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1566,7 +1566,7 @@
       "away": "水戸ホーリーホック",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/102505/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1579,7 +1579,7 @@
       "away": "ファジアーノ岡山",
       "stadium": "Ｕｖａｎｃｅとどろきスタジアム　ｂｙ　Ｆｕｊｉｔｓｕ",
       "url": "https://www.jleague.jp/match/j1/2026/102506/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1592,7 +1592,7 @@
       "away": "サンフレッチェ広島",
       "stadium": "水戸信用金庫スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/103107/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1605,7 +1605,7 @@
       "away": "清水エスパルス",
       "stadium": "サンガスタジアム by ＫＹＯＣＥＲＡ",
       "url": "https://www.jleague.jp/match/j1/2026/103112/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1618,7 +1618,7 @@
       "away": "ＦＣ東京",
       "stadium": "ＪＦＥ晴れの国スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/103109/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1631,7 +1631,7 @@
       "away": "セレッソ大阪",
       "stadium": "メルカリスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/103110/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1644,7 +1644,7 @@
       "away": "名古屋グランパス",
       "stadium": "ノエビアスタジアム神戸",
       "url": "https://www.jleague.jp/match/j1/2026/103113/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1657,7 +1657,7 @@
       "away": "浦和レッズ",
       "stadium": "三協フロンテア柏スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/103111/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1670,7 +1670,7 @@
       "away": "川崎フロンターレ",
       "stadium": "日産スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/110101/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1683,7 +1683,7 @@
       "away": "アビスパ福岡",
       "stadium": "フクダ電子アリーナ",
       "url": "https://www.jleague.jp/match/j1/2026/110102/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1696,7 +1696,7 @@
       "away": "東京ヴェルディ",
       "stadium": "PEACE STADIUM Connected by SoftBank",
       "url": "https://www.jleague.jp/match/j1/2026/110103/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1709,7 +1709,7 @@
       "away": "ガンバ大阪",
       "stadium": "町田ＧＩＯＮスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/110109/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1722,7 +1722,7 @@
       "away": "東京ヴェルディ",
       "stadium": "ＩＡＩスタジアム日本平",
       "url": "https://www.jleague.jp/match/j1/2026/110706/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1735,7 +1735,7 @@
       "away": "ファジアーノ岡山",
       "stadium": "日産スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/110707/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1748,7 +1748,7 @@
       "away": "京都サンガF.C.",
       "stadium": "豊田スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/110708/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1761,7 +1761,7 @@
       "away": "鹿島アントラーズ",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/110709/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1774,7 +1774,7 @@
       "away": "Ｖ・ファーレン長崎",
       "stadium": "ベスト電器スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/110710/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1787,7 +1787,7 @@
       "away": "川崎フロンターレ",
       "stadium": "三協フロンテア柏スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/110711/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1800,7 +1800,7 @@
       "away": "サンフレッチェ広島",
       "stadium": "町田ＧＩＯＮスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/110803/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1813,7 +1813,7 @@
       "away": "浦和レッズ",
       "stadium": "ＭＵＦＧスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/110802/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1826,7 +1826,7 @@
       "away": "セレッソ大阪",
       "stadium": "パナソニック スタジアム 吹田",
       "url": "https://www.jleague.jp/match/j1/2026/110804/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1839,7 +1839,7 @@
       "away": "水戸ホーリーホック",
       "stadium": "フクダ電子アリーナ",
       "url": "https://www.jleague.jp/match/j1/2026/110805/",
-      "checkedAt": "2026-11-17T22:19:35.258Z",
+      "checkedAt": "2026-11-18T21:25:25.559Z",
       "note": ""
     },
     {
@@ -1852,7 +1852,7 @@
       "away": "清水エスパルス",
       "stadium": "メルカリスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/112002/",
-      "checkedAt": "2026-11-17T22:19:38.838Z",
+      "checkedAt": "2026-11-18T21:25:30.201Z",
       "note": ""
     },
     {
@@ -1865,7 +1865,7 @@
       "away": "ジェフユナイテッド千葉",
       "stadium": "三協フロンテア柏スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/112001/",
-      "checkedAt": "2026-11-17T22:19:39.717Z",
+      "checkedAt": "2026-11-18T21:25:31.096Z",
       "note": ""
     },
     {
@@ -1878,7 +1878,7 @@
       "away": "水戸ホーリーホック",
       "stadium": "ノエビアスタジアム神戸",
       "url": "https://www.jleague.jp/match/j1/2026/112003/",
-      "checkedAt": "2026-11-17T22:19:40.667Z",
+      "checkedAt": "2026-11-18T21:25:32.007Z",
       "note": ""
     },
     {
@@ -1891,7 +1891,7 @@
       "away": "名古屋グランパス",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/112101/",
-      "checkedAt": "2026-11-17T22:19:42.392Z",
+      "checkedAt": "2026-11-18T21:25:32.880Z",
       "note": ""
     },
     {
@@ -1904,7 +1904,7 @@
       "away": "Ｖ・ファーレン長崎",
       "stadium": "町田ＧＩＯＮスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/112102/",
-      "checkedAt": "2026-11-17T22:19:43.259Z",
+      "checkedAt": "2026-11-18T21:25:33.762Z",
       "note": ""
     },
     {
@@ -1917,7 +1917,7 @@
       "away": "浦和レッズ",
       "stadium": "サンガスタジアム by ＫＹＯＣＥＲＡ",
       "url": "https://www.jleague.jp/match/j1/2026/112108/",
-      "checkedAt": "2026-11-17T22:19:44.252Z",
+      "checkedAt": "2026-11-18T21:25:34.627Z",
       "note": ""
     },
     {
@@ -1930,7 +1930,7 @@
       "away": "横浜Ｆ・マリノス",
       "stadium": "エディオンピースウイング広島",
       "url": "https://www.jleague.jp/match/j1/2026/112103/",
-      "checkedAt": "2026-11-17T22:19:45.101Z",
+      "checkedAt": "2026-11-18T21:25:35.722Z",
       "note": ""
     },
     {
@@ -1943,7 +1943,7 @@
       "away": "アビスパ福岡",
       "stadium": "Ｕｖａｎｃｅとどろきスタジアム　ｂｙ　Ｆｕｊｉｔｓｕ",
       "url": "https://www.jleague.jp/match/j1/2026/112104/",
-      "checkedAt": "2026-11-17T22:19:45.964Z",
+      "checkedAt": "2026-11-18T21:25:36.591Z",
       "note": ""
     },
     {
@@ -1956,7 +1956,7 @@
       "away": "ＦＣ東京",
       "stadium": "YANMAR HANASAKA STADIUM",
       "url": "https://www.jleague.jp/match/j1/2026/112105/",
-      "checkedAt": "2026-11-17T22:19:47.442Z",
+      "checkedAt": "2026-11-18T21:25:37.458Z",
       "note": ""
     },
     {
@@ -1969,7 +1969,7 @@
       "away": "ファジアーノ岡山",
       "stadium": "パナソニック スタジアム 吹田",
       "url": "https://www.jleague.jp/match/j1/2026/112106/",
-      "checkedAt": "2026-11-17T22:19:48.619Z",
+      "checkedAt": "2026-11-18T21:25:38.380Z",
       "note": ""
     },
     {
@@ -1982,7 +1982,7 @@
       "away": "東京ヴェルディ",
       "stadium": "水戸信用金庫スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/112501/",
-      "checkedAt": "2026-11-17T22:19:49.998Z",
+      "checkedAt": "2026-11-18T21:25:39.790Z",
       "note": ""
     },
     {
@@ -1995,7 +1995,7 @@
       "away": "名古屋グランパス",
       "stadium": "フクダ電子アリーナ",
       "url": "https://www.jleague.jp/match/j1/2026/112502/",
-      "checkedAt": "2026-11-17T22:19:51.473Z",
+      "checkedAt": "2026-11-18T21:25:40.614Z",
       "note": ""
     },
     {
@@ -2008,7 +2008,7 @@
       "away": "サンフレッチェ広島",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/112503/",
-      "checkedAt": "2026-11-17T22:19:52.932Z",
+      "checkedAt": "2026-11-18T21:25:42.002Z",
       "note": ""
     },
     {
@@ -2021,7 +2021,7 @@
       "away": "清水エスパルス",
       "stadium": "ＪＦＥ晴れの国スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/112504/",
-      "checkedAt": "2026-11-17T22:19:53.773Z",
+      "checkedAt": "2026-11-18T21:25:42.846Z",
       "note": ""
     },
     {
@@ -2034,7 +2034,7 @@
       "away": "横浜Ｆ・マリノス",
       "stadium": "ベスト電器スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/112505/",
-      "checkedAt": "2026-11-17T22:19:55.179Z",
+      "checkedAt": "2026-11-18T21:25:43.708Z",
       "note": ""
     },
     {
@@ -2047,7 +2047,7 @@
       "away": "川崎フロンターレ",
       "stadium": "PEACE STADIUM Connected by SoftBank",
       "url": "https://www.jleague.jp/match/j1/2026/112506/",
-      "checkedAt": "2026-11-17T22:19:56.140Z",
+      "checkedAt": "2026-11-18T21:25:45.553Z",
       "note": ""
     },
     {
@@ -2060,7 +2060,7 @@
       "away": "セレッソ大阪",
       "stadium": "埼玉スタジアム２００２",
       "url": "https://www.jleague.jp/match/j1/2026/112507/",
-      "checkedAt": "2026-11-17T22:19:57.256Z",
+      "checkedAt": "2026-11-18T21:25:46.430Z",
       "note": ""
     },
     {
@@ -2073,7 +2073,7 @@
       "away": "浦和レッズ",
       "stadium": "ＩＡＩスタジアム日本平",
       "url": "https://www.jleague.jp/match/j1/2026/112803/",
-      "checkedAt": "2026-11-17T22:19:58.176Z",
+      "checkedAt": "2026-11-18T21:25:47.342Z",
       "note": ""
     },
     {
@@ -2086,7 +2086,7 @@
       "away": "セレッソ大阪",
       "stadium": "サンガスタジアム by ＫＹＯＣＥＲＡ",
       "url": "https://www.jleague.jp/match/j1/2026/112807/",
-      "checkedAt": "2026-11-17T22:19:59.099Z",
+      "checkedAt": "2026-11-18T21:25:48.965Z",
       "note": ""
     },
     {
@@ -2099,7 +2099,7 @@
       "away": "ファジアーノ岡山",
       "stadium": "メルカリスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/112804/",
-      "checkedAt": "2026-11-17T22:19:59.951Z",
+      "checkedAt": "2026-11-18T21:25:49.818Z",
       "note": ""
     },
     {
@@ -2112,7 +2112,7 @@
       "away": "ジェフユナイテッド千葉",
       "stadium": "ノエビアスタジアム神戸",
       "url": "https://www.jleague.jp/match/j1/2026/112808/",
-      "checkedAt": "2026-11-17T22:20:01.448Z",
+      "checkedAt": "2026-11-18T21:25:50.908Z",
       "note": ""
     },
     {
@@ -2125,7 +2125,7 @@
       "away": "サンフレッチェ広島",
       "stadium": "三協フロンテア柏スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/112806/",
-      "checkedAt": "2026-11-17T22:20:02.629Z",
+      "checkedAt": "2026-11-18T21:25:52.448Z",
       "note": ""
     },
     {
@@ -2138,7 +2138,7 @@
       "away": "Ｖ・ファーレン長崎",
       "stadium": "水戸信用金庫スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/112902/",
-      "checkedAt": "2026-11-17T22:20:04.131Z",
+      "checkedAt": "2026-11-18T21:25:53.352Z",
       "note": ""
     },
     {
@@ -2151,7 +2151,7 @@
       "away": "ＦＣ東京",
       "stadium": "日産スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/112903/",
-      "checkedAt": "2026-11-17T22:20:05.040Z",
+      "checkedAt": "2026-11-18T21:25:54.218Z",
       "note": ""
     },
     {
@@ -2164,7 +2164,7 @@
       "away": "ガンバ大阪",
       "stadium": "Ｕｖａｎｃｅとどろきスタジアム　ｂｙ　Ｆｕｊｉｔｓｕ",
       "url": "https://www.jleague.jp/match/j1/2026/112928/",
-      "checkedAt": "2026-11-17T22:20:06.488Z",
+      "checkedAt": "2026-11-18T21:25:55.070Z",
       "note": ""
     },
     {
@@ -2177,7 +2177,7 @@
       "away": "アビスパ福岡",
       "stadium": "豊田スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/112904/",
-      "checkedAt": "2026-11-17T22:20:07.612Z",
+      "checkedAt": "2026-11-18T21:25:55.937Z",
       "note": ""
     },
     {
@@ -2190,7 +2190,7 @@
       "away": "東京ヴェルディ",
       "stadium": "町田ＧＩＯＮスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/112927/",
-      "checkedAt": "2026-11-17T22:20:08.534Z",
+      "checkedAt": "2026-11-18T21:25:56.797Z",
       "note": ""
     },
     {
@@ -2203,7 +2203,7 @@
       "away": "川崎フロンターレ",
       "stadium": "ＭＵＦＧスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/120401/",
-      "checkedAt": "2026-11-17T22:20:09.392Z",
+      "checkedAt": "2026-11-18T21:25:58.077Z",
       "note": ""
     },
     {
@@ -2216,7 +2216,7 @@
       "away": "鹿島アントラーズ",
       "stadium": "フクダ電子アリーナ",
       "url": "https://www.jleague.jp/match/j1/2026/120502/",
-      "checkedAt": "2026-11-17T22:20:10.321Z",
+      "checkedAt": "2026-11-18T21:25:58.956Z",
       "note": ""
     },
     {
@@ -2229,7 +2229,7 @@
       "away": "名古屋グランパス",
       "stadium": "埼玉スタジアム２００２",
       "url": "https://www.jleague.jp/match/j1/2026/120503/",
-      "checkedAt": "2026-11-17T22:20:11.357Z",
+      "checkedAt": "2026-11-18T21:25:59.850Z",
       "note": ""
     },
     {
@@ -2242,7 +2242,7 @@
       "away": "京都サンガF.C.",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/120504/",
-      "checkedAt": "2026-11-17T22:20:12.266Z",
+      "checkedAt": "2026-11-18T21:26:00.710Z",
       "note": ""
     },
     {
@@ -2255,7 +2255,7 @@
       "away": "水戸ホーリーホック",
       "stadium": "YANMAR HANASAKA STADIUM",
       "url": "https://www.jleague.jp/match/j1/2026/120505/",
-      "checkedAt": "2026-11-17T22:20:13.121Z",
+      "checkedAt": "2026-11-18T21:26:01.760Z",
       "note": ""
     },
     {
@@ -2268,7 +2268,7 @@
       "away": "清水エスパルス",
       "stadium": "PEACE STADIUM Connected by SoftBank",
       "url": "https://www.jleague.jp/match/j1/2026/120506/",
-      "checkedAt": "2026-11-17T22:20:14.137Z",
+      "checkedAt": "2026-11-18T21:26:02.832Z",
       "note": ""
     },
     {
@@ -2281,7 +2281,7 @@
       "away": "ヴィッセル神戸",
       "stadium": "エディオンピースウイング広島",
       "url": "https://www.jleague.jp/match/j1/2026/120603/",
-      "checkedAt": "2026-11-17T22:20:15.033Z",
+      "checkedAt": "2026-11-18T21:26:03.680Z",
       "note": ""
     },
     {
@@ -2294,7 +2294,7 @@
       "away": "横浜Ｆ・マリノス",
       "stadium": "パナソニック スタジアム 吹田",
       "url": "https://www.jleague.jp/match/j1/2026/120604/",
-      "checkedAt": "2026-11-17T22:20:16.768Z",
+      "checkedAt": "2026-11-18T21:26:04.530Z",
       "note": ""
     },
     {
@@ -2307,7 +2307,7 @@
       "away": "アビスパ福岡",
       "stadium": "三協フロンテア柏スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/120618/",
-      "checkedAt": "2026-11-17T22:20:17.625Z",
+      "checkedAt": "2026-11-18T21:26:05.411Z",
       "note": ""
     },
     {
@@ -2320,7 +2320,7 @@
       "away": "ファジアーノ岡山",
       "stadium": "町田ＧＩＯＮスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/120602/",
-      "checkedAt": "2026-11-17T22:20:18.792Z",
+      "checkedAt": "2026-11-18T21:26:06.237Z",
       "note": ""
     },
     {
@@ -2333,7 +2333,7 @@
       "away": "ヴィッセル神戸",
       "stadium": "ＩＡＩスタジアム日本平",
       "url": "https://www.jleague.jp/match/j1/2026/121201/",
-      "checkedAt": "2026-11-17T22:20:20.260Z",
+      "checkedAt": "2026-11-18T21:26:07.084Z",
       "note": ""
     },
     {
@@ -2346,7 +2346,7 @@
       "away": "ＦＣ町田ゼルビア",
       "stadium": "YANMAR HANASAKA STADIUM",
       "url": "https://www.jleague.jp/match/j1/2026/121202/",
-      "checkedAt": "2026-11-17T22:20:21.136Z",
+      "checkedAt": "2026-11-18T21:26:07.930Z",
       "note": ""
     },
     {
@@ -2359,7 +2359,7 @@
       "away": "東京ヴェルディ",
       "stadium": "パナソニック スタジアム 吹田",
       "url": "https://www.jleague.jp/match/j1/2026/121203/",
-      "checkedAt": "2026-11-17T22:20:22.373Z",
+      "checkedAt": "2026-11-18T21:26:08.800Z",
       "note": ""
     },
     {
@@ -2372,7 +2372,7 @@
       "away": "Ｖ・ファーレン長崎",
       "stadium": "日産スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/121302/",
-      "checkedAt": "2026-11-17T22:20:23.251Z",
+      "checkedAt": "2026-11-18T21:26:09.743Z",
       "note": ""
     },
     {
@@ -2385,7 +2385,7 @@
       "away": "ジェフユナイテッド千葉",
       "stadium": "サンガスタジアム by ＫＹＯＣＥＲＡ",
       "url": "https://www.jleague.jp/match/j1/2026/121303/",
-      "checkedAt": "2026-11-17T22:20:24.116Z",
+      "checkedAt": "2026-11-18T21:26:10.766Z",
       "note": ""
     },
     {
@@ -2398,7 +2398,7 @@
       "away": "柏レイソル",
       "stadium": "ＪＦＥ晴れの国スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/121304/",
-      "checkedAt": "2026-11-17T22:20:25.722Z",
+      "checkedAt": "2026-11-18T21:26:11.589Z",
       "note": ""
     },
     {
@@ -2411,7 +2411,7 @@
       "away": "鹿島アントラーズ",
       "stadium": "エディオンピースウイング広島",
       "url": "https://www.jleague.jp/match/j1/2026/121305/",
-      "checkedAt": "2026-11-17T22:20:26.637Z",
+      "checkedAt": "2026-11-18T21:26:12.837Z",
       "note": ""
     },
     {
@@ -2424,7 +2424,7 @@
       "away": "川崎フロンターレ",
       "stadium": "埼玉スタジアム２００２",
       "url": "https://www.jleague.jp/match/j1/2026/121306/",
-      "checkedAt": "2026-11-17T22:20:27.546Z",
+      "checkedAt": "2026-11-18T21:26:14.080Z",
       "note": ""
     },
     {
@@ -2437,7 +2437,7 @@
       "away": "水戸ホーリーホック",
       "stadium": "豊田スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/121307/",
-      "checkedAt": "2026-11-17T22:20:28.722Z",
+      "checkedAt": "2026-11-18T21:26:15.015Z",
       "note": ""
     },
     {
@@ -2450,7 +2450,7 @@
       "away": "ＦＣ東京",
       "stadium": "ベスト電器スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/121308/",
-      "checkedAt": "2026-11-17T22:20:30.199Z",
+      "checkedAt": "2026-11-18T21:26:15.879Z",
       "note": ""
     },
     {
@@ -2463,7 +2463,7 @@
       "away": "ＦＣ町田ゼルビア",
       "stadium": "メルカリスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/121601/",
-      "checkedAt": "2026-11-17T22:20:31.667Z",
+      "checkedAt": "2026-11-18T21:26:16.909Z",
       "note": ""
     },
     {
@@ -2476,7 +2476,7 @@
       "away": "柏レイソル",
       "stadium": "パナソニック スタジアム 吹田",
       "url": "https://www.jleague.jp/match/j1/2026/121602/",
-      "checkedAt": "2026-11-17T22:20:32.560Z",
+      "checkedAt": "2026-11-18T21:26:17.758Z",
       "note": ""
     },
     {
@@ -2489,7 +2489,7 @@
       "away": "セレッソ大阪",
       "stadium": "フクダ電子アリーナ",
       "url": "https://www.jleague.jp/match/j1/2026/121902/",
-      "checkedAt": "2026-11-17T22:20:33.447Z",
+      "checkedAt": "2026-11-18T21:26:18.575Z",
       "note": ""
     },
     {
@@ -2502,7 +2502,7 @@
       "away": "ファジアーノ岡山",
       "stadium": "サンガスタジアム by ＫＹＯＣＥＲＡ",
       "url": "https://www.jleague.jp/match/j1/2026/121913/",
-      "checkedAt": "2026-11-17T22:20:34.360Z",
+      "checkedAt": "2026-11-18T21:26:19.437Z",
       "note": ""
     },
     {
@@ -2515,7 +2515,7 @@
       "away": "ＦＣ東京",
       "stadium": "水戸信用金庫スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/121903/",
-      "checkedAt": "2026-11-17T22:20:35.227Z",
+      "checkedAt": "2026-11-18T21:26:20.293Z",
       "note": ""
     },
     {
@@ -2528,7 +2528,7 @@
       "away": "サンフレッチェ広島",
       "stadium": "パロマ瑞穂スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/121904/",
-      "checkedAt": "2026-11-17T22:20:36.078Z",
+      "checkedAt": "2026-11-18T21:26:21.529Z",
       "note": ""
     },
     {
@@ -2541,7 +2541,7 @@
       "away": "清水エスパルス",
       "stadium": "ベスト電器スタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/121905/",
-      "checkedAt": "2026-11-17T22:20:37.944Z",
+      "checkedAt": "2026-11-18T21:26:22.366Z",
       "note": ""
     },
     {
@@ -2554,7 +2554,7 @@
       "away": "浦和レッズ",
       "stadium": "PEACE STADIUM Connected by SoftBank",
       "url": "https://www.jleague.jp/match/j1/2026/121906/",
-      "checkedAt": "2026-11-17T22:20:38.831Z",
+      "checkedAt": "2026-11-18T21:26:23.838Z",
       "note": ""
     },
     {
@@ -2567,7 +2567,7 @@
       "away": "東京ヴェルディ",
       "stadium": "ＭＵＦＧスタジアム",
       "url": "https://www.jleague.jp/match/j1/2026/121901/",
-      "checkedAt": "2026-11-17T22:20:39.693Z",
+      "checkedAt": "2026-11-18T21:26:24.680Z",
       "note": ""
     },
     {
@@ -2580,7 +2580,7 @@
       "away": "横浜Ｆ・マリノス",
       "stadium": "ノエビアスタジアム神戸",
       "url": "https://www.jleague.jp/match/j1/2026/121907/",
-      "checkedAt": "2026-11-17T22:20:40.560Z",
+      "checkedAt": "2026-11-18T21:26:25.516Z",
       "note": ""
     },
     {
@@ -2593,7 +2593,7 @@
       "away": "柏レイソル",
       "stadium": "Ｕｖａｎｃｅとどろきスタジアム　ｂｙ　Ｆｕｊｉｔｓｕ",
       "url": "https://www.jleague.jp/match/j1/2026/121908/",
-      "checkedAt": "2026-11-17T22:20:42.039Z",
+      "checkedAt": "2026-11-18T21:26:26.392Z",
       "note": ""
     },
     {
@@ -2606,7 +2606,7 @@
       "away": "ＦＣ町田ゼルビア",
       "stadium": "パナソニック スタジアム 吹田",
       "url": "https://www.jleague.jp/match/j1/2026/121909/",
-      "checkedAt": "2026-11-17T22:20:42.900Z",
+      "checkedAt": "2026-11-18T21:26:27.228Z",
       "note": ""
     },
     {
@@ -2619,7 +2619,7 @@
       "away": "水戸ホーリーホック",
       "stadium": "メルカリスタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/021301/",
-      "checkedAt": "2026-11-17T22:20:43.828Z",
+      "checkedAt": "2026-11-18T21:26:28.091Z",
       "note": "※２／１３（土）　ｏｒ　２／１４（日）"
     },
     {
@@ -2632,7 +2632,7 @@
       "away": "清水エスパルス",
       "stadium": "三協フロンテア柏スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/021302/",
-      "checkedAt": "2026-11-17T22:20:44.717Z",
+      "checkedAt": "2026-11-18T21:26:29.740Z",
       "note": "※２／１３（土）　ｏｒ　２／１４（日）"
     },
     {
@@ -2645,7 +2645,7 @@
       "away": "ジェフユナイテッド千葉",
       "stadium": "町田ＧＩＯＮスタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/021303/",
-      "checkedAt": "2026-11-17T22:20:45.607Z",
+      "checkedAt": "2026-11-18T21:26:30.592Z",
       "note": "※２／１３（土）　ｏｒ　２／１４（日）"
     },
     {
@@ -2658,7 +2658,7 @@
       "away": "ＦＣ東京",
       "stadium": "未定",
       "url": "https://www.jleague.jp/match/j1/2027/021304/",
-      "checkedAt": "2026-11-17T22:20:47.069Z",
+      "checkedAt": "2026-11-18T21:26:31.442Z",
       "note": "※２／１３（土）　ｏｒ　２／１４（日）"
     },
     {
@@ -2671,7 +2671,7 @@
       "away": "横浜Ｆ・マリノス",
       "stadium": "サンガスタジアム by ＫＹＯＣＥＲＡ",
       "url": "https://www.jleague.jp/match/j1/2027/021305/",
-      "checkedAt": "2026-11-17T22:20:47.928Z",
+      "checkedAt": "2026-11-18T21:26:32.291Z",
       "note": "※２／１３（土）　ｏｒ　２／１４（日）"
     },
     {
@@ -2684,7 +2684,7 @@
       "away": "ガンバ大阪",
       "stadium": "ヤンマースタジアム長居",
       "url": "https://www.jleague.jp/match/j1/2027/021306/",
-      "checkedAt": "2026-11-17T22:20:49.463Z",
+      "checkedAt": "2026-11-18T21:26:33.726Z",
       "note": "※２／１３（土）　ｏｒ　２／１４（日）"
     },
     {
@@ -2697,7 +2697,7 @@
       "away": "川崎フロンターレ",
       "stadium": "ノエビアスタジアム神戸",
       "url": "https://www.jleague.jp/match/j1/2027/021307/",
-      "checkedAt": "2026-11-17T22:20:50.361Z",
+      "checkedAt": "2026-11-18T21:26:34.853Z",
       "note": "※２／１３（土）　ｏｒ　２／１４（日）"
     },
     {
@@ -2710,7 +2710,7 @@
       "away": "ファジアーノ岡山",
       "stadium": "エディオンピースウイング広島",
       "url": "https://www.jleague.jp/match/j1/2027/021308/",
-      "checkedAt": "2026-11-17T22:20:50.885Z",
+      "checkedAt": "2026-11-18T21:26:35.664Z",
       "note": "※２／１３（土）　ｏｒ　２／１４（日）"
     },
     {
@@ -2723,7 +2723,7 @@
       "away": "アビスパ福岡",
       "stadium": "PEACE STADIUM Connected by SoftBank",
       "url": "https://www.jleague.jp/match/j1/2027/021309/",
-      "checkedAt": "2026-11-17T22:20:52.380Z",
+      "checkedAt": "2026-11-18T21:26:36.488Z",
       "note": "※２／１３（土）　ｏｒ　２／１４（日）"
     },
     {
@@ -2736,7 +2736,7 @@
       "away": "浦和レッズ",
       "stadium": "ＭＵＦＧスタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/021401/",
-      "checkedAt": "2026-11-17T22:20:53.283Z",
+      "checkedAt": "2026-11-18T21:26:37.344Z",
       "note": ""
     },
     {
@@ -2749,7 +2749,7 @@
       "away": "柏レイソル",
       "stadium": "水戸信用金庫スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/022002/",
-      "checkedAt": "2026-11-17T22:20:54.172Z",
+      "checkedAt": "2026-11-18T21:26:38.488Z",
       "note": "※２／２０（土）　ｏｒ　２／２１（日）"
     },
     {
@@ -2762,7 +2762,7 @@
       "away": "鹿島アントラーズ",
       "stadium": "埼玉スタジアム２００２",
       "url": "https://www.jleague.jp/match/j1/2027/022003/",
-      "checkedAt": "2026-11-17T22:20:55.049Z",
+      "checkedAt": "2026-11-18T21:26:40.056Z",
       "note": "※２／２０（土）　ｏｒ　２／２１（日）"
     },
     {
@@ -2775,7 +2775,7 @@
       "away": "川崎フロンターレ",
       "stadium": "フクダ電子アリーナ",
       "url": "https://www.jleague.jp/match/j1/2027/022004/",
-      "checkedAt": "2026-11-17T22:20:55.891Z",
+      "checkedAt": "2026-11-18T21:26:41.418Z",
       "note": "※２／２０（土）　ｏｒ　２／２１（日）"
     },
     {
@@ -2788,7 +2788,7 @@
       "away": "Ｖ・ファーレン長崎",
       "stadium": "ＭＵＦＧスタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/022001/",
-      "checkedAt": "2026-11-17T22:20:56.755Z",
+      "checkedAt": "2026-11-18T21:26:42.654Z",
       "note": ""
     },
     {
@@ -2801,7 +2801,7 @@
       "away": "ＦＣ町田ゼルビア",
       "stadium": "日産スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/022005/",
-      "checkedAt": "2026-11-17T22:20:57.603Z",
+      "checkedAt": "2026-11-18T21:26:43.546Z",
       "note": "※２／２０（土）　ｏｒ　２／２１（日）"
     },
     {
@@ -2814,7 +2814,7 @@
       "away": "京都サンガF.C.",
       "stadium": "ＩＡＩスタジアム日本平",
       "url": "https://www.jleague.jp/match/j1/2027/022006/",
-      "checkedAt": "2026-11-17T22:20:58.462Z",
+      "checkedAt": "2026-11-18T21:26:44.442Z",
       "note": "※２／２０（土）　ｏｒ　２／２１（日）"
     },
     {
@@ -2827,7 +2827,7 @@
       "away": "ヴィッセル神戸",
       "stadium": "YANMAR HANASAKA STADIUM",
       "url": "https://www.jleague.jp/match/j1/2027/022007/",
-      "checkedAt": "2026-11-17T22:20:59.580Z",
+      "checkedAt": "2026-11-18T21:26:45.289Z",
       "note": "※２／２０（土）　ｏｒ　２／２１（日）"
     },
     {
@@ -2840,7 +2840,7 @@
       "away": "ガンバ大阪",
       "stadium": "ＪＦＥ晴れの国スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/022008/",
-      "checkedAt": "2026-11-17T22:21:01.260Z",
+      "checkedAt": "2026-11-18T21:26:46.133Z",
       "note": "※２／２０（土）　ｏｒ　２／２１（日）"
     },
     {
@@ -2853,7 +2853,7 @@
       "away": "東京ヴェルディ",
       "stadium": "エディオンピースウイング広島",
       "url": "https://www.jleague.jp/match/j1/2027/022009/",
-      "checkedAt": "2026-11-17T22:21:02.240Z",
+      "checkedAt": "2026-11-18T21:26:46.984Z",
       "note": "※２／２０（土）　ｏｒ　２／２１（日）"
     },
     {
@@ -2866,7 +2866,7 @@
       "away": "名古屋グランパス",
       "stadium": "ベスト電器スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/022010/",
-      "checkedAt": "2026-11-17T22:21:03.724Z",
+      "checkedAt": "2026-11-18T21:26:47.844Z",
       "note": "※２／２０（土）　ｏｒ　２／２１（日）"
     },
     {
@@ -2879,7 +2879,7 @@
       "away": "ヴィッセル神戸",
       "stadium": "水戸信用金庫スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/022702/",
-      "checkedAt": "2026-11-17T22:21:04.560Z",
+      "checkedAt": "2026-11-18T21:26:48.678Z",
       "note": "※２／２７（土）　ｏｒ　２／２８（日）"
     },
     {
@@ -2892,7 +2892,7 @@
       "away": "ＦＣ東京",
       "stadium": "フクダ電子アリーナ",
       "url": "https://www.jleague.jp/match/j1/2027/022703/",
-      "checkedAt": "2026-11-17T22:21:05.433Z",
+      "checkedAt": "2026-11-18T21:26:49.581Z",
       "note": "※２／２７（土）　ｏｒ　２／２８（日）"
     },
     {
@@ -2905,7 +2905,7 @@
       "away": "ＦＣ町田ゼルビア",
       "stadium": "ＭＵＦＧスタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/022701/",
-      "checkedAt": "2026-11-17T22:21:06.407Z",
+      "checkedAt": "2026-11-18T21:26:50.517Z",
       "note": ""
     },
     {
@@ -2918,7 +2918,7 @@
       "away": "セレッソ大阪",
       "stadium": "日産スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/022704/",
-      "checkedAt": "2026-11-17T22:21:07.282Z",
+      "checkedAt": "2026-11-18T21:26:51.938Z",
       "note": "※２／２７（土）　ｏｒ　２／２８（日）"
     },
     {
@@ -2931,7 +2931,7 @@
       "away": "サンフレッチェ広島",
       "stadium": "ＩＡＩスタジアム日本平",
       "url": "https://www.jleague.jp/match/j1/2027/022705/",
-      "checkedAt": "2026-11-17T22:21:08.135Z",
+      "checkedAt": "2026-11-18T21:26:52.780Z",
       "note": "※２／２７（土）　ｏｒ　２／２８（日）"
     },
     {
@@ -2944,7 +2944,7 @@
       "away": "浦和レッズ",
       "stadium": "未定",
       "url": "https://www.jleague.jp/match/j1/2027/022706/",
-      "checkedAt": "2026-11-17T22:21:09.049Z",
+      "checkedAt": "2026-11-18T21:26:53.622Z",
       "note": "※２／２７（土）　ｏｒ　２／２８（日）"
     },
     {
@@ -2957,7 +2957,7 @@
       "away": "東京ヴェルディ",
       "stadium": "サンガスタジアム by ＫＹＯＣＥＲＡ",
       "url": "https://www.jleague.jp/match/j1/2027/022707/",
-      "checkedAt": "2026-11-17T22:21:09.924Z",
+      "checkedAt": "2026-11-18T21:26:54.448Z",
       "note": "※２／２７（土）　ｏｒ　２／２８（日）"
     },
     {
@@ -2970,7 +2970,7 @@
       "away": "アビスパ福岡",
       "stadium": "パナソニック スタジアム 吹田",
       "url": "https://www.jleague.jp/match/j1/2027/022708/",
-      "checkedAt": "2026-11-17T22:21:10.817Z",
+      "checkedAt": "2026-11-18T21:26:55.381Z",
       "note": "※２／２７（土）　ｏｒ　２／２８（日）"
     },
     {
@@ -2983,7 +2983,7 @@
       "away": "鹿島アントラーズ",
       "stadium": "ＪＦＥ晴れの国スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/022709/",
-      "checkedAt": "2026-11-17T22:21:11.990Z",
+      "checkedAt": "2026-11-18T21:26:56.404Z",
       "note": "※２／２７（土）　ｏｒ　２／２８（日）"
     },
     {
@@ -2996,7 +2996,7 @@
       "away": "柏レイソル",
       "stadium": "PEACE STADIUM Connected by SoftBank",
       "url": "https://www.jleague.jp/match/j1/2027/022710/",
-      "checkedAt": "2026-11-17T22:21:13.456Z",
+      "checkedAt": "2026-11-18T21:26:57.278Z",
       "note": "※２／２７（土）　ｏｒ　２／２８（日）"
     },
     {
@@ -3009,7 +3009,7 @@
       "away": "ジェフユナイテッド千葉",
       "stadium": "メルカリスタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/030602/",
-      "checkedAt": "2026-11-17T22:21:14.397Z",
+      "checkedAt": "2026-11-18T21:26:58.117Z",
       "note": "※３／６（土）　ｏｒ　３／７（日）"
     },
     {
@@ -3022,7 +3022,7 @@
       "away": "横浜Ｆ・マリノス",
       "stadium": "ＭＵＦＧスタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/030601/",
-      "checkedAt": "2026-11-17T22:21:15.296Z",
+      "checkedAt": "2026-11-18T21:26:58.950Z",
       "note": ""
     },
     {
@@ -3035,7 +3035,7 @@
       "away": "清水エスパルス",
       "stadium": "町田ＧＩＯＮスタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/030603/",
-      "checkedAt": "2026-11-17T22:21:16.164Z",
+      "checkedAt": "2026-11-18T21:26:59.984Z",
       "note": "※３／６（土）　ｏｒ　３／７（日）"
     },
     {
@@ -3048,7 +3048,7 @@
       "away": "浦和レッズ",
       "stadium": "Ｕｖａｎｃｅとどろきスタジアム　ｂｙ　Ｆｕｊｉｔｓｕ",
       "url": "https://www.jleague.jp/match/j1/2027/030604/",
-      "checkedAt": "2026-11-17T22:21:17.673Z",
+      "checkedAt": "2026-11-18T21:27:00.850Z",
       "note": "※３／６（土）　ｏｒ　３／７（日）"
     },
     {
@@ -3061,7 +3061,7 @@
       "away": "ＦＣ東京",
       "stadium": "サンガスタジアム by ＫＹＯＣＥＲＡ",
       "url": "https://www.jleague.jp/match/j1/2027/030605/",
-      "checkedAt": "2026-11-17T22:21:18.557Z",
+      "checkedAt": "2026-11-18T21:27:01.920Z",
       "note": "※３／６（土）　ｏｒ　３／７（日）"
     },
     {
@@ -3074,7 +3074,7 @@
       "away": "名古屋グランパス",
       "stadium": "パナソニック スタジアム 吹田",
       "url": "https://www.jleague.jp/match/j1/2027/030606/",
-      "checkedAt": "2026-11-17T22:21:19.527Z",
+      "checkedAt": "2026-11-18T21:27:02.863Z",
       "note": "※３／６（土）　ｏｒ　３／７（日）"
     },
     {
@@ -3087,7 +3087,7 @@
       "away": "サンフレッチェ広島",
       "stadium": "YANMAR HANASAKA STADIUM",
       "url": "https://www.jleague.jp/match/j1/2027/030607/",
-      "checkedAt": "2026-11-17T22:21:20.423Z",
+      "checkedAt": "2026-11-18T21:27:04.319Z",
       "note": "※３／６（土）　ｏｒ　３／７（日）"
     },
     {
@@ -3100,7 +3100,7 @@
       "away": "ファジアーノ岡山",
       "stadium": "ノエビアスタジアム神戸",
       "url": "https://www.jleague.jp/match/j1/2027/030608/",
-      "checkedAt": "2026-11-17T22:21:21.967Z",
+      "checkedAt": "2026-11-18T21:27:05.140Z",
       "note": "※３／６（土）　ｏｒ　３／７（日）"
     },
     {
@@ -3113,7 +3113,7 @@
       "away": "柏レイソル",
       "stadium": "ベスト電器スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/030609/",
-      "checkedAt": "2026-11-17T22:21:22.811Z",
+      "checkedAt": "2026-11-18T21:27:06.161Z",
       "note": "※３／６（土）　ｏｒ　３／７（日）"
     },
     {
@@ -3126,7 +3126,7 @@
       "away": "水戸ホーリーホック",
       "stadium": "PEACE STADIUM Connected by SoftBank",
       "url": "https://www.jleague.jp/match/j1/2027/030610/",
-      "checkedAt": "2026-11-17T22:21:23.659Z",
+      "checkedAt": "2026-11-18T21:27:07.025Z",
       "note": "※３／６（土）　ｏｒ　３／７（日）"
     },
     {
@@ -3139,7 +3139,7 @@
       "away": "セレッソ大阪",
       "stadium": "水戸信用金庫スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/031001/",
-      "checkedAt": "2026-11-17T22:21:25.136Z",
+      "checkedAt": "2026-11-18T21:27:07.842Z",
       "note": ""
     },
     {
@@ -3152,7 +3152,7 @@
       "away": "ＦＣ東京",
       "stadium": "埼玉スタジアム２００２",
       "url": "https://www.jleague.jp/match/j1/2027/031002/",
-      "checkedAt": "2026-11-17T22:21:26.012Z",
+      "checkedAt": "2026-11-18T21:27:08.715Z",
       "note": ""
     },
     {
@@ -3165,7 +3165,7 @@
       "away": "東京ヴェルディ",
       "stadium": "フクダ電子アリーナ",
       "url": "https://www.jleague.jp/match/j1/2027/031003/",
-      "checkedAt": "2026-11-17T22:21:27.345Z",
+      "checkedAt": "2026-11-18T21:27:09.565Z",
       "note": ""
     },
     {
@@ -3178,7 +3178,7 @@
       "away": "京都サンガF.C.",
       "stadium": "三協フロンテア柏スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/031004/",
-      "checkedAt": "2026-11-17T22:21:28.629Z",
+      "checkedAt": "2026-11-18T21:27:10.447Z",
       "note": "※ＡＦＣクラブ競技会の試合日程により、２／２４（水）に開催する可能性があります"
     },
     {
@@ -3191,7 +3191,7 @@
       "away": "鹿島アントラーズ",
       "stadium": "町田ＧＩＯＮスタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/031005/",
-      "checkedAt": "2026-11-17T22:21:29.496Z",
+      "checkedAt": "2026-11-18T21:27:11.307Z",
       "note": "※ＡＦＣクラブ競技会の試合日程により、２／２４（水）に開催する可能性があります"
     },
     {
@@ -3204,7 +3204,7 @@
       "away": "川崎フロンターレ",
       "stadium": "ＩＡＩスタジアム日本平",
       "url": "https://www.jleague.jp/match/j1/2027/031006/",
-      "checkedAt": "2026-11-17T22:21:30.697Z",
+      "checkedAt": "2026-11-18T21:27:12.154Z",
       "note": ""
     },
     {
@@ -3217,7 +3217,7 @@
       "away": "Ｖ・ファーレン長崎",
       "stadium": "未定",
       "url": "https://www.jleague.jp/match/j1/2027/031007/",
-      "checkedAt": "2026-11-17T22:21:31.582Z",
+      "checkedAt": "2026-11-18T21:27:13.379Z",
       "note": ""
     },
     {
@@ -3230,7 +3230,7 @@
       "away": "ガンバ大阪",
       "stadium": "ノエビアスタジアム神戸",
       "url": "https://www.jleague.jp/match/j1/2027/031008/",
-      "checkedAt": "2026-11-17T22:21:32.470Z",
+      "checkedAt": "2026-11-18T21:27:14.230Z",
       "note": "※ＡＦＣクラブ競技会の試合日程により、２／２４（水）に開催する可能性があります"
     },
     {
@@ -3243,7 +3243,7 @@
       "away": "横浜Ｆ・マリノス",
       "stadium": "ＪＦＥ晴れの国スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/031009/",
-      "checkedAt": "2026-11-17T22:21:33.338Z",
+      "checkedAt": "2026-11-18T21:27:15.079Z",
       "note": ""
     },
     {
@@ -3256,7 +3256,7 @@
       "away": "アビスパ福岡",
       "stadium": "エディオンピースウイング広島",
       "url": "https://www.jleague.jp/match/j1/2027/031010/",
-      "checkedAt": "2026-11-17T22:21:34.211Z",
+      "checkedAt": "2026-11-18T21:27:16.160Z",
       "note": ""
     },
     {
@@ -3269,7 +3269,7 @@
       "away": "サンフレッチェ広島",
       "stadium": "メルカリスタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/031301/",
-      "checkedAt": "2026-11-17T22:21:35.120Z",
+      "checkedAt": "2026-11-18T21:27:17.081Z",
       "note": "※３／１３（土）　ｏｒ　３／１４（日）　※ＡＦＣクラブ競技会の試合日程により、　３／３（水）もしくは４／７（水）に開催する可能性があります"
     },
     {
@@ -3282,7 +3282,7 @@
       "away": "ファジアーノ岡山",
       "stadium": "三協フロンテア柏スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/031302/",
-      "checkedAt": "2026-11-17T22:21:35.991Z",
+      "checkedAt": "2026-11-18T21:27:17.907Z",
       "note": "※３／１３（土）　ｏｒ　３／１４（日）　※ＡＦＣクラブ競技会の試合日程により、３／３（水）　もしくは４／７（水）に開催する可能性があります"
     },
     {
@@ -3295,7 +3295,7 @@
       "away": "セレッソ大阪",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/031303/",
-      "checkedAt": "2026-11-17T22:21:37.320Z",
+      "checkedAt": "2026-11-18T21:27:20.791Z",
       "note": "※３／１３（土）　ｏｒ　３／１４（日）"
     },
     {
@@ -3308,7 +3308,7 @@
       "away": "水戸ホーリーホック",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/031304/",
-      "checkedAt": "2026-11-17T22:21:38.810Z",
+      "checkedAt": "2026-11-18T21:27:21.625Z",
       "note": "※３／１３（土）　ｏｒ　３／１４（日）"
     },
     {
@@ -3321,7 +3321,7 @@
       "away": "名古屋グランパス",
       "stadium": "町田ＧＩＯＮスタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/031305/",
-      "checkedAt": "2026-11-17T22:21:39.987Z",
+      "checkedAt": "2026-11-18T21:27:22.471Z",
       "note": "※３／１３（土）　ｏｒ　３／１４（日）"
     },
     {
@@ -3334,7 +3334,7 @@
       "away": "アビスパ福岡",
       "stadium": "日産スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/031306/",
-      "checkedAt": "2026-11-17T22:21:40.925Z",
+      "checkedAt": "2026-11-18T21:27:23.501Z",
       "note": "※３／１３（土）　ｏｒ　３／１４（日）"
     },
     {
@@ -3347,7 +3347,7 @@
       "away": "川崎フロンターレ",
       "stadium": "サンガスタジアム by ＫＹＯＣＥＲＡ",
       "url": "https://www.jleague.jp/match/j1/2027/031307/",
-      "checkedAt": "2026-11-17T22:21:42.026Z",
+      "checkedAt": "2026-11-18T21:27:24.352Z",
       "note": "※３／１３（土）　ｏｒ　３／１４（日）　※ＡＦＣクラブ競技会の試合日程により、３／３（水）　もしくは４／７（水）に開催する可能性があります"
     },
     {
@@ -3360,7 +3360,7 @@
       "away": "Ｖ・ファーレン長崎",
       "stadium": "パナソニック スタジアム 吹田",
       "url": "https://www.jleague.jp/match/j1/2027/031308/",
-      "checkedAt": "2026-11-17T22:21:42.919Z",
+      "checkedAt": "2026-11-18T21:27:25.205Z",
       "note": "※３／１３（土）　ｏｒ　３／１４（日）　※ＡＦＣクラブ競技会の試合日程により、３／３（水）　もしくは４／７（水）に開催する可能性があります"
     },
     {
@@ -3373,7 +3373,7 @@
       "away": "清水エスパルス",
       "stadium": "ノエビアスタジアム神戸",
       "url": "https://www.jleague.jp/match/j1/2027/031309/",
-      "checkedAt": "2026-11-17T22:21:43.802Z",
+      "checkedAt": "2026-11-18T21:27:26.039Z",
       "note": "※３／１３（土）　ｏｒ　３／１４（日）　※ＡＦＣクラブ競技会の試合日程により、３／３（水）　もしくは４／７（水）に開催する可能性があります"
     },
     {
@@ -3386,7 +3386,7 @@
       "away": "浦和レッズ",
       "stadium": "ＭＵＦＧスタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/031401/",
-      "checkedAt": "2026-11-17T22:21:44.687Z",
+      "checkedAt": "2026-11-18T21:27:26.882Z",
       "note": ""
     },
     {
@@ -3399,7 +3399,7 @@
       "away": "東京ヴェルディ",
       "stadium": "三協フロンテア柏スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/032001/",
-      "checkedAt": "2026-11-17T22:21:45.574Z",
+      "checkedAt": "2026-11-18T21:27:27.930Z",
       "note": "※３／２０（土）　ｏｒ　３／２１（日・祝）"
     },
     {
@@ -3412,7 +3412,7 @@
       "away": "水戸ホーリーホック",
       "stadium": "町田ＧＩＯＮスタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/032002/",
-      "checkedAt": "2026-11-17T22:21:46.425Z",
+      "checkedAt": "2026-11-18T21:27:28.764Z",
       "note": "※３／２０（土）　ｏｒ　３／２１（日・祝）"
     },
     {
@@ -3425,7 +3425,7 @@
       "away": "ＦＣ東京",
       "stadium": "Ｕｖａｎｃｅとどろきスタジアム　ｂｙ　Ｆｕｊｉｔｓｕ",
       "url": "https://www.jleague.jp/match/j1/2027/032003/",
-      "checkedAt": "2026-11-17T22:21:48.248Z",
+      "checkedAt": "2026-11-18T21:27:29.591Z",
       "note": "※３／２０（土）　ｏｒ　３／２１（日・祝）"
     },
     {
@@ -3438,7 +3438,7 @@
       "away": "浦和レッズ",
       "stadium": "日産スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/032004/",
-      "checkedAt": "2026-11-17T22:21:49.134Z",
+      "checkedAt": "2026-11-18T21:27:30.618Z",
       "note": "※３／２０（土）　ｏｒ　３／２１（日・祝）"
     },
     {
@@ -3451,7 +3451,7 @@
       "away": "ヴィッセル神戸",
       "stadium": "未定",
       "url": "https://www.jleague.jp/match/j1/2027/032005/",
-      "checkedAt": "2026-11-17T22:21:50.116Z",
+      "checkedAt": "2026-11-18T21:27:31.455Z",
       "note": "※３／２０（土）　ｏｒ　３／２１（日・祝）"
     },
     {
@@ -3464,7 +3464,7 @@
       "away": "京都サンガF.C.",
       "stadium": "YANMAR HANASAKA STADIUM",
       "url": "https://www.jleague.jp/match/j1/2027/032006/",
-      "checkedAt": "2026-11-17T22:21:50.972Z",
+      "checkedAt": "2026-11-18T21:27:32.298Z",
       "note": "※３／２０（土）　ｏｒ　３／２１（日・祝）"
     },
     {
@@ -3477,7 +3477,7 @@
       "away": "ガンバ大阪",
       "stadium": "エディオンピースウイング広島",
       "url": "https://www.jleague.jp/match/j1/2027/032007/",
-      "checkedAt": "2026-11-17T22:21:52.411Z",
+      "checkedAt": "2026-11-18T21:27:33.143Z",
       "note": "※３／２０（土）　ｏｒ　３／２１（日・祝）"
     },
     {
@@ -3490,7 +3490,7 @@
       "away": "ジェフユナイテッド千葉",
       "stadium": "ベスト電器スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/032008/",
-      "checkedAt": "2026-11-17T22:21:53.842Z",
+      "checkedAt": "2026-11-18T21:27:33.981Z",
       "note": "※３／２０（土）　ｏｒ　３／２１（日・祝）"
     },
     {
@@ -3503,7 +3503,7 @@
       "away": "ファジアーノ岡山",
       "stadium": "PEACE STADIUM Connected by SoftBank",
       "url": "https://www.jleague.jp/match/j1/2027/032009/",
-      "checkedAt": "2026-11-17T22:21:55.150Z",
+      "checkedAt": "2026-11-18T21:27:34.850Z",
       "note": "※３／２０（土）　ｏｒ　３／２１（日・祝）"
     },
     {
@@ -3516,7 +3516,7 @@
       "away": "鹿島アントラーズ",
       "stadium": "ＭＵＦＧスタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/032101/",
-      "checkedAt": "2026-11-17T22:21:56.033Z",
+      "checkedAt": "2026-11-18T21:27:35.707Z",
       "note": ""
     },
     {
@@ -3529,7 +3529,7 @@
       "away": "横浜Ｆ・マリノス",
       "stadium": "メルカリスタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/040301/",
-      "checkedAt": "2026-11-17T22:21:57.535Z",
+      "checkedAt": "2026-11-18T21:27:36.607Z",
       "note": "※４／３（土）　ｏｒ　４／４（日）"
     },
     {
@@ -3542,7 +3542,7 @@
       "away": "ジェフユナイテッド千葉",
       "stadium": "水戸信用金庫スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/040302/",
-      "checkedAt": "2026-11-17T22:21:58.405Z",
+      "checkedAt": "2026-11-18T21:27:37.454Z",
       "note": "※４／３（土）　ｏｒ　４／４（日）"
     },
     {
@@ -3555,7 +3555,7 @@
       "away": "清水エスパルス",
       "stadium": "埼玉スタジアム２００２",
       "url": "https://www.jleague.jp/match/j1/2027/040303/",
-      "checkedAt": "2026-11-17T22:21:59.332Z",
+      "checkedAt": "2026-11-18T21:27:38.287Z",
       "note": "※４／３（土）　ｏｒ　４／４（日）"
     },
     {
@@ -3568,7 +3568,7 @@
       "away": "セレッソ大阪",
       "stadium": "三協フロンテア柏スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/040304/",
-      "checkedAt": "2026-11-17T22:22:00.272Z",
+      "checkedAt": "2026-11-18T21:27:40.211Z",
       "note": "※４／３（土）　ｏｒ　４／４（日）"
     },
     {
@@ -3581,7 +3581,7 @@
       "away": "アビスパ福岡",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/040305/",
-      "checkedAt": "2026-11-17T22:22:01.713Z",
+      "checkedAt": "2026-11-18T21:27:41.052Z",
       "note": "※４／３（土）　ｏｒ　４／４（日）"
     },
     {
@@ -3594,7 +3594,7 @@
       "away": "ＦＣ町田ゼルビア",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/040306/",
-      "checkedAt": "2026-11-17T22:22:02.657Z",
+      "checkedAt": "2026-11-18T21:27:41.908Z",
       "note": "※４／３（土）　ｏｒ　４／４（日）"
     },
     {
@@ -3607,7 +3607,7 @@
       "away": "Ｖ・ファーレン長崎",
       "stadium": "サンガスタジアム by ＫＹＯＣＥＲＡ",
       "url": "https://www.jleague.jp/match/j1/2027/040307/",
-      "checkedAt": "2026-11-17T22:22:03.547Z",
+      "checkedAt": "2026-11-18T21:27:42.746Z",
       "note": "※４／３（土）　ｏｒ　４／４（日）"
     },
     {
@@ -3620,7 +3620,7 @@
       "away": "川崎フロンターレ",
       "stadium": "パナソニック スタジアム 吹田",
       "url": "https://www.jleague.jp/match/j1/2027/040308/",
-      "checkedAt": "2026-11-17T22:22:04.749Z",
+      "checkedAt": "2026-11-18T21:27:43.616Z",
       "note": "※４／３（土）　ｏｒ　４／４（日）"
     },
     {
@@ -3633,7 +3633,7 @@
       "away": "サンフレッチェ広島",
       "stadium": "ノエビアスタジアム神戸",
       "url": "https://www.jleague.jp/match/j1/2027/040309/",
-      "checkedAt": "2026-11-17T22:22:05.589Z",
+      "checkedAt": "2026-11-18T21:27:44.474Z",
       "note": "※４／３（土）　ｏｒ　４／４（日）"
     },
     {
@@ -3646,7 +3646,7 @@
       "away": "名古屋グランパス",
       "stadium": "ＪＦＥ晴れの国スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/040310/",
-      "checkedAt": "2026-11-17T22:22:06.462Z",
+      "checkedAt": "2026-11-18T21:27:45.321Z",
       "note": "※４／３（土）　ｏｒ　４／４（日）"
     },
     {
@@ -3659,7 +3659,7 @@
       "away": "アビスパ福岡",
       "stadium": "YANMAR HANASAKA STADIUM",
       "url": "https://www.jleague.jp/match/j1/2027/040901/",
-      "checkedAt": "2026-11-17T22:22:08.117Z",
+      "checkedAt": "2026-11-18T21:27:46.220Z",
       "note": ""
     },
     {
@@ -3672,7 +3672,7 @@
       "away": "柏レイソル",
       "stadium": "埼玉スタジアム２００２",
       "url": "https://www.jleague.jp/match/j1/2027/041001/",
-      "checkedAt": "2026-11-17T22:22:09.002Z",
+      "checkedAt": "2026-11-18T21:27:47.080Z",
       "note": "※４／１０（土）　ｏｒ　４／１１（日）"
     },
     {
@@ -3685,7 +3685,7 @@
       "away": "京都サンガF.C.",
       "stadium": "フクダ電子アリーナ",
       "url": "https://www.jleague.jp/match/j1/2027/041002/",
-      "checkedAt": "2026-11-17T22:22:11.419Z",
+      "checkedAt": "2026-11-18T21:27:47.954Z",
       "note": "※４／１０（土）　ｏｒ　４／１１（日）"
     },
     {
@@ -3698,7 +3698,7 @@
       "away": "ファジアーノ岡山",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/041003/",
-      "checkedAt": "2026-11-17T22:22:12.780Z",
+      "checkedAt": "2026-11-18T21:27:48.784Z",
       "note": "※４／１０（土）　ｏｒ　４／１１（日）"
     },
     {
@@ -3711,7 +3711,7 @@
       "away": "ガンバ大阪",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/041004/",
-      "checkedAt": "2026-11-17T22:22:13.751Z",
+      "checkedAt": "2026-11-18T21:27:50.773Z",
       "note": "※４／１０（土）　ｏｒ　４／１１（日）"
     },
     {
@@ -3724,7 +3724,7 @@
       "away": "ヴィッセル神戸",
       "stadium": "町田ＧＩＯＮスタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/041005/",
-      "checkedAt": "2026-11-17T22:22:14.621Z",
+      "checkedAt": "2026-11-18T21:27:51.626Z",
       "note": "※４／１０（土）　ｏｒ　４／１１（日）"
     },
     {
@@ -3737,7 +3737,7 @@
       "away": "Ｖ・ファーレン長崎",
       "stadium": "Ｕｖａｎｃｅとどろきスタジアム　ｂｙ　Ｆｕｊｉｔｓｕ",
       "url": "https://www.jleague.jp/match/j1/2027/041006/",
-      "checkedAt": "2026-11-17T22:22:15.496Z",
+      "checkedAt": "2026-11-18T21:27:52.505Z",
       "note": "※４／１０（土）　ｏｒ　４／１１（日）"
     },
     {
@@ -3750,7 +3750,7 @@
       "away": "サンフレッチェ広島",
       "stadium": "日産スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/041007/",
-      "checkedAt": "2026-11-17T22:22:16.951Z",
+      "checkedAt": "2026-11-18T21:27:53.683Z",
       "note": "※４／１０（土）　ｏｒ　４／１１（日）"
     },
     {
@@ -3763,7 +3763,7 @@
       "away": "水戸ホーリーホック",
       "stadium": "ＩＡＩスタジアム日本平",
       "url": "https://www.jleague.jp/match/j1/2027/041008/",
-      "checkedAt": "2026-11-17T22:22:18.419Z",
+      "checkedAt": "2026-11-18T21:27:54.500Z",
       "note": "※４／１０（土）　ｏｒ　４／１１（日）"
     },
     {
@@ -3776,7 +3776,7 @@
       "away": "鹿島アントラーズ",
       "stadium": "未定",
       "url": "https://www.jleague.jp/match/j1/2027/041009/",
-      "checkedAt": "2026-11-17T22:22:19.307Z",
+      "checkedAt": "2026-11-18T21:27:55.610Z",
       "note": "※４／１０（土）　ｏｒ　４／１１（日）"
     },
     {
@@ -3789,7 +3789,7 @@
       "away": "ヴィッセル神戸",
       "stadium": "サンガスタジアム by ＫＹＯＣＥＲＡ",
       "url": "https://www.jleague.jp/match/j1/2027/041401/",
-      "checkedAt": "2026-11-17T22:22:20.183Z",
+      "checkedAt": "2026-11-18T21:27:56.464Z",
       "note": ""
     },
     {
@@ -3802,7 +3802,7 @@
       "away": "ＦＣ東京",
       "stadium": "エディオンピースウイング広島",
       "url": "https://www.jleague.jp/match/j1/2027/041601/",
-      "checkedAt": "2026-11-17T22:22:21.147Z",
+      "checkedAt": "2026-11-18T21:27:57.308Z",
       "note": ""
     },
     {
@@ -3815,7 +3815,7 @@
       "away": "京都サンガF.C.",
       "stadium": "水戸信用金庫スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/041701/",
-      "checkedAt": "2026-11-17T22:22:21.995Z",
+      "checkedAt": "2026-11-18T21:27:58.140Z",
       "note": "※４／１７（土）　ｏｒ　４／１８（日）"
     },
     {
@@ -3828,7 +3828,7 @@
       "away": "東京ヴェルディ",
       "stadium": "Ｕｖａｎｃｅとどろきスタジアム　ｂｙ　Ｆｕｊｉｔｓｕ",
       "url": "https://www.jleague.jp/match/j1/2027/041702/",
-      "checkedAt": "2026-11-17T22:22:22.881Z",
+      "checkedAt": "2026-11-18T21:27:59.036Z",
       "note": "※４／１７（土）　ｏｒ　４／１８（日）"
     },
     {
@@ -3841,7 +3841,7 @@
       "away": "柏レイソル",
       "stadium": "日産スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/041703/",
-      "checkedAt": "2026-11-17T22:22:23.801Z",
+      "checkedAt": "2026-11-18T21:28:00.315Z",
       "note": "※４／１７（土）　ｏｒ　４／１８（日）"
     },
     {
@@ -3854,7 +3854,7 @@
       "away": "名古屋グランパス",
       "stadium": "ＩＡＩスタジアム日本平",
       "url": "https://www.jleague.jp/match/j1/2027/041704/",
-      "checkedAt": "2026-11-17T22:22:24.704Z",
+      "checkedAt": "2026-11-18T21:28:01.186Z",
       "note": "※４／１７（土）　ｏｒ　４／１８（日）"
     },
     {
@@ -3867,7 +3867,7 @@
       "away": "ジェフユナイテッド千葉",
       "stadium": "パナソニック スタジアム 吹田",
       "url": "https://www.jleague.jp/match/j1/2027/041705/",
-      "checkedAt": "2026-11-17T22:22:25.556Z",
+      "checkedAt": "2026-11-18T21:28:03.123Z",
       "note": "※４／１７（土）　ｏｒ　４／１８（日）"
     },
     {
@@ -3880,7 +3880,7 @@
       "away": "鹿島アントラーズ",
       "stadium": "YANMAR HANASAKA STADIUM",
       "url": "https://www.jleague.jp/match/j1/2027/041706/",
-      "checkedAt": "2026-11-17T22:22:26.419Z",
+      "checkedAt": "2026-11-18T21:28:03.961Z",
       "note": "※４／１７（土）　ｏｒ　４／１８（日）"
     },
     {
@@ -3893,7 +3893,7 @@
       "away": "浦和レッズ",
       "stadium": "ＪＦＥ晴れの国スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/041707/",
-      "checkedAt": "2026-11-17T22:22:27.284Z",
+      "checkedAt": "2026-11-18T21:28:04.800Z",
       "note": "※４／１７（土）　ｏｒ　４／１８（日）"
     },
     {
@@ -3906,7 +3906,7 @@
       "away": "ＦＣ町田ゼルビア",
       "stadium": "ベスト電器スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/041708/",
-      "checkedAt": "2026-11-17T22:22:28.164Z",
+      "checkedAt": "2026-11-18T21:28:05.643Z",
       "note": "※４／１７（土）　ｏｒ　４／１８（日）"
     },
     {
@@ -3919,7 +3919,7 @@
       "away": "ヴィッセル神戸",
       "stadium": "PEACE STADIUM Connected by SoftBank",
       "url": "https://www.jleague.jp/match/j1/2027/041709/",
-      "checkedAt": "2026-11-17T22:22:29.350Z",
+      "checkedAt": "2026-11-18T21:28:06.514Z",
       "note": "※４／１７（土）　ｏｒ　４／１８（日）"
     },
     {
@@ -3932,7 +3932,7 @@
       "away": "京都サンガF.C.",
       "stadium": "メルカリスタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/042401/",
-      "checkedAt": "2026-11-17T22:22:30.232Z",
+      "checkedAt": "2026-11-18T21:28:07.330Z",
       "note": "※４／２４（土）　ｏｒ　４／２５（日）　※ＡＣＬ　Ｅｌｉｔｅ出場クラブがＡＣＬ　Ｅｌｉｔｅ準々決勝進出の場合は４／１（木）　もしくは４／７（水）に開催する可能性があります。"
     },
     {
@@ -3945,7 +3945,7 @@
       "away": "水戸ホーリーホック",
       "stadium": "埼玉スタジアム２００２",
       "url": "https://www.jleague.jp/match/j1/2027/042402/",
-      "checkedAt": "2026-11-17T22:22:31.146Z",
+      "checkedAt": "2026-11-18T21:28:08.858Z",
       "note": "※４／２４（土）　ｏｒ　４／２５（日）"
     },
     {
@@ -3958,7 +3958,7 @@
       "away": "ガンバ大阪",
       "stadium": "三協フロンテア柏スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/042403/",
-      "checkedAt": "2026-11-17T22:22:32.060Z",
+      "checkedAt": "2026-11-18T21:28:09.732Z",
       "note": "※４／２４（土）　ｏｒ　４／２５（日）　※ＡＣＬ　Ｅｌｉｔｅ出場クラブがＡＣＬ　Ｅｌｉｔｅ準々決勝進出の場合は４／１（木）　もしくは４／７（水）に開催する可能性があります。"
     },
     {
@@ -3971,7 +3971,7 @@
       "away": "横浜Ｆ・マリノス",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/042404/",
-      "checkedAt": "2026-11-17T22:22:33.507Z",
+      "checkedAt": "2026-11-18T21:28:10.598Z",
       "note": "※４／２４（土）　ｏｒ　４／２５（日）"
     },
     {
@@ -3984,7 +3984,7 @@
       "away": "清水エスパルス",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/042405/",
-      "checkedAt": "2026-11-17T22:22:34.354Z",
+      "checkedAt": "2026-11-18T21:28:11.423Z",
       "note": "※４／２４（土）　ｏｒ　４／２５（日）"
     },
     {
@@ -3997,7 +3997,7 @@
       "away": "川崎フロンターレ",
       "stadium": "未定",
       "url": "https://www.jleague.jp/match/j1/2027/042406/",
-      "checkedAt": "2026-11-17T22:22:36.430Z",
+      "checkedAt": "2026-11-18T21:28:12.747Z",
       "note": "※４／２４（土）　ｏｒ　４／２５（日）"
     },
     {
@@ -4010,7 +4010,7 @@
       "away": "アビスパ福岡",
       "stadium": "ノエビアスタジアム神戸",
       "url": "https://www.jleague.jp/match/j1/2027/042407/",
-      "checkedAt": "2026-11-17T22:22:37.297Z",
+      "checkedAt": "2026-11-18T21:28:13.625Z",
       "note": "※４／２４（土）　ｏｒ　４／２５（日）　※ＡＣＬ　Ｅｌｉｔｅ出場クラブがＡＣＬ　Ｅｌｉｔｅ準々決勝進出の場合は４／１（木）　もしくは４／７（水）に開催する可能性があります。"
     },
     {
@@ -4023,7 +4023,7 @@
       "away": "セレッソ大阪",
       "stadium": "ＪＦＥ晴れの国スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/042408/",
-      "checkedAt": "2026-11-17T22:22:38.772Z",
+      "checkedAt": "2026-11-18T21:28:14.519Z",
       "note": "※４／２４（土）　ｏｒ　４／２５（日）"
     },
     {
@@ -4036,7 +4036,7 @@
       "away": "ＦＣ町田ゼルビア",
       "stadium": "エディオンピースウイング広島",
       "url": "https://www.jleague.jp/match/j1/2027/042409/",
-      "checkedAt": "2026-11-17T22:22:40.304Z",
+      "checkedAt": "2026-11-18T21:28:15.342Z",
       "note": "※４／２４（土）　ｏｒ　４／２５（日）"
     },
     {
@@ -4049,7 +4049,7 @@
       "away": "ジェフユナイテッド千葉",
       "stadium": "PEACE STADIUM Connected by SoftBank",
       "url": "https://www.jleague.jp/match/j1/2027/042410/",
-      "checkedAt": "2026-11-17T22:22:41.497Z",
+      "checkedAt": "2026-11-18T21:28:16.172Z",
       "note": "※４／２４（土）　ｏｒ　４／２５（日）"
     },
     {
@@ -4062,7 +4062,7 @@
       "away": "ヴィッセル神戸",
       "stadium": "メルカリスタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/042901/",
-      "checkedAt": "2026-11-17T22:22:42.717Z",
+      "checkedAt": "2026-11-18T21:28:17.006Z",
       "note": "※ＡＣＬ　Ｅｌｉｔｅ出場クラブがＡＣＬ　Ｅｌｉｔｅ準々決勝進出の場合は５／１９（水）に開催する可能性があります。"
     },
     {
@@ -4075,7 +4075,7 @@
       "away": "ＦＣ町田ゼルビア",
       "stadium": "埼玉スタジアム２００２",
       "url": "https://www.jleague.jp/match/j1/2027/042902/",
-      "checkedAt": "2026-11-17T22:22:43.889Z",
+      "checkedAt": "2026-11-18T21:28:17.873Z",
       "note": ""
     },
     {
@@ -4088,7 +4088,7 @@
       "away": "サンフレッチェ広島",
       "stadium": "フクダ電子アリーナ",
       "url": "https://www.jleague.jp/match/j1/2027/042903/",
-      "checkedAt": "2026-11-17T22:22:45.082Z",
+      "checkedAt": "2026-11-18T21:28:18.720Z",
       "note": ""
     },
     {
@@ -4101,7 +4101,7 @@
       "away": "ＦＣ東京",
       "stadium": "三協フロンテア柏スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/042904/",
-      "checkedAt": "2026-11-17T22:22:45.988Z",
+      "checkedAt": "2026-11-18T21:28:19.646Z",
       "note": "※ＡＣＬ　Ｅｌｉｔｅ出場クラブがＡＣＬ　Ｅｌｉｔｅ準々決勝進出の場合は５／１９（水）に開催する可能性があります。"
     },
     {
@@ -4114,7 +4114,7 @@
       "away": "水戸ホーリーホック",
       "stadium": "Ｕｖａｎｃｅとどろきスタジアム　ｂｙ　Ｆｕｊｉｔｓｕ",
       "url": "https://www.jleague.jp/match/j1/2027/042905/",
-      "checkedAt": "2026-11-17T22:22:46.876Z",
+      "checkedAt": "2026-11-18T21:28:20.668Z",
       "note": ""
     },
     {
@@ -4127,7 +4127,7 @@
       "away": "名古屋グランパス",
       "stadium": "日産スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/042906/",
-      "checkedAt": "2026-11-17T22:22:47.786Z",
+      "checkedAt": "2026-11-18T21:28:21.479Z",
       "note": ""
     },
     {
@@ -4140,7 +4140,7 @@
       "away": "ファジアーノ岡山",
       "stadium": "ＩＡＩスタジアム日本平",
       "url": "https://www.jleague.jp/match/j1/2027/042907/",
-      "checkedAt": "2026-11-17T22:22:49.270Z",
+      "checkedAt": "2026-11-18T21:28:22.313Z",
       "note": ""
     },
     {
@@ -4153,7 +4153,7 @@
       "away": "ガンバ大阪",
       "stadium": "サンガスタジアム by ＫＹＯＣＥＲＡ",
       "url": "https://www.jleague.jp/match/j1/2027/042908/",
-      "checkedAt": "2026-11-17T22:22:50.150Z",
+      "checkedAt": "2026-11-18T21:28:23.423Z",
       "note": "※ＡＣＬ　Ｅｌｉｔｅ出場クラブがＡＣＬ　Ｅｌｉｔｅ準々決勝進出の場合は５／１９（水）に開催する可能性があります。"
     },
     {
@@ -4166,7 +4166,7 @@
       "away": "Ｖ・ファーレン長崎",
       "stadium": "YANMAR HANASAKA STADIUM",
       "url": "https://www.jleague.jp/match/j1/2027/042909/",
-      "checkedAt": "2026-11-17T22:22:51.020Z",
+      "checkedAt": "2026-11-18T21:28:24.358Z",
       "note": ""
     },
     {
@@ -4179,7 +4179,7 @@
       "away": "東京ヴェルディ",
       "stadium": "ベスト電器スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/042910/",
-      "checkedAt": "2026-11-17T22:22:51.861Z",
+      "checkedAt": "2026-11-18T21:28:25.258Z",
       "note": ""
     },
     {
@@ -4192,7 +4192,7 @@
       "away": "アビスパ福岡",
       "stadium": "水戸信用金庫スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/050301/",
-      "checkedAt": "2026-11-17T22:22:52.734Z",
+      "checkedAt": "2026-11-18T21:28:26.769Z",
       "note": "※５／３（月・祝）　ｏｒ　５／４（火・祝）"
     },
     {
@@ -4205,7 +4205,7 @@
       "away": "清水エスパルス",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/050302/",
-      "checkedAt": "2026-11-17T22:22:54.234Z",
+      "checkedAt": "2026-11-18T21:28:27.645Z",
       "note": "※５／３（月・祝）　ｏｒ　５／４（火・祝）"
     },
     {
@@ -4218,7 +4218,7 @@
       "away": "セレッソ大阪",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/050303/",
-      "checkedAt": "2026-11-17T22:22:55.130Z",
+      "checkedAt": "2026-11-18T21:28:28.898Z",
       "note": "※５／３（月・祝）　ｏｒ　５／４（火・祝）"
     },
     {
@@ -4231,7 +4231,7 @@
       "away": "京都サンガF.C.",
       "stadium": "町田ＧＩＯＮスタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/050304/",
-      "checkedAt": "2026-11-17T22:22:56.013Z",
+      "checkedAt": "2026-11-18T21:28:29.750Z",
       "note": "※５／３（月・祝）　ｏｒ　５／４（火・祝）　※ＡＣＬ　Ｅｌｉｔｅ出場クラブがＡＣＬ　Ｅｌｉｔｅ準々決勝進出の場合は５／５（水・祝）もしくは５／２６（水）に開催する可能性があります。"
     },
     {
@@ -4244,7 +4244,7 @@
       "away": "ジェフユナイテッド千葉",
       "stadium": "未定",
       "url": "https://www.jleague.jp/match/j1/2027/050305/",
-      "checkedAt": "2026-11-17T22:22:56.910Z",
+      "checkedAt": "2026-11-18T21:28:31.378Z",
       "note": "※５／３（月・祝）　ｏｒ　５／４（火・祝）"
     },
     {
@@ -4257,7 +4257,7 @@
       "away": "鹿島アントラーズ",
       "stadium": "パナソニック スタジアム 吹田",
       "url": "https://www.jleague.jp/match/j1/2027/050306/",
-      "checkedAt": "2026-11-17T22:22:57.844Z",
+      "checkedAt": "2026-11-18T21:28:32.238Z",
       "note": "※５／３（月・祝）　ｏｒ　５／４（火・祝）　※ＡＣＬ　Ｅｌｉｔｅ出場クラブがＡＣＬ　Ｅｌｉｔｅ準々決勝進出の場合は５／５（水・祝）もしくは５／２６（水）に開催する可能性があります。"
     },
     {
@@ -4270,7 +4270,7 @@
       "away": "柏レイソル",
       "stadium": "ノエビアスタジアム神戸",
       "url": "https://www.jleague.jp/match/j1/2027/050307/",
-      "checkedAt": "2026-11-17T22:22:58.709Z",
+      "checkedAt": "2026-11-18T21:28:33.093Z",
       "note": "※５／３（月・祝）　ｏｒ　５／４（火・祝）　※ＡＣＬ　Ｅｌｉｔｅ出場クラブがＡＣＬ　Ｅｌｉｔｅ準々決勝進出の場合は５／５（水・祝）もしくは５／２６（水）に開催する可能性があります。"
     },
     {
@@ -4283,7 +4283,7 @@
       "away": "川崎フロンターレ",
       "stadium": "ＪＦＥ晴れの国スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/050308/",
-      "checkedAt": "2026-11-17T22:22:59.646Z",
+      "checkedAt": "2026-11-18T21:28:33.963Z",
       "note": "※５／３（月・祝）　ｏｒ　５／４（火・祝）"
     },
     {
@@ -4296,7 +4296,7 @@
       "away": "浦和レッズ",
       "stadium": "エディオンピースウイング広島",
       "url": "https://www.jleague.jp/match/j1/2027/050309/",
-      "checkedAt": "2026-11-17T22:23:00.541Z",
+      "checkedAt": "2026-11-18T21:28:34.802Z",
       "note": "※５／３（月・祝）　ｏｒ　５／４（火・祝）"
     },
     {
@@ -4309,7 +4309,7 @@
       "away": "横浜Ｆ・マリノス",
       "stadium": "PEACE STADIUM Connected by SoftBank",
       "url": "https://www.jleague.jp/match/j1/2027/050310/",
-      "checkedAt": "2026-11-17T22:23:01.737Z",
+      "checkedAt": "2026-11-18T21:28:35.831Z",
       "note": "※５／３（月・祝）　ｏｒ　５／４（火・祝）"
     },
     {
@@ -4322,7 +4322,7 @@
       "away": "川崎フロンターレ",
       "stadium": "メルカリスタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/050901/",
-      "checkedAt": "2026-11-17T22:23:02.695Z",
+      "checkedAt": "2026-11-18T21:28:36.678Z",
       "note": "※ルヴァンカップ決勝進出クラブの試合は４／２１（水）、５／１２（水）、５／１９（水）、　６／２（水）のいずれかに開催する可能性があります。"
     },
     {
@@ -4335,7 +4335,7 @@
       "away": "ファジアーノ岡山",
       "stadium": "水戸信用金庫スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/050902/",
-      "checkedAt": "2026-11-17T22:23:03.622Z",
+      "checkedAt": "2026-11-18T21:28:37.748Z",
       "note": "※ルヴァンカップ決勝進出クラブの試合は４／２１（水）、５／１２（水）、５／１９（水）、　６／２（水）のいずれかに開催する可能性があります。"
     },
     {
@@ -4348,7 +4348,7 @@
       "away": "ヴィッセル神戸",
       "stadium": "埼玉スタジアム２００２",
       "url": "https://www.jleague.jp/match/j1/2027/050903/",
-      "checkedAt": "2026-11-17T22:23:04.676Z",
+      "checkedAt": "2026-11-18T21:28:38.604Z",
       "note": "※ルヴァンカップ決勝進出クラブの試合は４／２１（水）、５／１２（水）、５／１９（水）、　６／２（水）のいずれかに開催する可能性があります。"
     },
     {
@@ -4361,7 +4361,7 @@
       "away": "清水エスパルス",
       "stadium": "フクダ電子アリーナ",
       "url": "https://www.jleague.jp/match/j1/2027/050904/",
-      "checkedAt": "2026-11-17T22:23:05.505Z",
+      "checkedAt": "2026-11-18T21:28:39.454Z",
       "note": "※ルヴァンカップ決勝進出クラブの試合は４／２１（水）、５／１２（水）、５／１９（水）、　６／２（水）のいずれかに開催する可能性があります。"
     },
     {
@@ -4374,7 +4374,7 @@
       "away": "ＦＣ町田ゼルビア",
       "stadium": "三協フロンテア柏スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/050905/",
-      "checkedAt": "2026-11-17T22:23:06.402Z",
+      "checkedAt": "2026-11-18T21:28:40.285Z",
       "note": "※ルヴァンカップ決勝進出クラブの試合は４／２１（水）、５／１２（水）、５／１９（水）、　６／２（水）のいずれかに開催する可能性があります。"
     },
     {
@@ -4387,7 +4387,7 @@
       "away": "東京ヴェルディ",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/050906/",
-      "checkedAt": "2026-11-17T22:23:07.261Z",
+      "checkedAt": "2026-11-18T21:28:41.100Z",
       "note": "※ルヴァンカップ決勝進出クラブの試合は４／２１（水）、５／１２（水）、５／１９（水）、　６／２（水）のいずれかに開催する可能性があります。"
     },
     {
@@ -4400,7 +4400,7 @@
       "away": "ガンバ大阪",
       "stadium": "日産スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/050907/",
-      "checkedAt": "2026-11-17T22:23:08.156Z",
+      "checkedAt": "2026-11-18T21:28:41.963Z",
       "note": "※ルヴァンカップ決勝進出クラブの試合は４／２１（水）、５／１２（水）、５／１９（水）、　６／２（水）のいずれかに開催する可能性があります。"
     },
     {
@@ -4413,7 +4413,7 @@
       "away": "名古屋グランパス",
       "stadium": "YANMAR HANASAKA STADIUM",
       "url": "https://www.jleague.jp/match/j1/2027/050908/",
-      "checkedAt": "2026-11-17T22:23:09.643Z",
+      "checkedAt": "2026-11-18T21:28:42.797Z",
       "note": "※ルヴァンカップ決勝進出クラブの試合は４／２１（水）、５／１２（水）、５／１９（水）、　６／２（水）のいずれかに開催する可能性があります。"
     },
     {
@@ -4426,7 +4426,7 @@
       "away": "Ｖ・ファーレン長崎",
       "stadium": "エディオンピースウイング広島",
       "url": "https://www.jleague.jp/match/j1/2027/050909/",
-      "checkedAt": "2026-11-17T22:23:10.524Z",
+      "checkedAt": "2026-11-18T21:28:43.961Z",
       "note": "※ルヴァンカップ決勝進出クラブの試合は４／２１（水）、５／１２（水）、５／１９（水）、　６／２（水）のいずれかに開催する可能性があります。"
     },
     {
@@ -4439,7 +4439,7 @@
       "away": "京都サンガF.C.",
       "stadium": "ベスト電器スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/050910/",
-      "checkedAt": "2026-11-17T22:23:12.076Z",
+      "checkedAt": "2026-11-18T21:28:44.851Z",
       "note": "※ルヴァンカップ決勝進出クラブの試合は４／２１（水）、５／１２（水）、５／１９（水）、　６／２（水）のいずれかに開催する可能性があります。"
     },
     {
@@ -4452,7 +4452,7 @@
       "away": "アビスパ福岡",
       "stadium": "埼玉スタジアム２００２",
       "url": "https://www.jleague.jp/match/j1/2027/051501/",
-      "checkedAt": "2026-11-17T22:23:13.185Z",
+      "checkedAt": "2026-11-18T21:28:45.784Z",
       "note": "※５／１５（土）　ｏｒ　５／１６（日）"
     },
     {
@@ -4465,7 +4465,7 @@
       "away": "ＦＣ東京",
       "stadium": "未定",
       "url": "https://www.jleague.jp/match/j1/2027/051502/",
-      "checkedAt": "2026-11-17T22:23:14.632Z",
+      "checkedAt": "2026-11-18T21:28:46.625Z",
       "note": "※５／１５（土）　ｏｒ　５／１６（日）　※ＡＣＬ　Ｔｗｏ出場クラブがＡＣＬ　Ｔｗｏ決勝進出の場合は５／２６（水）に開催する可能性があります。"
     },
     {
@@ -4478,7 +4478,7 @@
       "away": "横浜Ｆ・マリノス",
       "stadium": "Ｕｖａｎｃｅとどろきスタジアム　ｂｙ　Ｆｕｊｉｔｓｕ",
       "url": "https://www.jleague.jp/match/j1/2027/051503/",
-      "checkedAt": "2026-11-17T22:23:15.520Z",
+      "checkedAt": "2026-11-18T21:28:47.552Z",
       "note": "※５／１５（土）　ｏｒ　５／１６（日）"
     },
     {
@@ -4491,7 +4491,7 @@
       "away": "セレッソ大阪",
       "stadium": "ＩＡＩスタジアム日本平",
       "url": "https://www.jleague.jp/match/j1/2027/051504/",
-      "checkedAt": "2026-11-17T22:23:16.533Z",
+      "checkedAt": "2026-11-18T21:28:48.399Z",
       "note": "※５／１５（土）　ｏｒ　５／１６（日）"
     },
     {
@@ -4504,7 +4504,7 @@
       "away": "柏レイソル",
       "stadium": "未定",
       "url": "https://www.jleague.jp/match/j1/2027/051505/",
-      "checkedAt": "2026-11-17T22:23:17.891Z",
+      "checkedAt": "2026-11-18T21:28:49.300Z",
       "note": "※５／１５（土）　ｏｒ　５／１６（日）"
     },
     {
@@ -4517,7 +4517,7 @@
       "away": "サンフレッチェ広島",
       "stadium": "サンガスタジアム by ＫＹＯＣＥＲＡ",
       "url": "https://www.jleague.jp/match/j1/2027/051506/",
-      "checkedAt": "2026-11-17T22:23:18.815Z",
+      "checkedAt": "2026-11-18T21:28:50.157Z",
       "note": "※５／１５（土）　ｏｒ　５／１６（日）"
     },
     {
@@ -4530,7 +4530,7 @@
       "away": "水戸ホーリーホック",
       "stadium": "パナソニック スタジアム 吹田",
       "url": "https://www.jleague.jp/match/j1/2027/051507/",
-      "checkedAt": "2026-11-17T22:23:20.333Z",
+      "checkedAt": "2026-11-18T21:28:50.977Z",
       "note": "※５／１５（土）　ｏｒ　５／１６（日）　※ＡＣＬ　Ｔｗｏ出場クラブがＡＣＬ　Ｔｗｏ決勝進出の場合は５／２６（水）に開催する可能性があります。"
     },
     {
@@ -4543,7 +4543,7 @@
       "away": "東京ヴェルディ",
       "stadium": "ノエビアスタジアム神戸",
       "url": "https://www.jleague.jp/match/j1/2027/051508/",
-      "checkedAt": "2026-11-17T22:23:21.802Z",
+      "checkedAt": "2026-11-18T21:28:51.819Z",
       "note": "※５／１５（土）　ｏｒ　５／１６（日）"
     },
     {
@@ -4556,7 +4556,7 @@
       "away": "ジェフユナイテッド千葉",
       "stadium": "ＪＦＥ晴れの国スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/051509/",
-      "checkedAt": "2026-11-17T22:23:22.755Z",
+      "checkedAt": "2026-11-18T21:28:52.853Z",
       "note": "※５／１５（土）　ｏｒ　５／１６（日）"
     },
     {
@@ -4569,7 +4569,7 @@
       "away": "鹿島アントラーズ",
       "stadium": "PEACE STADIUM Connected by SoftBank",
       "url": "https://www.jleague.jp/match/j1/2027/051510/",
-      "checkedAt": "2026-11-17T22:23:23.942Z",
+      "checkedAt": "2026-11-18T21:28:53.746Z",
       "note": "※５／１５（土）　ｏｒ　５／１６（日）"
     },
     {
@@ -4582,7 +4582,7 @@
       "away": "名古屋グランパス",
       "stadium": "水戸信用金庫スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/052201/",
-      "checkedAt": "2026-11-17T22:23:24.812Z",
+      "checkedAt": "2026-11-18T21:28:54.602Z",
       "note": "※５／２２（土）　ｏｒ　５／２３（日）"
     },
     {
@@ -4595,7 +4595,7 @@
       "away": "京都サンガF.C.",
       "stadium": "埼玉スタジアム２００２",
       "url": "https://www.jleague.jp/match/j1/2027/052202/",
-      "checkedAt": "2026-11-17T22:23:25.673Z",
+      "checkedAt": "2026-11-18T21:28:55.456Z",
       "note": "※５／２２（土）　ｏｒ　５／２３（日）"
     },
     {
@@ -4608,7 +4608,7 @@
       "away": "ヴィッセル神戸",
       "stadium": "フクダ電子アリーナ",
       "url": "https://www.jleague.jp/match/j1/2027/052203/",
-      "checkedAt": "2026-11-17T22:23:26.522Z",
+      "checkedAt": "2026-11-18T21:28:56.316Z",
       "note": "※５／２２（土）　ｏｒ　５／２３（日）"
     },
     {
@@ -4621,7 +4621,7 @@
       "away": "ガンバ大阪",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/052204/",
-      "checkedAt": "2026-11-17T22:23:27.394Z",
+      "checkedAt": "2026-11-18T21:28:57.553Z",
       "note": "※５／２２（土）　ｏｒ　５／２３（日）"
     },
     {
@@ -4634,7 +4634,7 @@
       "away": "Ｖ・ファーレン長崎",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/052205/",
-      "checkedAt": "2026-11-17T22:23:28.844Z",
+      "checkedAt": "2026-11-18T21:28:58.474Z",
       "note": "※５／２２（土）　ｏｒ　５／２３（日）"
     },
     {
@@ -4647,7 +4647,7 @@
       "away": "セレッソ大阪",
       "stadium": "Ｕｖａｎｃｅとどろきスタジアム　ｂｙ　Ｆｕｊｉｔｓｕ",
       "url": "https://www.jleague.jp/match/j1/2027/052206/",
-      "checkedAt": "2026-11-17T22:23:29.726Z",
+      "checkedAt": "2026-11-18T21:29:00.482Z",
       "note": "※５／２２（土）　ｏｒ　５／２３（日）"
     },
     {
@@ -4660,7 +4660,7 @@
       "away": "清水エスパルス",
       "stadium": "日産スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/052207/",
-      "checkedAt": "2026-11-17T22:23:30.602Z",
+      "checkedAt": "2026-11-18T21:29:01.345Z",
       "note": "※５／２２（土）　ｏｒ　５／２３（日）"
     },
     {
@@ -4673,7 +4673,7 @@
       "away": "ＦＣ町田ゼルビア",
       "stadium": "ＪＦＥ晴れの国スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/052208/",
-      "checkedAt": "2026-11-17T22:23:31.481Z",
+      "checkedAt": "2026-11-18T21:29:02.827Z",
       "note": "※５／２２（土）　ｏｒ　５／２３（日）"
     },
     {
@@ -4686,7 +4686,7 @@
       "away": "柏レイソル",
       "stadium": "エディオンピースウイング広島",
       "url": "https://www.jleague.jp/match/j1/2027/052209/",
-      "checkedAt": "2026-11-17T22:23:33.208Z",
+      "checkedAt": "2026-11-18T21:29:03.683Z",
       "note": "※５／２２（土）　ｏｒ　５／２３（日）"
     },
     {
@@ -4699,7 +4699,7 @@
       "away": "鹿島アントラーズ",
       "stadium": "ベスト電器スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/052210/",
-      "checkedAt": "2026-11-17T22:23:34.098Z",
+      "checkedAt": "2026-11-18T21:29:04.522Z",
       "note": "※５／２２（土）　ｏｒ　５／２３（日）"
     },
     {
@@ -4712,7 +4712,7 @@
       "away": "鹿島アントラーズ",
       "stadium": "三協フロンテア柏スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/052901/",
-      "checkedAt": "2026-11-17T22:23:35.296Z",
+      "checkedAt": "2026-11-18T21:29:05.435Z",
       "note": "※５／２９（土）　ｏｒ　５／３０（日）"
     },
     {
@@ -4725,7 +4725,7 @@
       "away": "ヴィッセル神戸",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/052902/",
-      "checkedAt": "2026-11-17T22:23:36.199Z",
+      "checkedAt": "2026-11-18T21:29:06.812Z",
       "note": "※５／２９（土）　ｏｒ　５／３０（日）"
     },
     {
@@ -4738,7 +4738,7 @@
       "away": "ファジアーノ岡山",
       "stadium": "味の素スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/052903/",
-      "checkedAt": "2026-11-17T22:23:37.091Z",
+      "checkedAt": "2026-11-18T21:29:07.694Z",
       "note": "※５／２９（土）　ｏｒ　５／３０（日）"
     },
     {
@@ -4751,7 +4751,7 @@
       "away": "ジェフユナイテッド千葉",
       "stadium": "日産スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/052904/",
-      "checkedAt": "2026-11-17T22:23:38.554Z",
+      "checkedAt": "2026-11-18T21:29:08.523Z",
       "note": "※５／２９（土）　ｏｒ　５／３０（日）"
     },
     {
@@ -4764,7 +4764,7 @@
       "away": "名古屋グランパス",
       "stadium": "サンガスタジアム by ＫＹＯＣＥＲＡ",
       "url": "https://www.jleague.jp/match/j1/2027/052905/",
-      "checkedAt": "2026-11-17T22:23:39.455Z",
+      "checkedAt": "2026-11-18T21:29:09.388Z",
       "note": "※５／２９（土）　ｏｒ　５／３０（日）"
     },
     {
@@ -4777,7 +4777,7 @@
       "away": "清水エスパルス",
       "stadium": "パナソニック スタジアム 吹田",
       "url": "https://www.jleague.jp/match/j1/2027/052906/",
-      "checkedAt": "2026-11-17T22:23:40.962Z",
+      "checkedAt": "2026-11-18T21:29:10.200Z",
       "note": "※５／２９（土）　ｏｒ　５／３０（日）"
     },
     {
@@ -4790,7 +4790,7 @@
       "away": "浦和レッズ",
       "stadium": "YANMAR HANASAKA STADIUM",
       "url": "https://www.jleague.jp/match/j1/2027/052907/",
-      "checkedAt": "2026-11-17T22:23:41.861Z",
+      "checkedAt": "2026-11-18T21:29:11.032Z",
       "note": "※５／２９（土）　ｏｒ　５／３０（日）"
     },
     {
@@ -4803,7 +4803,7 @@
       "away": "水戸ホーリーホック",
       "stadium": "エディオンピースウイング広島",
       "url": "https://www.jleague.jp/match/j1/2027/052908/",
-      "checkedAt": "2026-11-17T22:23:43.341Z",
+      "checkedAt": "2026-11-18T21:29:11.871Z",
       "note": "※５／２９（土）　ｏｒ　５／３０（日）"
     },
     {
@@ -4816,7 +4816,7 @@
       "away": "川崎フロンターレ",
       "stadium": "ベスト電器スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/052909/",
-      "checkedAt": "2026-11-17T22:23:44.205Z",
+      "checkedAt": "2026-11-18T21:29:12.696Z",
       "note": "※５／２９（土）　ｏｒ　５／３０（日）"
     },
     {
@@ -4829,7 +4829,7 @@
       "away": "ＦＣ町田ゼルビア",
       "stadium": "PEACE STADIUM Connected by SoftBank",
       "url": "https://www.jleague.jp/match/j1/2027/052910/",
-      "checkedAt": "2026-11-17T22:23:45.128Z",
+      "checkedAt": "2026-11-18T21:29:13.525Z",
       "note": "※５／２９（土）　ｏｒ　５／３０（日）"
     },
     {
@@ -4842,7 +4842,7 @@
       "away": "ＦＣ東京",
       "stadium": "メルカリスタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/060601/",
-      "checkedAt": "2026-11-17T22:23:46.037Z",
+      "checkedAt": "2026-11-18T21:29:14.432Z",
       "note": ""
     },
     {
@@ -4855,7 +4855,7 @@
       "away": "横浜Ｆ・マリノス",
       "stadium": "水戸信用金庫スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/060602/",
-      "checkedAt": "2026-11-17T22:23:47.470Z",
+      "checkedAt": "2026-11-18T21:29:15.263Z",
       "note": ""
     },
     {
@@ -4868,7 +4868,7 @@
       "away": "ガンバ大阪",
       "stadium": "埼玉スタジアム２００２",
       "url": "https://www.jleague.jp/match/j1/2027/060603/",
-      "checkedAt": "2026-11-17T22:23:48.326Z",
+      "checkedAt": "2026-11-18T21:29:16.299Z",
       "note": ""
     },
     {
@@ -4881,7 +4881,7 @@
       "away": "柏レイソル",
       "stadium": "フクダ電子アリーナ",
       "url": "https://www.jleague.jp/match/j1/2027/060604/",
-      "checkedAt": "2026-11-17T22:23:49.841Z",
+      "checkedAt": "2026-11-18T21:29:17.683Z",
       "note": ""
     },
     {
@@ -4894,7 +4894,7 @@
       "away": "セレッソ大阪",
       "stadium": "町田ＧＩＯＮスタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/060605/",
-      "checkedAt": "2026-11-17T22:23:50.744Z",
+      "checkedAt": "2026-11-18T21:29:18.629Z",
       "note": ""
     },
     {
@@ -4907,7 +4907,7 @@
       "away": "サンフレッチェ広島",
       "stadium": "Ｕｖａｎｃｅとどろきスタジアム　ｂｙ　Ｆｕｊｉｔｓｕ",
       "url": "https://www.jleague.jp/match/j1/2027/060606/",
-      "checkedAt": "2026-11-17T22:23:51.973Z",
+      "checkedAt": "2026-11-18T21:29:20.083Z",
       "note": ""
     },
     {
@@ -4920,7 +4920,7 @@
       "away": "Ｖ・ファーレン長崎",
       "stadium": "ＩＡＩスタジアム日本平",
       "url": "https://www.jleague.jp/match/j1/2027/060607/",
-      "checkedAt": "2026-11-17T22:23:53.187Z",
+      "checkedAt": "2026-11-18T21:29:20.944Z",
       "note": ""
     },
     {
@@ -4933,7 +4933,7 @@
       "away": "東京ヴェルディ",
       "stadium": "未定",
       "url": "https://www.jleague.jp/match/j1/2027/060608/",
-      "checkedAt": "2026-11-17T22:23:54.052Z",
+      "checkedAt": "2026-11-18T21:29:21.812Z",
       "note": ""
     },
     {
@@ -4946,7 +4946,7 @@
       "away": "京都サンガF.C.",
       "stadium": "ノエビアスタジアム神戸",
       "url": "https://www.jleague.jp/match/j1/2027/060609/",
-      "checkedAt": "2026-11-17T22:23:54.958Z",
+      "checkedAt": "2026-11-18T21:29:22.900Z",
       "note": ""
     },
     {
@@ -4959,7 +4959,7 @@
       "away": "アビスパ福岡",
       "stadium": "ＪＦＥ晴れの国スタジアム",
       "url": "https://www.jleague.jp/match/j1/2027/060610/",
-      "checkedAt": "2026-11-17T22:23:55.839Z",
+      "checkedAt": "2026-11-18T21:29:23.829Z",
       "note": ""
     }
   ]
